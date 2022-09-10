@@ -1,0 +1,23 @@
+{
+  "name": "angular-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahbaazX786/angular-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahbaazX786/angular-portfolio/issues"
+  },
+  "homepage": "https://github.com/ShahbaazX786/angular-portfolio#readme",
+  "dependencies": {
+    "@angular/cli": "^14.2.2"
+  }
+}
