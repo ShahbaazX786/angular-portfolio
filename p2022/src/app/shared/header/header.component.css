@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.navbar-brand {
+  font-family: 'Allura', cursive;
+  font-weight: light;
+  font-size: 1.7rem;
+  padding-left: 5%;
+  color: #673ab7;
+}
+
+.nav-link{
+  color: #673ab7;
+}
+
+.nav-link:active{
+  color: black;
+  font-weight: normal;
+}
+
+.header-action{
+  font-size: small;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 1px 5px;
+  cursor: pointer;
+  border-radius: 5%;
+ }
+
+.btn-outline-primary{
+  color: #673ab7;
+  border-color: #673ab7;
+}
+
+.btn-outline-primary:hover{
+  color: white;
+  background: #673ab7;
+  border-color: #673ab7;
+}
+
+
