@@ -84,4 +84,14 @@ li .active{
   a {
     font-size: 2rem;
   }
-}
+
+  .header-action{
+    font-size: 2rem;
+    height: 4%;
+    width: 90%;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 1%;
+    }
+  }
