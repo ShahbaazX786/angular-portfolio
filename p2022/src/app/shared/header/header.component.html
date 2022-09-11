@@ -8,28 +8,28 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+          <a class="nav-link" aria-current="page" [routerLinkActiveOptions]="{exact:true}"  routerLinkActive="active"  routerLink="/home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="about">About</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLinkActive="active" routerLink="services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" routerLinkActive="active">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" routerLinkActive="active">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" routerLinkActive="active">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" routerLinkActive="active">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contactme</a>
+          <a class="nav-link" routerLinkActive="active">Contactme</a>
         </li>
         <button class="header-action btn btn-outline-primary btn-sm">Resume</button>
       </ul>

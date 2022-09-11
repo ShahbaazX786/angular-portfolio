@@ -1,3 +1,5 @@
+import { ServicesComponent } from './services/services.component';
+import { AboutComponent } from './about/about.component';
 import { PnfComponent } from './pnf/pnf.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -10,6 +12,8 @@ const routes: Routes = [
   { path: '', redirectTo:'/home',pathMatch:'full' },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'services', component: ServicesComponent },
   { path: '**', component: PnfComponent},
 ];
 

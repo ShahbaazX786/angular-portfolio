@@ -8,12 +8,22 @@
   color: #673ab7;
 }
 
-.nav-link{
+li .active{
+  /* border-top: 1px solid #673ab7; */
+  border-bottom: 5px solid #673ab7;
+  padding-bottom: 1px;
+  width: 100%;
+  border-radius: 1px;
+  transition: 0.2s ease;
+  display: inline-block;
+}
+
+.nav-link:hover{
   color: #673ab7;
 }
 
-.nav-link:active{
-  color: black;
+.nav-link:focus{
+  color: #673ab7;
   font-weight: normal;
 }
 
