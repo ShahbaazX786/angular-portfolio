@@ -4,6 +4,10 @@
   background-color: #a8a8a8;
 } */
 
+.navbar{
+  overflow-x: hidden;
+}
+
 .container-fluid{
   box-shadow: 0px 2px 4px rgb(235, 235, 235);
 }
