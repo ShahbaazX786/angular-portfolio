@@ -1,12 +1,9 @@
 .footer{
   margin: 0;
   padding: 0;
-  padding-top: 2rem;
   overflow-x: hidden;
-  /* overflow-y: hidden; */
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  overflow-y: hidden;
+  /* position: absolute; */
   /* z-index: -1; */
 }
 
