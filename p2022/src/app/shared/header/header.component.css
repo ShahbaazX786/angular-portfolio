@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400&display=swap');
 
 /* .navbarcustomcolor{
   background-color: #a8a8a8;
 } */
 
 .navbar{
+  /* margin: 0; */
   overflow-x: hidden;
+  /* line-height:2rem ; */
+  box-shadow: 0px 2px 4px rgb(235, 235, 235);
 }
 
-.container-fluid{
-  box-shadow: 0px 2px 4px rgb(235, 235, 235);
+.container{
+  /* margin: 0 3%; */
 }
 
 .navbar-brand {
   font-family: 'Allura', cursive;
   font-weight: light;
   font-size: 1.7rem;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   color: #673ab7;
 }
 
@@ -25,8 +28,8 @@
 }
 
 li .active{
-  border-bottom: 5px solid #673ab7;
-  padding-bottom: 1px;
+  border-bottom: 4px solid #673ab7;
+  padding-bottom: 5px;
   width: 100%;
   border-radius: 1px;
   transition: 0.2s ease;
