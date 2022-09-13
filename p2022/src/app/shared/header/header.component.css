@@ -11,20 +11,32 @@
   box-shadow: 0px 2px 4px rgb(235, 235, 235);
 }
 
-.container{
-  /* margin: 0 3%; */
+/* .container{
+  margin: 0 3%;
+} */
+
+.s{
+  font-family: 'Allura', cursive;
+  font-weight: light;
+  font-size: 2rem;
+  color: #673ab7;
 }
 
 .navbar-brand {
   font-family: 'Allura', cursive;
   font-weight: light;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   /* padding-left: 5%; */
   color: #673ab7;
 }
 
 .hidden{
   display: none;
+}
+
+li a{
+  font-family: sans-serif;
+  /* font-weight: 400; */
 }
 
 li .active{

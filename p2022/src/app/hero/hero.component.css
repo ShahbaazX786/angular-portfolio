@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400&display=swap');
+
+.container{
+  padding: 5% 1%;
+}
+
+.hero-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+.typewriter{
+  font-family: 'Montserrat',sans-serif;
+  padding-bottom: 5%;
+  font-weight: bolder;
+}
+
+.intro-bio{
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  opacity: 0.8;
+  padding-bottom: 5%;
+}
+
+.btn{
+  text-align: center;
+  color: white;
+  background-color: #673ab7;
+  margin-right: 4%;
+  font-size: 1.1rem;
+  padding-bottom: 2%;
+}
+
+.btn:hover {
+  border: 2px solid black;
+}
+
+.ico{
+  font-size: 22px;
+  padding-right: 10px;
+}
