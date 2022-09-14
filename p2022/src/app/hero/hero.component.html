@@ -2,6 +2,7 @@
   <div class="row">
 
     <div class="hero-text col-lg-6 order-lg-2 order-2">
+      <!--Most important tip ever when you use order-1 and order-2 then when the screen enters medium device width then the cols are ordered based on the order given to them (order-lg-1 and order-lg-2) but they get displayed based on the order call i.e, (order-lg-2 order 1, means it is given order of 2 but we are calling it to be in order 1 whenever the screen gets less than lg) -->
       <div class="text-wrapper">
         <h1 class="hero-heading">Hi, I'm Shahbaaz<span class="wave-hand">👋</span></h1>
         <h3 class="typewriter">and I'm a developer</h3>
@@ -15,6 +16,7 @@
     </div>
 
     <div class="hero-img col-lg-6 order-lg-2 order-1">
+      <!-- here we are giving the serial number as order-lg-2 but we are calling it in order-1 i.e, in mobile and tab devices first this gets loaded then order-2 -->
       <div class="img-wrapper">
         <img class="hero-img" src="../../assets/img/external/Ichigo-profile.jpg" alt="hero-profile-img">
       </div>
