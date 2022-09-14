@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400&display=swap');
 
 .container{
+  overflow-x: hidden;
   padding: 5% 1%;
 }
 

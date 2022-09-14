@@ -1,0 +1,41 @@
+.service{
+  overflow-x: hidden;
+}
+
+.heading-border{
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.service-heading{
+  padding-bottom: 5px;
+  /* align-self: center; */
+  border-bottom: 5px solid purple;
+  opacity: 0.8;
+  width: max-content;
+}
+
+.container{
+  margin-bottom: 5%;
+}
+
+.txt{
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+  text-decoration: none;
+}
+
+.card{
+  font-family: 'Montserrat',sans-serif;
+  color: black;
+  box-shadow: 0 0 10px #e0e0e0;
+}
+
+.card:hover{
+  color: white;
+  background-color: purple;
+  transition: 0.2s ease-in-out;
+}
