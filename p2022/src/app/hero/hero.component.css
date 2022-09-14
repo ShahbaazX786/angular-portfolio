@@ -17,22 +17,23 @@
 }
 
 .intro-bio{
-  line-height: 2rem;
+  justify-content: center;
+  line-height: 2.5rem;
   font-size: 1.4rem;
   font-family: sans-serif;
   font-weight: normal;
   opacity: 0.8;
-  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .btn{
   text-align: center;
   color: white;
   background-color: #673ab7;
-  margin-right: 4%;
+  margin-right: 5%;
   font-size: 1.1rem;
   font-weight: normal;
-  padding-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .btn:hover {
@@ -44,12 +45,6 @@
   font-size: 22px;
   padding-right: 10px;
 }
-
-/*
-.img-wrapper{
-  border-radius: 50%;
-  border: 1px solid black;
-} */
 
 img{
   margin: 5% 1%;
@@ -67,7 +62,22 @@ img{
   align-items: center;
   text-align: center;
 }
-/*
-@media screen (max-width:1199 and min-width:) {
 
-} */
+@media screen and (max-width:507px) {
+  .text-wrapper {
+      padding: 0 5%;
+    }
+
+  .typewriter{
+    text-align: center;
+  }
+
+  .hero-heading{
+    text-align: center;
+  }
+
+
+  .buttons{
+    text-align: center;
+  }
+}
