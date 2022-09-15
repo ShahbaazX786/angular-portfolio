@@ -1,0 +1,44 @@
+#skills{
+  margin: 1% 0;
+  overflow-x: hidden;
+}
+
+.skill-text-wrapper{
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+
+.text-align{
+  display: flex;
+  justify-content: center;
+}
+
+.skill-heading{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #673ab7;
+}
+
+.img-wrapper{
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  padding: 10%;
+}
+
+.single-skill{
+  border-radius: 50%;
+  border: 7px solid #673ab7;
+}
+
+.ico{
+  padding: 10%;
+  height: auto;
+  width: auto;
+  align-items: center;
+  text-align: center;
+}
+
