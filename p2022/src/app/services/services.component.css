@@ -1,4 +1,7 @@
 .service{
+  padding: 5% 0;
+  margin-bottom: 5%;
+  box-shadow: 0 0 10px #e0e0e0;
   overflow-x: hidden;
 }
 
@@ -11,31 +14,34 @@
 .service-heading{
   padding-bottom: 5px;
   /* align-self: center; */
-  border-bottom: 5px solid purple;
+  border-bottom: 5px solid #673ab7;
   opacity: 0.8;
   width: max-content;
 }
 
-.container{
-  margin-bottom: 5%;
-}
-
-.txt{
-  font-size: 1.1rem;
-  justify-content: center;
-  text-align: center;
-  padding: 5%;
-  text-decoration: none;
-}
-
 .card{
-  font-family: 'Montserrat',sans-serif;
+  height: 100px;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
   color: black;
   box-shadow: 0 0 10px #e0e0e0;
 }
 
 .card:hover{
   color: white;
-  background-color: purple;
+  background-color: #673ab7;
   transition: 0.2s ease-in-out;
+}
+
+.txt{
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: start;
+  font-family: 'Montserrat',sans-serif;
+  padding: 2% 5%;
 }

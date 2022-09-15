@@ -24,7 +24,7 @@ img{
   margin: 1% 0;
   font-size: 3rem;
   font-weight: bold;
-  border-bottom: 4px solid purple;
+  border-bottom: 4px solid #673ab7;
   padding-bottom: 1%;
   width: max-content;
 }
