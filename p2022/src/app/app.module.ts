@@ -10,6 +10,11 @@ import { PnfComponent } from './pnf/pnf.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { HeroComponent } from './hero/hero.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { HeroComponent } from './hero/hero.component';
     PnfComponent,
     AboutComponent,
     ServicesComponent,
-    HeroComponent
+    HeroComponent,
+    SkillsComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
