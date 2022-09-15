@@ -1,3 +1,8 @@
+import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { SkillsComponent } from './skills/skills.component';
 import { HeroComponent } from './hero/hero.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
@@ -16,6 +21,11 @@ const routes: Routes = [
   { path: 'hero', component: HeroComponent },
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
+  { path: 'skills', component: SkillsComponent },
+  { path: 'experience', component: ExperienceComponent },
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', component: PnfComponent},
 ];
 
