@@ -1,5 +1,6 @@
 #skills{
-  margin: 1% 0;
+  margin: 1% 2%;
+  padding-bottom: 5%;
   overflow-x: hidden;
 }
 
@@ -24,14 +25,17 @@
 .img-wrapper{
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
   padding: 10%;
 }
 
 .single-skill{
   border-radius: 50%;
   border: 7px solid #673ab7;
+  -webkit-box-shadow: 0px 0px 17px 3px rgba(103, 58, 183, 1);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(103, 58, 183, 1);
+    box-shadow: 0px 0px 30px 1px rgb(229, 224, 237);
 }
 
 .ico{
@@ -41,4 +45,3 @@
   align-items: center;
   text-align: center;
 }
-
