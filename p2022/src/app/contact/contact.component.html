@@ -1,1 +1,18 @@
-<p>contact works!</p>
+<div id="experience">
+  <div class="container">
+    <div class="section-wrapper">
+      <h1 class="section-heading">Contact me</h1>
+    </div>
+    <div class="row">
+      <div class="card col-lg col-md-3 col-sm-12" *ngFor="let contact of contacts">
+        <div class="box">
+          <i [class]=contact.class></i>
+          <div class="txt-wrapper">
+            <p class="social">{{contact.social}}</p>
+            <p class="username">{{contact.username}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
