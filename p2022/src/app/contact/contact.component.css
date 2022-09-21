@@ -62,3 +62,18 @@ i:hover {
 .social {
   font-weight: bold;
 }
+
+
+@media screen and (max-width:992px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width:576px) {
+  .row {
+    padding: 5% 6%;
+  }
+}
+
