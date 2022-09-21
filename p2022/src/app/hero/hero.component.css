@@ -17,6 +17,24 @@
   font-weight: bolder;
 }
 
+.wave-hand{
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0% {transform: rotate(0.0deg)}
+  10% {transform: rotate(14.0deg)}
+  30% {transform: rotate(14.0deg)}
+  40% {transform: rotate(-4.0deg)}
+  50% {transform: rotate(10.0deg)}
+  60% {transform: rotate(0.0deg)}
+  100% {transform: rotate(0.0deg)}
+}
+
 .intro-bio{
   justify-content: center;
   line-height: 2.5rem;

@@ -76,6 +76,10 @@ export class SkillsComponent implements OnInit {
       src:'../../assets/img/external/svg/angular.svg',
     },
     {
+      name:'AWS',
+      src:'../../assets/img/external/svg/aws.svg',
+    },
+    {
       name:'Tailwind CSS',
       src:'../../assets/img/external/svg/tailwind..svg',
     },

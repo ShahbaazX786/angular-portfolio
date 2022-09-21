@@ -10,11 +10,10 @@
     </div>
 
     <div class="row">
-      <div class="col col-lg-2 col-md-3 col-sm-6 coll" *ngFor="let skill of skills">
-        <div class="img-wrapper">
-          <div class="single-skill">
-            <img class="ico" [src]=skill.src alt="image" [title]="skill.name">
-          </div>
+      <div class="col col-lg col-md-3 col-sm-3 coll" *ngFor="let skill of skills">
+        <div class="single-skill">
+          <img class="ico" [src]=skill.src alt="image">
+          <span class="tooltip">{{skill.name}}</span>
         </div>
       </div>
     </div>
