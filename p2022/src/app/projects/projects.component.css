@@ -65,8 +65,8 @@
 
 .stack{
   display: flex;
+  flex: start;
   flex-direction: row;
-  justify-content: start;
   align-items: center;
 }
 
@@ -84,10 +84,10 @@
 }
 .bottom{
   display: flex;
+  flex: start;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1;
-  justify-content: start;
   align-items: center;
   margin: 5% 0;
   border-top: 1px solid #e7e7e7;
