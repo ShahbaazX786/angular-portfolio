@@ -43,13 +43,10 @@ export class ProjectsComponent implements OnInit {
           img: '../../assets/img/external/svg/css..svg',
         },
         {
-          img: '../../assets/img/external/svg/javascript.svg',
+          img: '../../assets/img/external/svg/typescript.svg',
         },
         {
           img: '../../assets/img/external/svg/angular.svg',
-        },
-        {
-          img: '../../assets/img/external/svg/typescript.svg',
         },
         {
           img: '../../assets/img/external/svg/nodejs.svg',
@@ -77,6 +74,12 @@ export class ProjectsComponent implements OnInit {
         },
         {
           img: '../../assets/img/external/svg/javascript.svg',
+        },
+        {
+          img: '../../assets/img/external/svg/angular.svg',
+        },
+        {
+          img: '../../assets/img/external/svg/api.svg',
         },
       ],
     },
@@ -164,6 +167,9 @@ export class ProjectsComponent implements OnInit {
         },
         {
           img: '../../assets/img/external/svg/javascript.svg',
+        },
+        {
+          img: '../../assets/img/external/svg/jquery.svg',
         },
       ],
     },

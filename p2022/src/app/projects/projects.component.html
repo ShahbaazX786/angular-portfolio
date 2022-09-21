@@ -1,7 +1,10 @@
 <div id="project-section">
   <div class="container">
+    <div class="heading">
+      <h1 class="section-heading">Projects</h1>
+    </div>
     <div class="row">
-        <div class="card col col-lg-4 col-md-3" *ngFor="let project of projects">
+        <div class="card col col-lg-4 col-md-3 col-sm-11" *ngFor="let project of projects">
           <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
           <div class="card-body top">
             <h5 class="card-title">{{project.Name}}</h5>
@@ -11,7 +14,6 @@
             <ng-container class="stack" *ngFor="let item of project.stack">
               <img class="stack-img" [src]=item.img alt="stack-used">
             </ng-container>
-
           </div>
         </div>
     </div>

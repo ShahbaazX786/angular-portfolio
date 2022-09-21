@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
+.project-section{
+  padding: 5% 0;
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5%;
+}
+
+.section-heading{
+  padding: 1% 0;
+  width: max-content;
+  border-bottom: 5px solid #673ab7;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 .row{
   display: flex;
   flex-direction: row;
@@ -44,23 +66,52 @@
 .stack{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
 .stack-img{
-  margin: 0 1%;
+  border-radius: 10%;
   border: 1px solid #e7e7e7;
-  padding: 1% 1%;
+  padding: 4px 1%;
+  margin: 0 1%;
   height: 30px;
   width: 30px;
 }
 
 .top{
-  height: 110px;
+  margin: 5% 0;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1;
+  justify-content: start;
+  align-items: center;
+  margin: 5% 0;
+  border-top: 1px solid #e7e7e7;
 }
 
-.bottom{
-  border-top: 1px solid #e7e7e7;
-  margin: 5% 0;
+@media screen and (min-width:576px) and (max-width:768px) {
+  .card{
+    width: 45%;
+    margin: 5px;
+  }
+}
+@media screen and (max-width:576px) {
+  .container{
+    width: 90%;
+  }
+  .card{
+    width: 90%;
+    margin: 5px;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
