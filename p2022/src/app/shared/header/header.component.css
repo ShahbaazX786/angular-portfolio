@@ -5,6 +5,10 @@
 } */
 
 .navbar{
+  /* position: fixed; uncomment this if you need a sticky navbar which i personally don't like.
+  top: 0;
+  width: 100%;
+  z-index: 1; */
   font-family: "Montserrat", sans-serif;
   /* margin: 0; */
   overflow-x: hidden;
