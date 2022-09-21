@@ -1,0 +1,79 @@
+.heading{
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-heading{
+  padding-bottom: 1%;
+  text-align: center;
+  border-bottom: 5px solid #673ab7;
+  width: max-content;
+}
+
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.exp-card{
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+}
+
+.row{
+  margin-bottom: 5%;
+}
+
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.client-logo{
+  width: 120px;
+  padding: 10% 0;
+}
+
+.client-name{
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.tenure{
+  font-family: "Montserrat",sans-serif;
+  font-size: small;
+  font-weight: light;
+}
+
+
+/* right side */
+
+.role{
+  font-weight: bold;
+}
+
+.desc{
+  font-size: small;
+}
+
+
+.resp-title{
+  font-size: medium;
+  font-weight: bold;
+}
+
+.resp-item{
+  font-size: small;
+}
