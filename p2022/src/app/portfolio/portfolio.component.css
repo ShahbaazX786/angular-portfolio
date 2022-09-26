@@ -1,0 +1,70 @@
+#portfolio-section{
+  /* padding: 5% 0; */
+  margin: 5% 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.heading-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  border-bottom: 5px solid #673ab7;
+  padding-bottom: 8px;
+  width: max-content;
+}
+
+.img{
+  padding: 2px;
+  border: 1px solid rgb(229, 229, 229);
+  width: 300px;
+  height: 150px;
+  border-radius: 2%;
+  transition: 0.2s all ease;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+}
+
+.img:hover{
+  box-shadow: 8px 14px 38px #cbbee1, 1px 3px 8px #a190c0;
+  transform: translate3D(0, -1px, 0) scale(1.06);
+  transition: all .3s ease;
+}
+
+
+.row{
+  margin: 5% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.coll{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;;
+}
+
+.modal-dialog{
+  width: 500px;
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.imgg{
+  height: 80vh;
+  width: 80vw;
+}
