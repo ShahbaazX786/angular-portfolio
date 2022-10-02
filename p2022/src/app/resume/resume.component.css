@@ -1,8 +1,56 @@
 #resume {
-  padding: 5%;
+  padding: 2% 5%;
 }
 
 .pdf {
-  height: 80vh;
-  width: 98%;
+  height: 68vh;
+  width: 80vw;
+}
+
+.helper-text{
+  /* background-color: rgb(244, 244, 244); */
+  text-align: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+a{
+  padding-left: 1%;
+  text-decoration: none;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.fake-btn{
+  background-color: white;
+  color: #673ab7;
+  padding: 1% 5%;
+  border: 1px solid #673ab7;
+  border-radius: 2%;
+  font-size: 1.1rem;
+  transition: all 0.4s ease;
+}
+
+.fake-btn:hover{
+  transition: all 0.4s ease;
+  background-color: #673ab7;
+  color: white;
+  padding: 1% 5%;
+  border: 1px solid #673ab7;
+  border-radius: 2%;
+}
+
+
+
+@media screen and (max-width:992px) {
+  .helper-text{
+    font-size: 12px;
+  }
 }
