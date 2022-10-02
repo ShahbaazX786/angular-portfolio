@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { HeroComponent } from './hero/hero.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
+import { ResumeComponent } from './resume/resume.component';
 import { PnfComponent } from './pnf/pnf.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'resume', component: ResumeComponent },
   { path: '**', component: PnfComponent},
 ];
 
