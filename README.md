@@ -6,9 +6,11 @@
 ### Used concepts:
 - Angular Routing.
 - Grid System.
+- Flex Box
 - Bootstrap using npm and updating angular.json.
 - Bootstrap navbar and footer.
 - Customizing the default css of bootstrap elements.
 - Scroll based on section id of components.
 - Classifing the components based on the visibility of components(Navbar and footer are always visible).
-- 
+- Angular Directives
+- Conditional rendering
