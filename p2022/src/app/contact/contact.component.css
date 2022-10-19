@@ -36,7 +36,7 @@
 }
 
 .card:hover {
-  transform: translate3D(0, -1px, 0) scale(1.15);
+  transform: translate3D(0, -1px, 0) scale(1.05);
   box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
   transition: all .4s ease;
   cursor: pointer;
