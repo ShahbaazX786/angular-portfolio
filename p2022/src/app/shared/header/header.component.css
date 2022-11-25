@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400&display=swap');
-
-/* .navbarcustomcolor{
-  background-color: #a8a8a8;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;700;900&display=swap');
 
 .navbar{
   /* position: fixed; uncomment this if you need a sticky navbar which i personally don't like.
@@ -24,14 +20,6 @@
   font-family: 'Allura', cursive;
   font-weight: light;
   font-size: 2rem;
-  color: #673ab7;
-}
-
-.navbar-brand {
-  font-family: 'Allura', cursive;
-  font-weight: light;
-  font-size: 1.5rem;
-  /* padding-left: 5%; */
   color: #673ab7;
 }
 
@@ -81,6 +69,42 @@ li .active{
   color: white;
   background: #673ab7;
   border-color: #673ab7;
+}
+
+.im-not-a-wrapper{
+  margin-right: 10px;
+}
+
+
+.navbar-brand{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: black;
+}
+
+
+.zuiii-animation{
+  position: relative;
+  bottom: 0;
+  /* font-family: 'Fraunces', serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  transition-property: all;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.zuiii-animation:hover{
+  bottom: 5px;
+  color: #01C6FF;
+  transition-property: all;
+  transition-duration: 0.15s;
+  animation-timing-function: cubic-bezier(0.8,0,0.2,1);
 }
 
 
