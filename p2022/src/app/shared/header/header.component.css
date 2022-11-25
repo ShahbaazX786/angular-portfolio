@@ -78,11 +78,6 @@ li .active{
 
 .navbar-brand{
   width: 100%;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
   color: black;
 }
 
@@ -92,7 +87,7 @@ li .active{
   bottom: 0;
   /* font-family: 'Fraunces', serif; */
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2rem;
   transition-property: all;
   cursor: pointer;
