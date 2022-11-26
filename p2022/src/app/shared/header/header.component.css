@@ -2,12 +2,11 @@
 
 
 /* container which holds all 3 sections together. */
-.container {
-  margin-top: 1%;
-  width: 100%;
+.container-fluid {
+  margin-top: 10px;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  gap: 4rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -53,61 +52,33 @@ li a {
 
 li .active {
   border-bottom: 4px solid #01C6FF;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   width: 100%;
   border-radius: 10px;
-  transition: 0.1s ease-out;
+  transition: 0.3s ease-out;
   display: inline-block;
 }
 
 .nav-link:hover {
-  color: #673ab7;
+  color: black;
 }
 
 .nav-link:focus {
-  color: black;
+  color: #01C6FF;
   font-weight: 500;
 }
 
-.header-action {
-  font-size: small;
-  height: 30px;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding: 1px 5px;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-.btn-outline-primary {
-  color: #673ab7;
-  border-color: #673ab7;
-}
-
-.btn-outline-primary:hover {
-  color: white;
-  background: #673ab7;
-  border-color: #673ab7;
-}
-
 .navbar-collapse {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .navbar-nav {
-  display: flex;
   flex-direction: row;
   gap: 1rem;
-  justify-content: space-evenly;
 }
 
-
-
 /* section-3 */
-
 .icons {
   display: flex;
   flex-direction: row;
@@ -136,13 +107,17 @@ li .active {
   display: flex;
   align-items: center;
   border-radius: 20%;
-  padding: 4px 8px 6px 8px;
+  padding: 4px;
 }
 
+.switcher:hover{
+  padding: 1px;
+  border: 3px solid slategray;
+}
 
 .special {
-  height: 32px;
-  width: 32px;
+  height: 30px;
+  width: 30px;
 }
 
 .hidden {
@@ -151,35 +126,27 @@ li .active {
 
 
 /* mobile and tab media queries */
-@media only screen and (max-width:991px) {
-  li .active {
-    border-bottom: none;
-    padding-bottom: 0;
-    border-radius: 0;
-    display: block;
+@media only screen and (max-width:992px){
+  .container-fluid{
+    width: 95%;
   }
-
-  .nav-link:focus {
-    color: #673ab7;
-    font-weight: bold;
+  .navbar-nav {
+    padding: 0% 5% 0% 5%;
+    flex-direction: column;
   }
 
   .hidden{
     display: inline-block;
-    font-size: 2.5rem;
-    padding-right: 2%;
-  }
-  a {
-    font-size: 2rem;
   }
 
-  .header-action{
-    font-size: 2rem;
-    height: 4%;
-    width: 90%;
-    align-items: center;
-    margin-top: 5px;
-    cursor: pointer;
-    border-radius: 1%;
-    }
+  .hidey{
+    display: none;
   }
+
+}
+
+@media only screen and (max-width:600px){
+  .zuiii-animation{
+    font-size: 1.1rem;
+  }
+}
