@@ -87,8 +87,8 @@ li .active{
   bottom: 0;
   /* font-family: 'Fraunces', serif; */
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 1.4rem;
   transition-property: all;
   cursor: pointer;
   transition-duration: .5s;
