@@ -1,88 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;700;900&display=swap');
 
-.navbar{
-  /* position: fixed; uncomment this if you need a sticky navbar which i personally don't like.
-  top: 0;
+
+/* container which holds all 3 sections together. */
+.container {
+  margin-top: 1%;
   width: 100%;
-  z-index: 1; */
-  font-family: "Montserrat", sans-serif;
-  /* margin: 0; */
-  overflow-x: hidden;
-  /* line-height:2rem ; */
-  box-shadow: 0px 2px 4px rgb(235, 235, 235);
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* .container{
-  margin: 0 3%;
-} */
-
-.s{
-  font-family: 'Allura', cursive;
-  font-weight: light;
-  font-size: 2rem;
-  color: #673ab7;
-}
-
-.hidden{
-  display: none;
-}
-
-li a{
-  font-family: sans-serif;
-  /* font-weight: 400; */
-}
-
-li .active{
-  border-bottom: 4px solid #673ab7;
-  padding-bottom: 5px;
-  width: 100%;
-  border-radius: 1px;
-  transition: 0.2s ease;
-  display: inline-block;
-}
-
-.nav-link:hover{
-  color: #673ab7;
-}
-
-.nav-link:focus{
-  color: #673ab7;
-  font-weight: normal;
-}
-
-.header-action{
-  font-size: small;
-  height: 30px;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding: 1px 5px;
-  cursor: pointer;
-  border-radius: 5%;
- }
-
-.btn-outline-primary{
-  color: #673ab7;
-  border-color: #673ab7;
-}
-
-.btn-outline-primary:hover{
-  color: white;
-  background: #673ab7;
-  border-color: #673ab7;
-}
-
-.im-not-a-wrapper{
+/* section -1 */
+.im-not-a-wrapper {
   margin-right: 10px;
 }
 
-
-.navbar-brand{
-  width: 100%;
+.navbar-brand {
   color: black;
 }
 
-
-.zuiii-animation{
+.zuiii-animation {
   position: relative;
   bottom: 0;
   /* font-family: 'Fraunces', serif; */
@@ -94,15 +33,121 @@ li .active{
   transition-duration: .5s;
 }
 
-.zuiii-animation:hover{
+.zuiii-animation:hover {
   bottom: 5px;
   color: #01C6FF;
   transition-property: all;
   transition-duration: 0.15s;
-  animation-timing-function: cubic-bezier(0.8,0,0.2,1);
+  animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
 }
 
 
+/* section-2 */
+
+li a {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #c0c0c0;
+  transition: all 0.3s ease-in;
+}
+
+li .active {
+  border-bottom: 4px solid #01C6FF;
+  padding-bottom: 5px;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.1s ease-out;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: #673ab7;
+}
+
+.nav-link:focus {
+  color: black;
+  font-weight: 500;
+}
+
+.header-action {
+  font-size: small;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 1px 5px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.btn-outline-primary {
+  color: #673ab7;
+  border-color: #673ab7;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background: #673ab7;
+  border-color: #673ab7;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+
+
+/* section-3 */
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 5px;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  transition: all 2s ease-out;
+}
+
+.nav-icon:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  transition: all 0.1s ease-in;
+}
+
+
+.switcher {
+  display: flex;
+  align-items: center;
+  border-radius: 20%;
+  padding: 4px 8px 6px 8px;
+}
+
+
+.special {
+  height: 32px;
+  width: 32px;
+}
+
+.hidden {
+  display: none;
+}
 
 
 /* mobile and tab media queries */
