@@ -20,26 +20,26 @@
       </span>
     </a>
     <!-- section-2 -->
-    <div class="icons order-lg-1 hidey">
-      <a href="www.google.com">
+    <div class="icons order-lg-1 ">
+      <a href="www.google.com" target="_blank">
         <img class="nav-icon" src="../../../assets/V2/Icons/Navbar/Instagram-color.svg" alt="Instagram-icon">
       </a>
-      <a href="https://www.google.com">
+      <a href="https://www.google.com" target="_blank">
         <img class="nav-icon" src="../../../assets/V2/Icons/Navbar/Twitter-color.svg" alt="Twitter-icon">
       </a>
-      <a href="www.google.com">
+      <a href="www.google.com" target="_blank">
         <img class="nav-icon" src="../../../assets/V2/Icons/Navbar/LinkdIn-color.svg" alt="Linkdin-icon">
       </a>
       <div class="switcher">
-          <img class="nav-icon special" src="../../../assets/V2/Icons/Navbar/Moon-color.svg"alt="dark-mode">
-        <span class="hidden">
+          <img class="nav-icon special hidden1" src="../../../assets/V2/Icons/Navbar/Moon-color.svg"alt="dark-mode">
+        <span class="hidden2">
           <img class="nav-icon special" src="../../../assets/V2/Icons/Navbar/Sun-color.svg" alt="light-mode">
         </span>
       </div>
     </div>
 
     <!-- section-3 -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    <button class="navbar-toggler hidden" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -65,3 +65,28 @@
 
   </div>
 </nav>
+
+<div class="special-down-nav ">
+  <ul class="navbar-navx">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active"
+        routerLink="/home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="about"><span class="hidden"><i
+            class="uil uil-user"></i></span>About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="skills"><span class="hidden"><i
+            class="uil uil-java-script"></i></span>Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="portfolio"><span class="hidden"><i
+            class="uil uil-briefcase-alt"></i></span>Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="contact"><span class="hidden"><i
+            class="uil uil-envelope-add"></i></span>Contact</a>
+    </li>
+  </ul>
+</div>

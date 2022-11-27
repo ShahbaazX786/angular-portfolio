@@ -1,3 +1,10 @@
+CL:2.1.6: Revamping Navbar-1:
+  - Added a bottom navbar on screens<=600
+  - Added icons for bottom navbar
+  - Added target to open the social icons in new tab
+  - Added hidden,1,2 classes which hides and shows at different sizes
+  - Added the margin auto to move the social icons to the left most side by using the nth child selector. 
+
 CL:2.1.5: Revamping Navbar-1:
   - Removed unused/old css
   - Added new media queries
