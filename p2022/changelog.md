@@ -1,3 +1,11 @@
+CL:2.1.7: Revamping Navbar-1:
+  - Added the icons and bottom navigation with flex
+  - Added focus effect.
+  - Need to add a cool tranistion animation to it.s
+  - The color and styles needs to be fixed.
+  - The color of the icons needs to be flexible enough to invert colors in day/night modes.
+
+
 CL:2.1.6: Revamping Navbar-1:
   - Added a bottom navbar on screens<=600
   - Added icons for bottom navbar

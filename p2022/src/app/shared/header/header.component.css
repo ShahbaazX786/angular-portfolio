@@ -190,61 +190,43 @@ div:nth-child(2){
   }
 
   .special-down-nav{
-    display: block;
-    background-color: red;
     position: fixed;
-    width: 100%;
-    /* height: 10vh; */
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
     z-index: 5;
     bottom: 0;
     left: 0;
+    filter: drop-shadow(0 1mm 1mm black);
+    /* will remove the drop shodow later as it is a bit weird when navbar doesnt have a dropshadow */
   }
 
-  .navbar-navX{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  .nav-link-X{
+    background-color: white;
+    padding: 2%;
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
   }
 
+  .nav-link-X:focus{
+    background-color: #01C6FF;
+    padding: 2%;
+    border-radius: 50%;
+    transition: all 0.1s ease-out;
+  }
 
-li a {
-  font-family: sans-serif;
-  font-size: 1rem;
-  color: #c0c0c0;
-  transition: all 0.3s ease-in;
-}
+  .bottom-nav-icons{
+    width: 45px;
+    color: black;
+  }
 
-li .active {
-  border-bottom: 4px solid #01C6FF;
-  padding-bottom: 4px;
-  width: 100%;
-  border-radius: 10px;
-  transition: 0.3s ease-out;
-  display: inline-block;
-}
-
-.nav-link:hover {
-  color: black;
-}
-
-.nav-link:focus {
-  color: #01C6FF;
-  font-weight: 500;
-}
-
-.navbar-collapse {
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar-nav {
-  flex-direction: row;
-  gap: 1rem;
-}
-
-
+  /* .bottom-nav-icons:focus{
+    filter: invert(100%);
+  } */
+  /* need to work on this. */
 
 }
