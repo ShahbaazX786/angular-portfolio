@@ -1,3 +1,11 @@
+CL:2.1.8: Revamping Navbar-1:
+  - Added new colored icons for the bottom nav bar which triggers in screens <=600px
+  - Removed old icons as the concept(changing empty icon to filled icon) was not found correctly on internet.
+  - Added text below the icons for quick readability.
+  - Used the translate Y to align the icons and text exactly in the middle of the special-down-nav.
+  - Used the filter : greyscale property to make it black and white at idle and colored in active or focus states.
+
+
 CL:2.1.7: Revamping Navbar-1:
   - Added the icons and bottom navigation with flex
   - Added focus effect.
