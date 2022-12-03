@@ -1,3 +1,6 @@
+CL:2.2.2: Revamping Footer-2:
+  - Fixed the navbar issue in s9+ where the brand name and the social icons were misaligned a little.
+
 CL:2.2.1: Revamping Footer-2: 
   - Added scroll to top settings in app.routing.module
     -  Now Every route change will reset position of the page to top of the screen.

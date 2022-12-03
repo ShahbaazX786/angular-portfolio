@@ -172,6 +172,9 @@ div:nth-child(2){
 }
 
 @media only screen and (max-width:600px){
+  .container-fluid {
+      width: 98%;
+    }
 
   .icons{
     gap: 0.4rem;
