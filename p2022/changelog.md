@@ -1,3 +1,6 @@
+CL:2.1.9: Revamping Navbar-1:
+  - Some minor tweaks for mobile view.
+
 CL:2.1.8: Revamping Navbar-1:
   - Added new colored icons for the bottom nav bar which triggers in screens <=600px
   - Removed old icons as the concept(changing empty icon to filled icon) was not found correctly on internet.

@@ -173,6 +173,16 @@ div:nth-child(2){
 
 @media only screen and (max-width:600px){
 
+  .icons{
+    gap: 0.4rem;
+    padding: 0;
+  }
+
+  .nav-icon {
+    width: 20px;
+    height: 20px;
+  }
+
   .hidden{
     display: none;
   }
@@ -218,20 +228,22 @@ div:nth-child(2){
 
 
   .bottom-nav-icons{
-    width: 30px;
+    width: 35px;
     border: 1px solid black;
     border-radius: 50%;
     filter: grayscale(100%);
+    transition: all .5s ease-in;
   }
 
   .bottom-nav-icons:focus, .active{
     filter: grayscale(0);
+    transition: all .5s ease-out;
     border: 0;
   }
 
   a .bottom-nav-txt{
     color: black;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 12px;
   }
 
