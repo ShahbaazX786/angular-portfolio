@@ -1,3 +1,13 @@
+CL:2.2.0: Revamping Footer-2:
+  - Revamped the whole footer design
+  - Added pages, social, language sections
+    - Pages(hobbies and interests needs to be impleted)
+    - Need to social links
+    - Need to add Internationalization(i18n) for multiple languages.
+      - For Language section in screens <600px need to implement a dropdown selecter menu to choose languages from it.
+  - need to add github or linkdin link to the name below and need to add cool neon slider name animation for it.
+  - Slightly reduced the bottom nav icon size from 35 to 32 to fix issue in s9+.
+
 CL:2.1.9: Revamping Navbar-1:
   - Some minor tweaks for mobile view.
 
