@@ -96,10 +96,16 @@ a{
   .container{
     margin-bottom: 8vh;
   }
+
   .language{
     justify-content: center;
     align-items: center;
   }
+
+  a {
+    margin: 6px 0;
+  }
+
   i {
     color: #7A88A8;
     font-size: 16px;
