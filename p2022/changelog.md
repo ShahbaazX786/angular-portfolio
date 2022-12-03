@@ -1,3 +1,7 @@
+CL:2.2.1: Revamping Footer-2: 
+  - Added scroll to top settings in app.routing.module
+    -  Now Every route change will reset position of the page to top of the screen.
+
 CL:2.2.0: Revamping Footer-2:
   - Revamped the whole footer design
   - Added pages, social, language sections
