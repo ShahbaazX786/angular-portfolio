@@ -1,3 +1,6 @@
+CL:2.2.3: Revamping Footer-2:
+  - Added some guides for other components.
+
 CL:2.2.2: Revamping Footer-2:
   - Fixed the navbar issue in s9+ where the brand name and the social icons were misaligned a little.
 
