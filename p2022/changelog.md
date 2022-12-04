@@ -1,3 +1,7 @@
+CL:2.2.5: Revamping Footer-2:
+  - Revamped the colors of the scroll bar to match the blue theme
+  - Added some guides for photo ideas
+
 CL:2.2.4: Revamping Footer-2:
   - Added some guides for other components also added some little modifications in css of footer to make the links in footer a bit closer to each other (compact).
 
