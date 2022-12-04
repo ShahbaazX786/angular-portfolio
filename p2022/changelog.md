@@ -1,3 +1,9 @@
+CL:2.2.6: Revamping Hero Section-3:
+  - Revamped the boring line with a 4 worded tacky line.
+  - Added some cool effects on name.
+  - Added gradient colors for the buttons.
+  - Added media queries to make it responsive on screens<600px. 
+
 CL:2.2.5: Revamping Footer-2:
   - Revamped the colors of the scroll bar to match the blue theme
   - Added some guides for photo ideas

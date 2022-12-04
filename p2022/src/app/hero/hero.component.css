@@ -6,15 +6,31 @@
 }
 
 .hero-heading{
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: normal;
   padding-bottom: 1%;
 }
 
 .typewriter{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  max-width: 33rem;
   font-family: 'Montserrat',sans-serif;
-  padding-bottom: 5%;
-  font-weight: bolder;
+  padding: 5% 0;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.colored-txt{
+  color: #01C6FF;
+}
+
+.about-link{
+  text-decoration: none;
+  color: #01C6FF;
+  font-size: smaller;
+  cursor: pointer;
 }
 
 .wave-hand{
@@ -37,7 +53,7 @@
 
 .intro-bio{
   justify-content: center;
-  line-height: 2.5rem;
+  line-height: 3rem;
   font-size: 1.4rem;
   font-family: sans-serif;
   font-weight: normal;
@@ -46,8 +62,26 @@
 }
 
 .buttons {
-  padding-top: 5%;
+  margin-top: 5%;
+
 }
+.grad{
+  background: linear-gradient(to right, #673ab7, #01C6FF); /* sticking with this choice for now */
+  /* background: linear-gradient(to right, #01C6FF, #673ab7); */
+}
+
+.special-effect-1{
+  color: black;
+  transition: 0.5s ease-in;
+}
+
+.special-effect-1:hover{
+  width: max-content;
+  color: #01C6FF;
+  filter: drop-shadow(0 0 15px #01C6FF);
+  transition: 0.5s ease-out;
+}
+
 
 .btn{
   padding: 0.5rem 1rem;
@@ -56,22 +90,21 @@
   color: white;
   background-color: #673ab7;
   margin-right: 5%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: normal;
   margin-bottom: 5%;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in;
 }
 
 .btn:hover {
   transform: translate3D(0, -1px, 0) scale(1.05);
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-out;
   border: 1px solid #673ab7;
-  color: #673ab7;
+  color: white;
 }
 
 .ico{
   font-size: 25px;
-  font-weight: normal;
   padding-right: 10px;
 }
 
@@ -88,14 +121,46 @@
 }
 
 .hero-img{
+  margin: auto;
   align-items: center;
   text-align: center;
 }
 
-@media screen and (max-width:507px) {
+@media screen and (max-width:1200px) {
+  .typewriter {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:993px) {
+  /* .typewriter {
+    font-size: 2.5rem;
+  } */
+
+  .hero-heading{
+    text-align: center;
+  }
+  .text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .typewriter, .intro-bio{
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
   .text-wrapper {
-      padding: 0 5%;
-    }
+    font-size: 1rem;
+    padding: 0 5%;
+  }
 
   .typewriter{
     text-align: center;
@@ -105,9 +170,12 @@
     text-align: center;
   }
 
-
+  .intro-bio{
+    font-size: 1rem;
+    line-height: 2;
+  }
   .buttons{
     text-align: center;
-    padding-top: 0;
+    padding-top: 5%;
   }
 }
