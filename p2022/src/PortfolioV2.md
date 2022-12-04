@@ -35,3 +35,11 @@ Guide for v2:
     - Just make the pages and social contents as jcc and aic so that it matches the style of languages section contents style.
 7. Skills section:
   - I am still not sure about how to revamp this.
+
+
+Ideas:
+- For the about me page i'm thinking of keeping the text on the left side and my image on the right side.
+- Also i will be holding the footer with 1 hand and another hand supporting my head just as sukuna sits while holding his face.(in jujutsu kaisen)
+- refer the links:
+  - https://mega.nz/file/CN02ERKb#bZv6gIYgU33lf8QSqIxumt9PA3-gs-dr9yp3O6cZj74
+  - https://mega.nz/file/SVt0iBRY#RzF4cJiwLFC_dTk7uXVa5apuiYHvTaVMP0hltrh0IQg
