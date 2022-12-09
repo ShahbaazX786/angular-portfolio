@@ -1,3 +1,6 @@
+CL:2.2.7: Revamping Hero Section-3:
+  - Though of just rendering Github and Linkedin in screens<600px using angular but the buttons looked absurd somehow, so just changed the text to follow me on socials
+
 CL:2.2.6: Revamping Hero Section-3:
   - Revamped the boring line with a 4 worded tacky line.
   - Added some cool effects on name.
