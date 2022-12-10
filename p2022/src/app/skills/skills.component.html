@@ -1,22 +1,8 @@
 <div id="skills">
-  <div class="skills-section"></div>
   <div class="container">
-    <div class="row">
-      <div class="skill-text-wrapper col-lg-12">
-        <div class="text-align">
-          <h1 class="skill-heading">Skills </h1>
-        </div>
-      </div>
+    <div class="card glass" *ngFor="let s of skills">
+        <img class="ico" [src]=s.src alt="image" data-toggle="tooltip" data-placement="top" [title]="s.name">
+        <p class="ico-txt">{{s.name}}</p>
     </div>
-
-    <div class="row">
-      <div class="col col-lg col-md-3 col-sm-3 coll" *ngFor="let skill of skills">
-        <div class="single-skill">
-          <img class="ico" [src]=skill.src alt="image">
-          <span class="tooltip">{{skill.name}}</span>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>

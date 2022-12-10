@@ -1,3 +1,9 @@
+CL:2.2.8: Revamping Skills section-4:
+  - Recreated skills section from scratch.
+  - Added glass effect to cards and text underneath icons too.
+  - Added media queries to achieve great responsiveness.
+  - Added a new skill jest.
+
 CL:2.2.7: Revamping Hero Section-3:
   - Though of just rendering Github and Linkedin in screens<600px using angular but the buttons looked absurd somehow, so just changed the text to follow me on socials
 

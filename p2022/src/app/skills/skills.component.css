@@ -1,82 +1,83 @@
 #skills{
-  margin: 1% 2%;
-  padding-bottom: 10%;
   overflow-x: hidden;
 }
 
-.skill-text-wrapper{
-  width: 100%;
-  text-align: center;
-  padding: 1%;
-}
-
-.text-align{
+.container{
   display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.2rem;
   justify-content: center;
 }
 
-.skill-heading{
-  font-family: sans-serif;
-  font-weight: bold;
-  padding-bottom: 5px;
-  margin-bottom: 5%;
-  border-bottom: 5px solid #673ab7;
-}
-
-/* .img-wrapper{
-  justify-content: center;
-  align-items: center;
-  /* padding: 10%; */
-  /* transition: all 0.4s ease;
-  margin: 5%;
-}
-*/
-
-.coll{
+.card{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  align-self: center;
-  margin: 1% 1%;
-
-}
-
-.single-skill{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border: 5px solid #673ab7;
-  height: 120px;
   width: 120px;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 17px 3px rgba(103, 58, 183, 1);
-    -moz-box-shadow: 0px 0px 17px 3px rgba(103, 58, 183, 1);
-    box-shadow: 0px 0px 30px 1px rgb(200, 200, 200);
+  height: 120px;
+  border-radius: 16px;
+}
+
+
+.glass{
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .ico{
-  padding-top: 5px;
-  margin: 5%;
-  height: max-content;
-  width: 85px;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
 }
 
-.ico:hover{
-  transition: all 0.4s ease;
-  transform: translate3D(0, -1px, 0) scale(1.15);
-}
 
-@media screen and ((min-width:576px) and (max-width:992px)) {
-  .row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+
+
+@media only screen and (max-width:993px){
+  .card {
+      display: flex;
+      align-items: center;
+      width: 90px;
+      height: 90px;
+    }
+
+  .ico{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+  .ico-txt{
+    font-size: 14px;
   }
 }
-@media screen and (max-width:366px) {
-  .row{
-    padding-bottom: 10%;
+
+@media only screen and (max-width:600px){
+  .container{
+    gap: 0.6rem;
+  }
+  .card{
+    width: 80px;
+    height: 80px;
+
+  }
+  .ico{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+  .ico-txt{
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width:300px){
+  .container{
+    padding: 0;
+    margin: 0;
   }
 }
