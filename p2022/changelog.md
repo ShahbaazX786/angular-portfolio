@@ -1,3 +1,7 @@
+CL:2.2.9: Revamping Skills section-4:
+  - Added a heading for skills section.
+  - Improving heading for all sections with emoji.
+  
 CL:2.2.8: Revamping Skills section-4:
   - Recreated skills section from scratch.
   - Added glass effect to cards and text underneath icons too.

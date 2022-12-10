@@ -2,6 +2,20 @@
   overflow-x: hidden;
 }
 
+.heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin: 5px 0 5px 0;
+  border-bottom: 5px solid #673ab7;
+  padding-bottom: 8px;
+  width: max-content;
+}
+
 .container{
   display: flex;
   margin-top: 15px;
