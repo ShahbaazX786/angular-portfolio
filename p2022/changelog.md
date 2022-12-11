@@ -1,3 +1,6 @@
+CL:2.2.10: Revamping Skills section-4:
+  - Added hover effects for cards of skills section.
+
 CL:2.2.9: Revamping Skills section-4:
   - Added a heading for skills section.
   - Improving heading for all sections with emoji.
