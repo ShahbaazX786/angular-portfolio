@@ -1,3 +1,6 @@
+CL:2.2.11: Revamping services section-5:
+  - Modified services section with hover and media queries effects.
+
 CL:2.2.10: Revamping Skills section-4:
   - Added hover effects for cards of skills section.
 
