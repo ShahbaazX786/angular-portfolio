@@ -1,3 +1,6 @@
+CL:2.2.12: Update:
+  - Added Angular Material.
+
 CL:2.2.11: Revamping services section-5:
   - Modified services section with hover and media queries effects.
 
