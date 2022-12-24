@@ -1,3 +1,8 @@
+CL:2.3.1: Adding Internationalization:
+  - Step2: Add i18n attribute tags in html file all over the project.(currently testing with header component)
+    - Use i18n for selecting simple tags(p,h1 etc) and i18nx for selecting internal html tags(placeholder, alt etc)
+    - We can have both tags in a single element.
+
 CL:2.3.0: Adding Internationalization:
   - Step1: npm add @angular/cli
 
