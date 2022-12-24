@@ -111,4 +111,8 @@ a{
     font-size: 16px;
     margin-right: 10px;
   }
+
+  .footer_copy{
+    margin-bottom: 10vh;
+  }
 }

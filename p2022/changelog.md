@@ -1,3 +1,6 @@
+CL:2.2.13: Bug Fix:
+  - Fixed a bug where the "made by" line was hidden under the bottom special navigation bar.
+
 CL:2.2.12: Update:
   - Added Angular Material.
 
