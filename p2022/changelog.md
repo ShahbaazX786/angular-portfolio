@@ -1,3 +1,10 @@
+CL:2.3.3: Adding Internationalization:
+  - Followed the steps 3-5 in previous CL.
+  - Configured the en,jp locales under both build and serve.
+  - Status Update for portfolioV2.md
+  - Added translations for some japanese words in jp file.
+  - Will add component by component later.
+
 CL:2.3.2: Adding Internationalization:
   - Step3: Create a translation source file (.xlf) using the command "ng xi18n --output-path src/translate/locales(this can be anything after src/).
     - This will create a folder called translate and in it will have the english(default) transalation source file

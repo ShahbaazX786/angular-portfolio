@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="3251116876185403930" datatype="html">
         <source>S</source>
-        <target>シ</target>
+        <target> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">6</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="2237284065266910718" datatype="html">
         <source>H</source>
-        <target>ャ</target>
+        <target> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">7</context>
@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="2405286474181510887" datatype="html">
         <source>A</source>
-        <target>バ</target>
+        <target> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">8</context>
@@ -48,6 +48,7 @@
       </trans-unit>
       <trans-unit id="2021928621838842498" datatype="html">
         <source>B</source>
+        <target> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">10</context>
@@ -55,7 +56,7 @@
       </trans-unit>
       <trans-unit id="801640719313554056" datatype="html">
         <source>Z</source>
-        <target>ズ</target>
+        <target>シャバズ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">13</context>
@@ -63,6 +64,7 @@
       </trans-unit>
       <trans-unit id="1952988180634078112" datatype="html">
         <source>L</source>
+        <target> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">17</context>
@@ -78,6 +80,7 @@
       </trans-unit>
       <trans-unit id="2778572375372195593" datatype="html">
         <source>Instagram-icon</source>
+        <target>インスタグラムのアイコン</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">25</context>
@@ -85,6 +88,7 @@
       </trans-unit>
       <trans-unit id="6940895073058338030" datatype="html">
         <source>Twitter-icon</source>
+        <target>ツイッターのアイコン</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">28</context>
@@ -92,6 +96,7 @@
       </trans-unit>
       <trans-unit id="7711619169436371512" datatype="html">
         <source>Linkdin-icon</source>
+        <target>リンクトインのアイコン</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">31</context>
@@ -99,6 +104,7 @@
       </trans-unit>
       <trans-unit id="3561712162800278568" datatype="html">
         <source>dark-mode</source>
+        <target>ダークモード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">34</context>
@@ -106,6 +112,7 @@
       </trans-unit>
       <trans-unit id="4452648405552649872" datatype="html">
         <source>light-mode</source>
+        <target>ライトモード</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">36</context>
@@ -113,6 +120,7 @@
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
+        <target>ホーム</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">49</context>
@@ -152,6 +160,7 @@
       </trans-unit>
       <trans-unit id="2455121997003162808" datatype="html">
         <source>home-icon</source>
+        <target>ホームページのアイコン</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">71</context>
@@ -175,6 +184,7 @@
       </trans-unit>
       <trans-unit id="6018686961415145811" datatype="html">
         <source>About Me</source>
+        <target>私について</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">76</context>
@@ -182,6 +192,7 @@
       </trans-unit>
       <trans-unit id="9201103587777813545" datatype="html">
         <source>Portfolio</source>
+        <target>ポートフォリオ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">80</context>
