@@ -1,3 +1,13 @@
+CL:2.3.2: Adding Internationalization:
+  - Step3: Create a translation source file (.xlf) using the command "ng xi18n --output-path src/translate/locales(this can be anything after src/).
+    - This will create a folder called translate and in it will have the english(default) transalation source file
+  - Step4: Now create a copy of the TSF and rename it to messages.jp.xlf to make it a japanese translation file.
+    - Now just check the source tag text and translate it using google(for personal projects) or language expert(in mnc's) and add the target tags with translated text under the source tags.
+  - Step5: Now we setup the angular.config so that our app runs in serve/prod/build modes
+    - 1. Define locales in build config.
+    - 2. Set the localize build config option.
+    - 3. Configure for the prod build.
+
 CL:2.3.1: Adding Internationalization:
   - Step2: Add i18n attribute tags in html file all over the project.(currently testing with header component)
     - Use i18n for selecting simple tags(p,h1 etc) and i18nx for selecting internal html tags(placeholder, alt etc)
