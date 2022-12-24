@@ -1,3 +1,9 @@
+CL:2.3.0: Adding Internationalization:
+  - Step1: npm add @angular/cli
+
+CL:2.2.14: New update:
+  - Added localization lib in angular. [ng add @angular/localize]
+
 CL:2.2.13: Bug Fix:
   - Fixed a bug where the "made by" line was hidden under the bottom special navigation bar.
 
