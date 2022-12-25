@@ -1,3 +1,6 @@
+CL:2.3.4: Adding Internationalization:
+  - Added japanese translations for navbar list items.
+  
 CL:2.3.3: Adding Internationalization:
   - Followed the steps 3-5 in previous CL.
   - Configured the en,jp locales under both build and serve.

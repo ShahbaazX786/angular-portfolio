@@ -132,6 +132,7 @@
       </trans-unit>
       <trans-unit id="1816560084865559336" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot; &gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-user&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>About</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot; &gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-user&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>私について</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">52</context>
@@ -139,6 +140,7 @@
       </trans-unit>
       <trans-unit id="1234741329084153361" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-java-script&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Skills</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-java-script&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>スキル</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">55</context>
@@ -146,6 +148,7 @@
       </trans-unit>
       <trans-unit id="4213799295706309170" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-briefcase-alt&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Portfolio</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-briefcase-alt&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>ポートフォリオ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">58</context>
@@ -153,6 +156,7 @@
       </trans-unit>
       <trans-unit id="3742878699880320697" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-envelope-add&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Contact</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-envelope-add&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>コンタクト</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">61</context>
@@ -200,6 +204,7 @@
       </trans-unit>
       <trans-unit id="4342625008558026850" datatype="html">
         <source>Skills</source>
+        <target>スキル</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">84</context>
@@ -207,6 +212,7 @@
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
+        <target>コンタクト</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">88</context>
