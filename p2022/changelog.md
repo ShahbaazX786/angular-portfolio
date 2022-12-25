@@ -1,3 +1,10 @@
+CL:2.3.6: Adding Internationalization:
+  - Trying some more configuration changes now.
+  - Added en translation bro.... but why !!!!????
+
+CL:2.3.5: Adding Internationalization:
+  - Adding some configurations and i noticed that we need en.xlf aswell even though we have the messages.xlf file already.
+
 CL:2.3.4: Adding Internationalization:
   - Added japanese translations for navbar list items.
   

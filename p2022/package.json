@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "i18nEx": "ng extract-i18n --output-path src/locale"
+    "i18nEx": "ng extract-i18n --output-path src/locale",
+    "ja": "ng serve --configuration=ja",
+    "L":"ng build --localize"
   },
   "private": true,
   "dependencies": {

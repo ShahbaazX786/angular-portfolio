@@ -4,22 +4,21 @@
   "newProjectRoot": "projects",
   "projects": {
     "p2022": {
-      "i18n": {
-        "sourceLocale":"en-US",
-        "locales": {
-          "ja":{"translation":"src/locale/messages.jp.xlf"}
-        }
-      },
       "projectType": "application",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale":"en",
+        "locales": {
+          "ja":{"translation":"src/locale/messages.jp.xlf", "baseHref": "/ja/"}
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize":["ja"],
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -50,8 +49,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "4kb",
+                  "maximumError": "5kb"
                 }
               ],
               "fileReplacements": [
@@ -64,14 +63,11 @@
             },
             "development": {
               "buildOptimizer": false,
-              "optimization": true,
+              "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
-            },
-            "en":{
-              "localize":["en"]
             },
             "ja":{
               "localize":["ja"]
@@ -87,9 +83,6 @@
             },
             "development": {
               "browserTarget": "p2022:build:development"
-            },
-            "en":{
-              "browserTarget": "p2022:build:en"
             },
             "ja":{
               "browserTarget": "p2022:build:ja"
