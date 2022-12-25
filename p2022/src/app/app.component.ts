@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+// import { Title } from '@angular/platform-browser';
 
 
 @Component({
@@ -10,7 +10,7 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent {
   title = 'p2022';
 
-  constructor(private _titleservice:Title){
-    this._titleservice.setTitle($localize`${this.title}`);
-  }
+  // constructor(private _titleservice:Title){
+  //   this._titleservice.setTitle($localize`${this.title}`);
+  // }
 }

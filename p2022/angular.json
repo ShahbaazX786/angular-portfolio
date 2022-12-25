@@ -7,8 +7,7 @@
       "i18n": {
         "sourceLocale":"en-US",
         "locales": {
-          "en":{"translation":"src/locale/messages.en.xlf", "baseHref": ""},
-          "jp":{"translation":"src/locale/messages.jp.xlf", "baseHref": ""}
+          "ja":{"translation":"src/locale/messages.jp.xlf"}
         }
       },
       "projectType": "application",
@@ -65,7 +64,7 @@
             },
             "development": {
               "buildOptimizer": false,
-              "optimization": false,
+              "optimization": true,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
@@ -74,8 +73,8 @@
             "en":{
               "localize":["en"]
             },
-            "jp":{
-              "localize":["jp"]
+            "ja":{
+              "localize":["ja"]
             }
           },
           "defaultConfiguration": "production"
@@ -92,8 +91,8 @@
             "en":{
               "browserTarget": "p2022:build:en"
             },
-            "jp":{
-              "browserTarget": "p2022:build:jp"
+            "ja":{
+              "browserTarget": "p2022:build:ja"
             }
           },
           "defaultConfiguration": "development"
