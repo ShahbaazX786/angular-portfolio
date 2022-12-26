@@ -14,6 +14,7 @@ export class FooterComponent implements OnInit {
 
   languageList: any = [
     { code: 'en', name: 'English' },
+    { code: 'hi', name: 'Hindi' },
     { code: 'ja', name: 'Japanese' },
   ];
 

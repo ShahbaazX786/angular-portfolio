@@ -9,6 +9,7 @@
     "test": "ng test",
     "Ex": "ng extract-i18n --output-path src/locale",
     "ja": "ng serve --configuration=ja",
+    "hi": "ng serve --configuration=hi",
     "L":"ng build --localize"
   },
   "private": true,

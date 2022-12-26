@@ -4,50 +4,39 @@
     <body>
       <trans-unit id="4405644498932983942" datatype="html">
         <source>Hey, I&apos;m <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;special-effect-1&quot;&gt;"/>Shaik Shahbaaz Alam<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;wave-hand&quot;&gt;"/>👋<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>こんにちは 私は<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;special-effect-1&quot;&gt;"/>シャイク シャバズ アラム<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;wave-hand&quot;&gt;"/>👋<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-            <context context-type="linenumber">7</context>
-          </context-group>
-        </trans-unit>
-        <trans-unit id="6682065926893050618" datatype="html">
-          <source>Developer. <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/> Designer.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/>Creator. <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Reader.</source>
-          <target>デベロッパー。 <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/>デザイナー。<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/>作成者。 <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 読者。</target>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-            <context context-type="linenumber">8</context>
-          </context-group>
-        </trans-unit>
-        <trans-unit id="3934528778106792636" datatype="html">
-          <source>I&apos;m a Full Stack Software Developer 🚀 having keen interest in Frontend technologies and experience of building Web applications with modern JavaScript Frameworks like Angular, Reactjs, Nodejs and some other cool libraries. Also I do have a knack of digital art which i do in my pass time <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;about-link&quot; routerLink=&quot;/about&quot; i18n-a&gt;"/>Read More...<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-          <target>私は フルスタックソフトウェア開発者 🚀 Angular、ReactJS、NodeJS、その他のクールなライブラリなどの最新のJavaScriptフレームワークを使用して、Frontend TechnologiesとWebアプリケーションを構築する経験に強い関心を持っています。また、余暇にはデジタルアートも作成しています <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;about-link&quot; routerLink=&quot;/about&quot; i18n-a&gt;"/>詳しく読む...<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-            <context context-type="linenumber">9,10</context>
-          </context-group>
-        </trans-unit>
-        <trans-unit id="9126570640991366222" datatype="html">
-          <source>hero-profile-img</source>
-          <target>ヒーロー-プロフィール-IMG</target>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-            <context context-type="linenumber">17</context>
-          </context-group>
-        </trans-unit>
-        <trans-unit id="3990130202438203954" datatype="html">
-          <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-github ico&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="INTERPOLATION" equiv-text="{{github}}"/></source>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-            <context context-type="linenumber">20</context>
-          </context-group>
-          <context-group purpose="location">
-            <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-            <context context-type="linenumber">21</context>
-          </context-group>
-        </trans-unit>
+        <target>हेलो, हम है <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;special-effect-1&quot;&gt;"/>शैक शाहबाज आलम<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;wave-hand&quot;&gt;"/>👋<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6682065926893050618" datatype="html">
+        <source>Developer. <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/> Designer.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/>Creator. <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Reader.</source>
+        <target>डेवलपर.  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/>डिजाइनर.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored-txt&quot;&gt;"/>कलाकार. <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>उत्सुक पाठक.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3934528778106792636" datatype="html">
+        <source>I&apos;m a Full Stack Software Developer 🚀 having keen interest in Frontend technologies and experience of building Web applications with modern JavaScript Frameworks like Angular, Reactjs, Nodejs and some other cool libraries. Also I do have a knack of digital art which i do in my pass time <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;about-link&quot; routerLink=&quot;/about&quot; i18n-a&gt;"/>Read More...<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>हम एक पूर्ण स्टैक सॉफ्टवेयर डेवलपर है | 🚀 और हमें फ्रंटेंड टेक्नोलॉजीज में गहरी रुचि है और आधुनिक जावास्क्रिप्ट फ़्रेमवर्क जैसे  Angular, Reactjs, Nodejs और कुछ अन्य cool libraries ke साथ वेब ऐप्स बनाने का अनुभव है | मुझे डिजिटल आर्ट की एक आदत है, जो मैं अपने फुर्सत ke समय में करता हूं | <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;about-link&quot; routerLink=&quot;/about&quot; i18n-a&gt;"/>और पढ़ें...<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9126570640991366222" datatype="html">
+        <source>hero-profile-img</source>
+        <target>नायक-प्रोफ़ाइल-आईएमजी</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3251116876185403930" datatype="html">
         <source>S</source>
-        <target> </target>
+        <target>शा</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">6</context>
@@ -55,7 +44,7 @@
       </trans-unit>
       <trans-unit id="2237284065266910718" datatype="html">
         <source>H</source>
-        <target> </target>
+        <target></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">7</context>
@@ -67,7 +56,7 @@
       </trans-unit>
       <trans-unit id="2405286474181510887" datatype="html">
         <source>A</source>
-        <target> </target>
+        <target></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">8</context>
@@ -91,7 +80,7 @@
       </trans-unit>
       <trans-unit id="2021928621838842498" datatype="html">
         <source>B</source>
-        <target> </target>
+        <target>ह</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">10</context>
@@ -99,7 +88,7 @@
       </trans-unit>
       <trans-unit id="801640719313554056" datatype="html">
         <source>Z</source>
-        <target>シャバズ</target>
+        <target>बाज</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">13</context>
@@ -107,7 +96,7 @@
       </trans-unit>
       <trans-unit id="1952988180634078112" datatype="html">
         <source>L</source>
-        <target> </target>
+        <target>आ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">17</context>
@@ -115,23 +104,23 @@
       </trans-unit>
       <trans-unit id="3101405940446847368" datatype="html">
         <source>M</source>
-        <target>アラム</target>
+        <target>लम</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2778572375372195593" datatype="html">
-        <source>Instagram-icon</source>
-        <target>インスタグラムのアイコン</target>
+        <source>instagram-icon</source>
+        <target>इंस्टाग्रैम-आइकन</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6940895073058338030" datatype="html">
-        <source>Twitter-icon</source>
-        <target>ツイッターのアイコン</target>
+        <source>twitter-icon</source>
+        <target>ट्विटर-आइकन</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">28</context>
@@ -139,7 +128,7 @@
       </trans-unit>
       <trans-unit id="7711619169436371512" datatype="html">
         <source>Linkdin-icon</source>
-        <target>リンクトインのアイコン</target>
+        <target>लिंक्डइन-आइकन</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">31</context>
@@ -147,7 +136,7 @@
       </trans-unit>
       <trans-unit id="3561712162800278568" datatype="html">
         <source>dark-mode</source>
-        <target>ダークモード</target>
+        <target>अंधेरा मोड</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">34</context>
@@ -155,7 +144,7 @@
       </trans-unit>
       <trans-unit id="4452648405552649872" datatype="html">
         <source>light-mode</source>
-        <target>ライトモード</target>
+        <target>लाइट मोड</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">36</context>
@@ -163,7 +152,7 @@
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
-        <target>ホーム</target>
+        <target>होमपेज</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">49</context>
@@ -175,7 +164,7 @@
       </trans-unit>
       <trans-unit id="1816560084865559336" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot; &gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-user&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>About</source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot; &gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-user&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>私について</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot; &gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-user&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>विवरण</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">52</context>
@@ -183,7 +172,7 @@
       </trans-unit>
       <trans-unit id="1234741329084153361" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-java-script&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Skills</source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-java-script&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>スキル</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-java-script&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>कौशल</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">55</context>
@@ -191,7 +180,7 @@
       </trans-unit>
       <trans-unit id="4213799295706309170" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-briefcase-alt&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Portfolio</source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-briefcase-alt&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>ポートフォリオ</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-briefcase-alt&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>पोर्टफोलियो</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">58</context>
@@ -199,7 +188,7 @@
       </trans-unit>
       <trans-unit id="3742878699880320697" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-envelope-add&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Contact</source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-envelope-add&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>コンタクト</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hidden&quot;&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;uil uil-envelope-add&quot; &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>संपर्क</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">61</context>
@@ -207,7 +196,7 @@
       </trans-unit>
       <trans-unit id="2455121997003162808" datatype="html">
         <source>home-icon</source>
-        <target>ホームページのアイコン</target>
+        <source>होम-आइकन</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">71</context>
@@ -231,7 +220,7 @@
       </trans-unit>
       <trans-unit id="6018686961415145811" datatype="html">
         <source>About Me</source>
-        <target>私について</target>
+        <target>मेरे बारे में</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">76</context>
@@ -239,7 +228,7 @@
       </trans-unit>
       <trans-unit id="9201103587777813545" datatype="html">
         <source>Portfolio</source>
-        <target>ポートフォリオ</target>
+        <target>पोर्टफोलियो</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">80</context>
@@ -247,7 +236,7 @@
       </trans-unit>
       <trans-unit id="4342625008558026850" datatype="html">
         <source>Skills</source>
-        <target>スキル</target>
+        <target>कौशल</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">84</context>
@@ -255,14 +244,16 @@
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
-        <target>コンタクト</target>
+        <target>संपर्क</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
           <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
+<!-- footer translation from here: -->
       <trans-unit id="3000507912077213325" datatype="html">
         <source>pages</source>
+        <target>अन्य पेजेस</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">4</context>
@@ -270,6 +261,7 @@
       </trans-unit>
       <trans-unit id="7091571651222742304" datatype="html">
         <source>Projects</source>
+        <target>परियोजनाओं</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">5</context>
@@ -277,6 +269,7 @@
       </trans-unit>
       <trans-unit id="3398353192845179101" datatype="html">
         <source>Experience</source>
+        <target>अनुभव</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">6</context>
@@ -284,6 +277,7 @@
       </trans-unit>
       <trans-unit id="7143579180750436311" datatype="html">
         <source>Services</source>
+        <target>सेवाएं</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">7</context>
@@ -291,6 +285,7 @@
       </trans-unit>
       <trans-unit id="5242666957552704871" datatype="html">
         <source>Hobbies</source>
+        <target>शौक</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">8</context>
@@ -298,13 +293,15 @@
       </trans-unit>
       <trans-unit id="5958567575081359079" datatype="html">
         <source>Interests</source>
+        <target>रूचियाँ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7116872957204885589" datatype="html">
-        <source>social</source>
+        <source>social-media</source>
+        <target>सामाजिक मीडिया</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">12</context>
@@ -312,6 +309,7 @@
       </trans-unit>
       <trans-unit id="6772442613977244319" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-instagram&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Instagram</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-instagram&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>इंस्टाग्रैम</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">13</context>
@@ -319,6 +317,7 @@
       </trans-unit>
       <trans-unit id="2811024627904480718" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-twitter&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Twitter</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-twitter&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>ट्विटर</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -326,6 +325,7 @@
       </trans-unit>
       <trans-unit id="2096471929993593996" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-github&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Github</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-github&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>गिटहब</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">15</context>
@@ -333,6 +333,7 @@
       </trans-unit>
       <trans-unit id="8950785382967080514" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>LinkedIn</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>लिंक्डइन</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">16</context>
@@ -340,6 +341,7 @@
       </trans-unit>
       <trans-unit id="718711155562261184" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-envelope&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Email</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-envelope&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>ईमेल</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">17</context>
@@ -347,6 +349,7 @@
       </trans-unit>
       <trans-unit id="2826581353496868063" datatype="html">
         <source>Language</source>
+        <target>भाषा चुने</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">21</context>
@@ -354,6 +357,7 @@
       </trans-unit>
       <trans-unit id="5866254605255506989" datatype="html">
         <source>English</source>
+        <target>अंग्रेजी-English</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">27</context>
@@ -361,6 +365,7 @@
       </trans-unit>
       <trans-unit id="6924606686202701860" datatype="html">
         <source>Japanese</source>
+        <target>जापानी-Japanese</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">28</context>
@@ -368,6 +373,7 @@
       </trans-unit>
       <trans-unit id="4517338596492622875" datatype="html">
         <source>Now you can check my portfolio in different Regional languages</source>
+        <target>अब आप विभिन्न क्षेत्रीय भाषाओं में मेरे पोर्टफोलियो को देख सकते हैं</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">30</context>
@@ -375,6 +381,7 @@
       </trans-unit>
       <trans-unit id="7110491233427859992" datatype="html">
         <source>made with</source>
+        <target>यह वेबसाइट बनाने मे उपयोग किया गया प्रौद्योगिकियों</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">36</context>
@@ -382,6 +389,7 @@
       </trans-unit>
       <trans-unit id="4934198477509542429" datatype="html">
         <source>Made by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;link&quot; href=&quot;&quot;&gt;"/>Shaik Shahbaaz Alam. <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>All rights reserved<x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>©<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/></source>
+        <target>शैक शाहबाज आलम <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;link&quot; href=&quot;&quot;&gt;"/>द्वारा निर्मित. <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>सर्वाधिकार सुरक्षित<x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>©<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">41</context>

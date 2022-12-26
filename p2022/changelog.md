@@ -1,3 +1,6 @@
+CL:2.3.10: Adding Internationalization:
+  - Added Hindi translation for hero and navbar sections.
+
 CL:2.3.9: Adding Internationalization:
   - Added a button to select the languages in footer(Not plenty with the design.)
   - Now it works in server(hosted mode) but will give 404 error in serve.
