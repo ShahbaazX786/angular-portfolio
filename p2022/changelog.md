@@ -1,3 +1,7 @@
+CL:2.3.9: Adding Internationalization:
+  - Added a button to select the languages in footer(Not plenty with the design.)
+  - Now it works in server(hosted mode) but will give 404 error in serve.
+
 CL:2.3.8: Adding Internationalization:
   - Generated new transalation source file.
   - Added japanese translations for hero component.

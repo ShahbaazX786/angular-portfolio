@@ -82,6 +82,19 @@ a{
   padding-top: 5px;
 }
 
+.lang-txt{
+  font-family: inherit;
+  font-weight: 600;
+  margin-top: 5%;
+  line-height: 1.5rem;
+  color: #7A88A8;
+  margin-bottom: auto;
+}
+
+.lang-3{
+  width: max-content;
+}
+
 
 
 @media only screen and (max-width:992px) {
@@ -90,6 +103,13 @@ a{
     justify-content: center;
     align-items: center;
   }
+     .drop-down {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+     }
 }
 
 @media only screen and (max-width:600px) {

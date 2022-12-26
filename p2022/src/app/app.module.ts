@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,6 +18,13 @@ import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// material imports from here
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,14 +40,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectsComponent,
     PortfolioComponent,
     ContactComponent,
-    ResumeComponent
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatMenuModule,
+    MatIconModule,
+    MatButtonModule
   ],
-  providers: [],
+  providers: [
+    {provide:LOCALE_ID, useValue:'en'}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

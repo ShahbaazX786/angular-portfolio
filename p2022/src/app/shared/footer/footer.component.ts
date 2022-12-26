@@ -3,13 +3,23 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  styleUrls: ['./footer.component.css'],
 })
 export class FooterComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  language:string='English';
 
-  ngOnInit(): void {
+  locale:string='English';
+
+  languageList: any = [
+    { code: 'en', name: 'English' },
+    { code: 'ja', name: 'Japanese' },
+  ];
+
+  ngOnInit(){
+    this.locale=window.location.pathname.split('/')[2];
+    this.language=this.languageList.find((f: { code: string | undefined; })=>f.code===this.locale).name;
   }
 
 }

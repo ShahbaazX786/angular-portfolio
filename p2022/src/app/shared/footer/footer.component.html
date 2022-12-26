@@ -1,36 +1,42 @@
 <div class="container">
   <div class="wrapper-2 row">
     <div class="pages col col-lg-4">
-      <p class="txt">pages</p>
-      <a class="page-link" routerLink="projects">Projects</a>
-      <a class="page-link" routerLink="experience">Experience</a>
-      <a class="page-link" routerLink="services">Services</a>
-      <a class="page-link" routerLink="pnf">Hobbies</a>
-      <a class="page-link" routerLink="pnf">Interests</a>
+      <p class="txt" i18n>pages</p>
+      <a class="page-link" routerLink="projects" i18n>Projects</a>
+      <a class="page-link" routerLink="experience" i18n>Experience</a>
+      <a class="page-link" routerLink="services" i18n>Services</a>
+      <a class="page-link" routerLink="pnf" i18n>Hobbies</a>
+      <a class="page-link" routerLink="pnf" i18n>Interests</a>
     </div>
     <div class="social col col-lg-4">
-      <p class="txt">social</p>
-      <a class="page-link"><i class="fa-brands fa-instagram"></i>Instagram</a>
-      <a class="page-link"><i class="fa-brands fa-twitter"></i>Twitter</a>
-      <a class="page-link"><i class="fa-brands fa-github"></i>Github</a>
-      <a class="page-link"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
-      <a class="page-link"><i class="fa-solid fa-envelope"></i>Email</a>
+      <p class="txt" i18n>social</p>
+      <a class="page-link" i18n><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <a class="page-link" i18n><i class="fa-brands fa-twitter"></i>Twitter</a>
+      <a class="page-link" i18n><i class="fa-brands fa-github"></i>Github</a>
+      <a class="page-link" i18n><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+      <a class="page-link" i18n><i class="fa-solid fa-envelope"></i>Email</a>
     </div>
-    <div class="language col col-lg col-md-10 col-sm-10">
-      <p class="txt">Language</p>
-      <a class="page-link">English</a>
-      <a class="page-link">Arabic</a>
-      <a class="page-link">Hindi</a>
-      <a class="page-link">Telugu</a>
-      <a class="page-link">Japanese</a>
+    <div class="language lang-3 col col-lg col-md-10 col-sm-10">
+      <div class="drop-down">
+        <p class="txt">Language</p>
+        <button mat-stroked-button color="primary" [matMenuTriggerFor]="menu">
+          <mat-icon>language</mat-icon>
+          {{language}}
+        </button>
+        <mat-menu #menu="matMenu">
+          <a class="page-link" mat-menu-item href="/en">English</a>
+          <a class="page-link" mat-menu-item href="/ja">Japanese</a>
+        </mat-menu>
+        <p class="lang-txt">Now you can check my portfolio in different Regional languages</p>
+      </div>
     </div>
   </div>
 
   <div class="wrapper-1">
-    <p class="txt custom-pos-1">made with</p>
+    <p class="txt custom-pos-1" i18n>made with</p>
     <img class="foot-icons" src="../../../assets/V2/Icons/Footer/Footer-logo-Ang.svg" alt="Angular">
     <img class="foot-icons" src="../../../assets/V2/Icons/Footer/Footer-logo-Boot.svg" alt="Bootstrap">
   </div>
 
-  <p class="footer_copy">Made by <a class="link" href="">Shaik Shahbaaz Alam. </a>All rights reserved<sup>&#169;</sup></p>
+  <p class="footer_copy" i18n>Made by <a class="link" href="">Shaik Shahbaaz Alam. </a>All rights reserved<sup>&#169;</sup></p>
 </div>
