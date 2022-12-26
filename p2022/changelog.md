@@ -1,3 +1,8 @@
+CL:2.3.8: Adding Internationalization:
+  - Generated new transalation source file.
+  - Added japanese translations for hero component.
+  - Simplified build script for localize.
+
 CL:2.3.7: Adding Internationalization:
   - Firebase deploy is done for multilingual website.
   - Added config in firebase.json to support multilingual hosting.
