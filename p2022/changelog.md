@@ -1,3 +1,7 @@
+CL:2.3.12: Adding Internationalization:
+  - Added config for Urdu language in angular.json(main), package.json(scripts), Added an Urdu translation file aswell.
+  - Added Urdu translations for footer, header,skills,contact,about and hero sections.
+
 CL:2.3.11: Adding Internationalization:
   - Added some Japanese translations for footer and about me section.
   - Added i18n tags for about, contact,services and skills sections.

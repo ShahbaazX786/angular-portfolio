@@ -12,6 +12,7 @@
       "i18n": {
         "sourceLocale":"en",
         "locales": {
+          "ur":{"translation":"src/locale/messages.ur.xlf", "baseHref": "/ur/"},
           "ja":{"translation":"src/locale/messages.jp.xlf", "baseHref": "/ja/"},
           "hi":{"translation":"src/locale/messages.hi.xlf", "baseHref": "/hi/"}
         }
@@ -70,6 +71,9 @@
               "sourceMap": true,
               "namedChunks": true
             },
+            "ur":{
+              "localize":["ur"]
+            },
             "ja":{
               "localize":["ja"]
             },
@@ -87,6 +91,9 @@
             },
             "development": {
               "browserTarget": "p2022:build:development"
+            },
+            "ur":{
+              "browserTarget": "p2022:build:ur"
             },
             "ja":{
               "browserTarget": "p2022:build:ja"
