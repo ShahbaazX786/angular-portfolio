@@ -261,8 +261,12 @@
           <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
+      <!-- header section ends here -->
+
+      <!-- footer section translation starts from here -->
       <trans-unit id="3000507912077213325" datatype="html">
         <source>pages</source>
+        <target>他のページ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">4</context>
@@ -270,6 +274,7 @@
       </trans-unit>
       <trans-unit id="7091571651222742304" datatype="html">
         <source>Projects</source>
+        <target>私のプロジェクト</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">5</context>
@@ -277,6 +282,7 @@
       </trans-unit>
       <trans-unit id="3398353192845179101" datatype="html">
         <source>Experience</source>
+        <target>私の経験</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">6</context>
@@ -284,6 +290,7 @@
       </trans-unit>
       <trans-unit id="7143579180750436311" datatype="html">
         <source>Services</source>
+        <target>私のサービス</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">7</context>
@@ -291,6 +298,7 @@
       </trans-unit>
       <trans-unit id="5242666957552704871" datatype="html">
         <source>Hobbies</source>
+        <target>趣味</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">8</context>
@@ -298,6 +306,7 @@
       </trans-unit>
       <trans-unit id="5958567575081359079" datatype="html">
         <source>Interests</source>
+        <target>私の興味</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
@@ -305,6 +314,7 @@
       </trans-unit>
       <trans-unit id="7116872957204885589" datatype="html">
         <source>social</source>
+        <target>SNS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">12</context>
@@ -312,6 +322,7 @@
       </trans-unit>
       <trans-unit id="6772442613977244319" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-instagram&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Instagram</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-instagram&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>インスタグラム</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">13</context>
@@ -319,6 +330,7 @@
       </trans-unit>
       <trans-unit id="2811024627904480718" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-twitter&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Twitter</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-twitter&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>ツイッター</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -326,6 +338,7 @@
       </trans-unit>
       <trans-unit id="2096471929993593996" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-github&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Github</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-github&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>ギットハブ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">15</context>
@@ -333,6 +346,7 @@
       </trans-unit>
       <trans-unit id="8950785382967080514" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>LinkedIn</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-brands fa-linkedin&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>リンクトイン</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">16</context>
@@ -340,6 +354,7 @@
       </trans-unit>
       <trans-unit id="718711155562261184" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-envelope&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Email</source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-envelope&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Eメール</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">17</context>
@@ -347,6 +362,7 @@
       </trans-unit>
       <trans-unit id="2826581353496868063" datatype="html">
         <source>Language</source>
+        <target>ここで言語を変更します</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">21</context>
@@ -354,6 +370,7 @@
       </trans-unit>
       <trans-unit id="5866254605255506989" datatype="html">
         <source>English</source>
+        <target>英語-English</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">27</context>
@@ -361,6 +378,7 @@
       </trans-unit>
       <trans-unit id="6924606686202701860" datatype="html">
         <source>Japanese</source>
+        <target>日本-Japanese</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">28</context>
@@ -368,6 +386,7 @@
       </trans-unit>
       <trans-unit id="4517338596492622875" datatype="html">
         <source>Now you can check my portfolio in different Regional languages</source>
+        <target>これで、さまざまな地域言語で私のポートフォリオを確認できます</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">30</context>
@@ -375,6 +394,7 @@
       </trans-unit>
       <trans-unit id="7110491233427859992" datatype="html">
         <source>made with</source>
+        <target>で作った</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">36</context>
@@ -382,11 +402,41 @@
       </trans-unit>
       <trans-unit id="4934198477509542429" datatype="html">
         <source>Made by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;link&quot; href=&quot;&quot;&gt;"/>Shaik Shahbaaz Alam. <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>All rights reserved<x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>©<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/></source>
+        <target> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;link&quot; href=&quot;&quot;&gt;"/>シェイク・シャーバーズ・アラムによって作られました。<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>全著作権所有<x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>©<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
+      <!-- footer section ends here -->
+
+      <!-- about section translation starts from here -->
+      <trans-unit id="8038046680237000516" datatype="html">
+        <source> About Me 🤘 </source>
+        <target> 私について 🤘 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8523941295277955066" datatype="html">
+        <source>I am a <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Computer Science<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> graduade who got graduated at GPCET Kurnool, India in 2021 with Computer Science and Engineering Degree. I am a skilled developer by profession who loves to solve challenges on a regular basis. </source>
+        <target>私は<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>コンピュータサイエンス<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 卒業 2021年にインドのGPCET Kurnoolで卒業した人 コンピューターサイエンスおよびエンジニアリングの学位を取得。 私は 熟練 ソフトウェア開発者 沿って 職業 定期的に挑戦的なアプリケーションを構築するのが大好きな人。 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3778759883232246352" datatype="html">
+        <source>I joined the <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>IT Giant Accenture<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> right after my graduation which helped me grow so much both technically and as a person. I got to work on modern Javascript frameworks like <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> by learning and developing the features according to the client&apos;s requirement on <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>MEAN stack<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</source>
+        <target>私は参加しました<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>IT大手アクセンチュア<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> ソフトウェア開発者として、 卒業直後 それは私がとても成長するのを助けました 技術的にも人としても。 現代のJavaScriptフレームワークに取り組む機会がありました <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Angular<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> プロジェクトに取り組み、定期的な課題に取り組むことにより、私はより多くを学び、クライアントの要件に応じてより良い機能を開発しました <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>の ミン スタック<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <!-- about section translation ends here -->
+
     </body>
   </file>
 </xliff>
