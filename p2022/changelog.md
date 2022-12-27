@@ -1,3 +1,6 @@
+CL:2.3.13: Adding Internationalization:
+  - Added docs(build folder) folder and the .firebase cache folder to gitignore.
+
 CL:2.3.12: Adding Internationalization:
   - Added config for Urdu language in angular.json(main), package.json(scripts), Added an Urdu translation file aswell.
   - Added Urdu translations for footer, header,skills,contact,about and hero sections.
