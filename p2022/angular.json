@@ -9,11 +9,18 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale":"en",
+        "locales": {
+          "ja":{"translation":"src/locale/messages.jp.xlf", "baseHref": "/ja/"},
+          "hi":{"translation":"src/locale/messages.hi.xlf", "baseHref": "/hi/"}
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
@@ -42,8 +50,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "4kb",
+                  "maximumError": "5kb"
                 }
               ],
               "fileReplacements": [
@@ -61,6 +69,12 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "ja":{
+              "localize":["ja"]
+            },
+            "hi":{
+              "localize":["hi"]
             }
           },
           "defaultConfiguration": "production"
@@ -73,6 +87,12 @@
             },
             "development": {
               "browserTarget": "p2022:build:development"
+            },
+            "ja":{
+              "browserTarget": "p2022:build:ja"
+            },
+            "hi":{
+              "browserTarget": "p2022:build:hi"
             }
           },
           "defaultConfiguration": "development"
@@ -95,6 +115,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
             "scripts": []

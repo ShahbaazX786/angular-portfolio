@@ -1,28 +1,29 @@
 .service{
-  padding: 5% 0;
-  margin-bottom: 5%;
+  padding: 2% 0;
+  margin-bottom: 2%;
   box-shadow: 0 0 10px #e0e0e0;
   overflow-x: hidden;
 }
 
-.heading-border{
-  margin-bottom: 5%;
+.heading {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.service-heading{
-  padding-bottom: 5px;
-  /* align-self: center; */
+.service-heading {
+  margin: 5px 0 5px 0;
   border-bottom: 5px solid #673ab7;
-  opacity: 0.8;
+  padding-bottom: 8px;
   width: max-content;
+  margin-bottom: 12px;
 }
 
 .card{
   height: 15vh;
   margin-bottom: 2%;
-  padding: 1%;
+  padding: 5px 2px 0px 5px ;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -35,7 +36,8 @@
 
 .card:hover{
   color: white;
-  background-color: #673ab7;
+  /* background-color: #673ab7; */
+  background-color: #33d3ff;
   transition: 0.2s ease-in-out;
 }
 
@@ -44,15 +46,24 @@
   align-items: stretch;
   align-content: center;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 16px;
   text-align: start;
   font-family: 'Montserrat',sans-serif;
-  padding: 2% 5%;
+  padding: 5px 0px 0px 8px;
+  text-align: left;
 }
 
 @media screen and (max-width:576px) {
   .card{
-    overflow: scroll;
+    /* overflow: scroll; */
     width:95vw;
+    height: 12vh;
+  }
+  .card:hover{
+    background-color: #33d3ff;
+  }
+  .txt{
+    font-size: 13px;
+    font-weight: 500;
   }
 }

@@ -9,13 +9,19 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-  background: #fbf9ff ;
+  background: #effbfe;
+  /* background: #fbf9ff ; */
 }
 
 ::-webkit-scrollbar-thumb{
-  background: #d1bfee;
+  background: #8de6ff;
+  /* background: #d1bfee; */
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background: #673ab7;
+  background: #01C6FF;
+  /* background: #673ab7; */
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

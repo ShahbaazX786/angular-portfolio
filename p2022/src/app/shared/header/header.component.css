@@ -1,121 +1,259 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;700;900&display=swap');
 
-/* .navbarcustomcolor{
-  background-color: #a8a8a8;
-} */
 
-.navbar{
-  /* position: fixed; uncomment this if you need a sticky navbar which i personally don't like.
-  top: 0;
-  width: 100%;
-  z-index: 1; */
-  font-family: "Montserrat", sans-serif;
-  /* margin: 0; */
-  overflow-x: hidden;
-  /* line-height:2rem ; */
-  box-shadow: 0px 2px 4px rgb(235, 235, 235);
+/* container which holds all 3 sections together. */
+.container-fluid {
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* .container{
-  margin: 0 3%;
-} */
-
-.s{
-  font-family: 'Allura', cursive;
-  font-weight: light;
-  font-size: 2rem;
-  color: #673ab7;
+/* section -1 */
+.im-not-a-wrapper {
+  margin-right: 10px;
 }
 
 .navbar-brand {
-  font-family: 'Allura', cursive;
-  font-weight: light;
-  font-size: 1.5rem;
-  /* padding-left: 5%; */
-  color: #673ab7;
+  color: black;
 }
 
-.hidden{
-  display: none;
+.zuiii-animation {
+  position: relative;
+  bottom: 0;
+  /* font-family: 'Fraunces', serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+  transition-property: all;
+  cursor: pointer;
+  transition-duration: .5s;
 }
 
-li a{
+.zuiii-animation:hover {
+  bottom: 5px;
+  color: #01C6FF;
+  transition-property: all;
+  transition-duration: 0.15s;
+  animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+
+/* section-2 */
+
+li a {
   font-family: sans-serif;
-  /* font-weight: 400; */
+  font-size: 1rem;
+  color: #c0c0c0;
+  transition: all 0.3s ease-in;
 }
 
-li .active{
-  border-bottom: 4px solid #673ab7;
-  padding-bottom: 5px;
+li .active {
+  border-bottom: 4px solid #01C6FF;
+  padding-bottom: 4px;
   width: 100%;
-  border-radius: 1px;
-  transition: 0.2s ease;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
   display: inline-block;
 }
 
-.nav-link:hover{
-  color: #673ab7;
+.nav-link:hover {
+  color: black;
 }
 
-.nav-link:focus{
-  color: #673ab7;
-  font-weight: normal;
+.nav-link:focus {
+  color: #01C6FF;
+  font-weight: 500;
 }
 
-.header-action{
-  font-size: small;
+.navbar-collapse {
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/* section-3 */
+/* 2nd div in whole html file is selected */
+div:nth-child(2){
+  margin-left: auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 5px;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  transition: all 2s ease-out;
+}
+
+.nav-icon:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  transition: all 0.1s ease-in;
+}
+
+
+.switcher {
+  display: flex;
+  align-items: center;
+  border-radius: 20%;
+  padding: 4px;
+}
+
+.switcher:hover{
+  padding: 1px;
+  border: 3px solid slategray;
+}
+
+.special {
   height: 30px;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding: 1px 5px;
-  cursor: pointer;
-  border-radius: 5%;
- }
-
-.btn-outline-primary{
-  color: #673ab7;
-  border-color: #673ab7;
+  width: 30px;
 }
 
-.btn-outline-primary:hover{
-  color: white;
-  background: #673ab7;
-  border-color: #673ab7;
+.hidden1 {
+  display: block;
 }
 
+.hidden2{
+  display: none;
+}
 
+.special-down-nav{
+  display: none;
+}
 
 
 /* mobile and tab media queries */
-@media only screen and (max-width:991px) {
-  li .active {
-    border-bottom: none;
-    padding-bottom: 0;
-    border-radius: 0;
-    display: block;
+@media only screen and (max-width:992px){
+  .container-fluid{
+    width: 95%;
   }
 
-  .nav-link:focus {
-    color: #673ab7;
-    font-weight: bold;
+  .navbar-nav {
+    padding: 0% 5% 0% 5%;
+    flex-direction: column;
+  }
+
+  ul{
+    padding-top: 5%;
+  }
+
+  li .active {
+  padding-left: 10px;
+  margin-left: -10px;
+  font-weight: bold;
+  border-bottom: 2px solid #01C6FF;
+  border-left: 2px solid #01C6FF;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.1s ease-out;
+  display: inline-block;
+}
+
+  .hidey{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:600px){
+  .container-fluid {
+      width: 98%;
+    }
+
+  .icons{
+    gap: 0.4rem;
+    padding: 0;
+  }
+
+  .nav-icon {
+    width: 20px;
+    height: 20px;
   }
 
   .hidden{
-    display: inline-block;
-    font-size: 2.5rem;
-    padding-right: 2%;
-  }
-  a {
-    font-size: 2rem;
+    display: none;
   }
 
-  .header-action{
-    font-size: 2rem;
-    height: 4%;
-    width: 90%;
-    align-items: center;
-    margin-top: 5px;
-    cursor: pointer;
-    border-radius: 1%;
+  .hidden1 {
+      display: none;
     }
+
+    .hidden2 {
+      display: block;
+    }
+
+  .zuiii-animation{
+    font-size: 1.1rem;
   }
+
+  .special-down-nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    filter: drop-shadow(0 1mm 1mm black);
+    /* will remove the drop shodow later as it is a bit weird when navbar doesnt have a dropshadow */
+  }
+
+  .nav-link-X{
+    transform: translateY(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0%;
+    transition: all 0.2s ease-in;
+  }
+
+
+  .bottom-nav-icons{
+    width: 32px;
+    border: 1px solid black;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: all .5s ease-in;
+  }
+
+  .bottom-nav-icons:focus, .active{
+    filter: grayscale(0);
+    transition: all .5s ease-out;
+    border: 0;
+  }
+
+  a .bottom-nav-txt{
+    color: black;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+
+  /* .bottom-nav-icons:focus{
+    filter: invert(100%);
+  } */
+  /* need to work on this. */
+
+}

@@ -1,41 +1,43 @@
-<footer class="container-fluid footer">
-  <div class="footer_bg">
-    <div class="footer_container container grid">
-      <div>
-        <h1 class="footer_title">Shaik Shahbaaz Alam</h1>
-        <span class="footer_subtitle">Web Developer</span>
+<div class="container">
+  <div class="wrapper-2 row">
+    <div class="pages col col-lg-4">
+      <p class="txt" i18n>pages</p>
+      <a class="page-link" routerLink="projects" i18n>Projects</a>
+      <a class="page-link" routerLink="experience" i18n>Experience</a>
+      <a class="page-link" routerLink="services" i18n>Services</a>
+      <a class="page-link" routerLink="pnf" i18n>Hobbies</a>
+      <a class="page-link" routerLink="pnf" i18n>Interests</a>
+    </div>
+    <div class="social col col-lg-4">
+      <p class="txt" i18n>social</p>
+      <a class="page-link" i18n><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <a class="page-link" i18n><i class="fa-brands fa-twitter"></i>Twitter</a>
+      <a class="page-link" i18n><i class="fa-brands fa-github"></i>Github</a>
+      <a class="page-link" i18n><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+      <a class="page-link" i18n><i class="fa-solid fa-envelope"></i>Email</a>
+    </div>
+    <div class="language lang-3 col col-lg col-md-10 col-sm-10">
+      <div class="drop-down">
+        <p class="txt" i18n>Language</p>
+        <button mat-stroked-button color="primary" [matMenuTriggerFor]="menu">
+          <mat-icon>language</mat-icon>
+          {{language}}
+        </button>
+        <mat-menu #menu="matMenu">
+          <a class="page-link" mat-menu-item href="/en" i18n>English</a>
+          <a class="page-link" mat-menu-item href="/hi" i18n>Hindi</a>
+          <a class="page-link" mat-menu-item href="/ja" i18n>Japanese</a>
+        </mat-menu>
+        <p class="lang-txt" i18n>Now you can check my portfolio in different Regional languages</p>
       </div>
-
-      <div class="links">
-        <ul class="footer-list">
-          <li><a routerLink="hero">Home</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="about">About</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="services">Services</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="skills">Skills</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="experience">Experience</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="projects">Projects</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="portfolio">Portfolio</a></li>
-          <!-- <li>|</li> -->
-          <li><a routerLink="contact">Contact me</a></li>
-        </ul>
-      </div>
-
-      <div class="footer_socials">
-        <a href="https://www.facebook.com/" target="_blank"><i class="uil uil-facebook ico fb"></i></a>
-        <a href="https://www.twitter.com/" target="_blank"><i class="uil uil-twitter ico tw"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram-alt ico ins"></i></a>
-        <a href="https://www.github.com/" target="_blank"><i class="uil uil-github ico git"></i></a>
-        <a href="https://www.medium.com/" target="_blank"><i class="uil uil-medium-m ico med"></i></a>
-        <a href="https://www.dev.to/" target="_blank"><i class="uil uil-brackets-curly ico dev"></i></a>
-      </div>
-
-      <p class="footer_copy">&#169; Shaik Shahbaaz Alam. All rights reserved</p>
     </div>
   </div>
-</footer>
+
+  <div class="wrapper-1">
+    <p class="txt custom-pos-1" i18n>made with</p>
+    <img class="foot-icons" src="../../../assets/V2/Icons/Footer/Footer-logo-Ang.svg" alt="Angular">
+    <img class="foot-icons" src="../../../assets/V2/Icons/Footer/Footer-logo-Boot.svg" alt="Bootstrap">
+  </div>
+
+  <p class="footer_copy" i18n>Made by <a class="link" href="">Shaik Shahbaaz Alam. </a>All rights reserved<sup>&#169;</sup></p>
+</div>

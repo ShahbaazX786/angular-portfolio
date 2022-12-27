@@ -1,22 +1,11 @@
 <div id="skills">
-  <div class="skills-section"></div>
+  <div class="heading-wrapper">
+    <h1 class="heading">&nbsp;Skills 🧑‍💻&nbsp;</h1>
+  </div>
   <div class="container">
-    <div class="row">
-      <div class="skill-text-wrapper col-lg-12">
-        <div class="text-align">
-          <h1 class="skill-heading">Skills </h1>
-        </div>
-      </div>
+    <div class="card glass" *ngFor="let s of skills" data-toggle="tooltip" data-placement="top" [title]="s.name" >
+        <img class="ico" [src]=s.src alt="image">
+        <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
     </div>
-
-    <div class="row">
-      <div class="col col-lg col-md-3 col-sm-3 coll" *ngFor="let skill of skills">
-        <div class="single-skill">
-          <img class="ico" [src]=skill.src alt="image">
-          <span class="tooltip">{{skill.name}}</span>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>
