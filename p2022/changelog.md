@@ -1,3 +1,7 @@
+CL:2.3.11: Adding Internationalization:
+  - Added some Japanese translations for footer and about me section.
+  - Added i18n tags for about, contact,services and skills sections.
+
 CL:2.3.10: Adding Internationalization:
   - Added Hindi translation for hero and navbar sections.
 
