@@ -1,3 +1,25 @@
+CL:2.3.15: Adding Internationalization:
+  - Made a simple mistake of not modifying the route for telugu and this lead to urdu language only on deployment lol.
+
+
+CL:2.3.14: Adding Internationalization:
+  - Telugu translations quality:4/5.
+  - Added a new script to test Telugu translations in serve mode.
+  - Added a button for Telugu in change language in footer section.
+  - Added config for telugu language.
+  - Added Telugu translations to the website.
+
+CL:2.3.13: Adding Internationalization:
+  - Added docs(build folder) folder and the .firebase cache folder to gitignore.
+
+CL:2.3.12: Adding Internationalization:
+  - Added config for Urdu language in angular.json(main), package.json(scripts), Added an Urdu translation file aswell.
+  - Added Urdu translations for footer, header,skills,contact,about and hero sections.
+
+CL:2.3.11: Adding Internationalization:
+  - Added some Japanese translations for footer and about me section.
+  - Added i18n tags for about, contact,services and skills sections.
+
 CL:2.3.10: Adding Internationalization:
   - Added Hindi translation for hero and navbar sections.
 

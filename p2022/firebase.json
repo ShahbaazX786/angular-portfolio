@@ -8,12 +8,24 @@
     ],
     "rewrites": [
        {
+        "source": "/ur/**",
+        "destination": "/ur/index.html"
+      },
+       {
         "source": "/en/**",
         "destination": "/en/index.html"
       },
       {
         "source": "/ja/**",
         "destination": "/ja/index.html"
+      },
+       {
+        "source": "/hi/**",
+        "destination": "/hi/index.html"
+      },
+      {
+        "source": "/te/**",
+        "destination": "/te/index.html"
       }
     ],
      "i18n": {

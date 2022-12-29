@@ -1,10 +1,10 @@
 <div id="skills">
   <div class="heading-wrapper">
-    <h1 class="heading">&nbsp;Skills 🧑‍💻&nbsp;</h1>
+    <h1 class="heading" i18n>&nbsp;Skills 🧑‍💻&nbsp;</h1>
   </div>
   <div class="container">
     <div class="card glass" *ngFor="let s of skills" data-toggle="tooltip" data-placement="top" [title]="s.name" >
-        <img class="ico" [src]=s.src alt="image">
+        <img class="ico" [src]=s.src alt="image" i18n-alt>
         <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
     </div>
   </div>

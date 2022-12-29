@@ -16,4 +16,4 @@
 - Conditional rendering
 - Firebase Hosting
 
-Hosted the app on [Firebase](https://angular-53ec4.web.app)
+Hosted the app on [Firebase](https://shahbaaz-portfoliov2.web.app/en/home)

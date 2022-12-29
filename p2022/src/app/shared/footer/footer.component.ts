@@ -14,8 +14,10 @@ export class FooterComponent implements OnInit {
 
   languageList: any = [
     { code: 'en', name: 'English' },
+    { code: 'ur', name: 'Urdu' },
     { code: 'hi', name: 'Hindi' },
     { code: 'ja', name: 'Japanese' },
+    { code: 'te', name: 'Telugu' },
   ];
 
   ngOnInit(){
