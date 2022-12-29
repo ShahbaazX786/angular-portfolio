@@ -1,3 +1,7 @@
+CL:2.3.15: Adding Internationalization:
+  - Made a simple mistake of not modifying the route for telugu and this lead to urdu language only on deployment lol.
+
+
 CL:2.3.14: Adding Internationalization:
   - Telugu translations quality:4/5.
   - Added a new script to test Telugu translations in serve mode.
