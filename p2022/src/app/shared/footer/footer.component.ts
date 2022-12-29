@@ -17,6 +17,7 @@ export class FooterComponent implements OnInit {
     { code: 'ur', name: 'Urdu' },
     { code: 'hi', name: 'Hindi' },
     { code: 'ja', name: 'Japanese' },
+    { code: 'te', name: 'Telugu' },
   ];
 
   ngOnInit(){

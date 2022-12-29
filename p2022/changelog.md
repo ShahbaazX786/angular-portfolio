@@ -1,3 +1,10 @@
+CL:2.3.14: Adding Internationalization:
+  - Telugu translations quality:4/5.
+  - Added a new script to test Telugu translations in serve mode.
+  - Added a button for Telugu in change language in footer section.
+  - Added config for telugu language.
+  - Added Telugu translations to the website.
+
 CL:2.3.13: Adding Internationalization:
   - Added docs(build folder) folder and the .firebase cache folder to gitignore.
 

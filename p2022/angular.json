@@ -14,7 +14,8 @@
         "locales": {
           "ur":{"translation":"src/locale/messages.ur.xlf", "baseHref": "/ur/"},
           "ja":{"translation":"src/locale/messages.jp.xlf", "baseHref": "/ja/"},
-          "hi":{"translation":"src/locale/messages.hi.xlf", "baseHref": "/hi/"}
+          "hi":{"translation":"src/locale/messages.hi.xlf", "baseHref": "/hi/"},
+          "te":{"translation":"src/locale/messages.te.xlf", "baseHref": "/te/"}
         }
       },
       "architect": {
@@ -79,6 +80,10 @@
             },
             "hi":{
               "localize":["hi"]
+
+            },
+            "te":{
+              "localize":["te"]
             }
           },
           "defaultConfiguration": "production"
@@ -100,6 +105,9 @@
             },
             "hi":{
               "browserTarget": "p2022:build:hi"
+            },
+            "te":{
+              "browserTarget": "p2022:build:te"
             }
           },
           "defaultConfiguration": "development"
