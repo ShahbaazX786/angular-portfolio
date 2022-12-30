@@ -88,7 +88,7 @@ a{
   margin-top: 5%;
   line-height: 1.5rem;
   color: #7A88A8;
-  margin-bottom: auto;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -96,14 +96,30 @@ a{
   width: max-content;
 }
 
-.lang-btn{
-  width: auto;
-  min-width: 80%;
-  color: black;
-  font-size: 1rem;
-  padding: auto;
-  margin: 20px 0;
+.lang-btn {
+  background-color: #8de6ff;
+  border-radius: 100px;
+  box-shadow: hsla(187, 62%, 45%, 0.2)x -14px inset, rgba(44, 156, 187, 0.15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: solid black;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: 1px solid transparent;
 }
+
+.lang-btn:hover {
+  box-shadow: rgba(44, 170, 187, 0.35) 0 -25px 18px -14px inset, rgba(44, 165, 187, 0.25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  color: white;
+  border: 1px solid #01C6FF;
+}
+
 
 
 @media only screen and (max-width:992px) {

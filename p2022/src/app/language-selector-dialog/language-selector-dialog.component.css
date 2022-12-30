@@ -1,7 +1,30 @@
-.mat-dialog-container {
+.dialog-container {
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+}
+
+/* .dialog-container {
+  background: #73daf6;
+  background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);
+  background: linear-gradient(to top, #0072ff, #00c6ff);
+} */
+
+.page-link {
+  color: black;
+  padding:5px 0;
+  border: 1px solid #01C6FF;
+  margin: 10px 5px;
+  text-align: center;
   background: rgba(255, 255, 255, 0);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  transition: all 0.2s ease-in;
+}
+
+.page-link:hover{
+  transition: all 0.3s ease-out;
+  transform: scale(1.05);
 }

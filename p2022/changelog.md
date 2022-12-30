@@ -1,3 +1,6 @@
+CL:2.3.17: Adding Internationalization:
+  - Revamped the styles and UI of the dialog component and buttons.
+
 CL:2.3.16: Adding Internationalization:
   - Replaced Mat menu with Mat Dialog for language selector button.
   - changed some styles for .language class (ai:stretch).
