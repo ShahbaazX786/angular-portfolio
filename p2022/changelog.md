@@ -1,3 +1,8 @@
+CL:2.3.16: Adding Internationalization:
+  - Replaced Mat menu with Mat Dialog for language selector button.
+  - changed some styles for .language class (ai:stretch).
+  - Deployed latest version to firebase and hosted on shahbaaz.tk.
+
 CL:2.3.15: Adding Internationalization:
   - Made a simple mistake of not modifying the route for telugu and this lead to urdu language only on deployment lol.
 

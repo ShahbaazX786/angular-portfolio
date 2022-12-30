@@ -17,21 +17,9 @@
       <a class="page-link" i18n><i class="fa-solid fa-envelope"></i>Email</a>
     </div>
     <div class="language lang-3 col col-lg col-md-10 col-sm-10">
-      <div class="drop-down">
-        <p class="txt" i18n>Language</p>
-        <button mat-stroked-button color="primary" [matMenuTriggerFor]="menu">
-          <mat-icon>language</mat-icon>
-          {{language}}
-        </button>
-        <mat-menu #menu="matMenu">
-          <a class="page-link" mat-menu-item href="/en" i18n>English</a>
-          <a class="page-link" mat-menu-item href="/hi" i18n>Hindi</a>
-          <a class="page-link" mat-menu-item href="/ja" i18n>Japanese</a>
-          <a class="page-link" mat-menu-item href="/ur" i18n>Urdu</a>
-          <a class="page-link" mat-menu-item href="/te" i18n>Telugu</a>
-        </mat-menu>
-        <p class="lang-txt" i18n>Now you can check my portfolio in different Regional languages</p>
-      </div>
+      <p class="txt" i18n>Language</p>
+      <p class="lang-txt" i18n>Now you can check my portfolio in different Regional languages</p>
+      <button mat-raised-button class="lang-btn" (click)="openDialog()" i18n>Language</button>
     </div>
   </div>
 

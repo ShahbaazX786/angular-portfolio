@@ -22,6 +22,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
+import { LanguageSelectorDialogComponent } from './language-selector-dialog/language-selector-dialog.component';
+
 
 
 
@@ -41,6 +44,7 @@ import { MatIconModule } from '@angular/material/icon';
     PortfolioComponent,
     ContactComponent,
     ResumeComponent,
+    LanguageSelectorDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,8 @@ import { MatIconModule } from '@angular/material/icon';
     BrowserAnimationsModule,
     MatMenuModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
   ],
   providers: [
     {provide:LOCALE_ID, useValue:'en'}
