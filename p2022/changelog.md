@@ -1,3 +1,7 @@
+CL:2.4.1: Added a new hobby component:
+  - Added i18n, Extracted i18n tags, translated each and every source to target tag and finally built the hindi build.
+  - Added hindi language translation to hobby component.
+
 CL:2.4.0: Added a new hobby component:
   - Added hobby component.
   - Added routing for hobby component.
