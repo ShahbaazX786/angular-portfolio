@@ -1,8 +1,10 @@
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// my pages
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -16,14 +18,16 @@ import { ProjectsComponent } from './projects/projects.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HobbyComponent } from './hobby/hobby.component';
+import { LanguageSelectorDialogComponent } from './language-selector-dialog/language-selector-dialog.component';
 
 // material imports from here
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
-import { LanguageSelectorDialogComponent } from './language-selector-dialog/language-selector-dialog.component';
+import { MatCardModule } from '@angular/material/card';
+
 
 
 
@@ -45,6 +49,7 @@ import { LanguageSelectorDialogComponent } from './language-selector-dialog/lang
     ContactComponent,
     ResumeComponent,
     LanguageSelectorDialogComponent,
+    HobbyComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,7 +58,8 @@ import { LanguageSelectorDialogComponent } from './language-selector-dialog/lang
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    MatCardModule
   ],
   providers: [
     {provide:LOCALE_ID, useValue:'en'}

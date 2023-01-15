@@ -1,3 +1,11 @@
+CL:2.4.0: Added a new hobby component:
+  - Added hobby component.
+  - Added routing for hobby component.
+  - Used gif images for making website (جميلة) beautiful.
+  - Used mat-card angular material component.
+  - Deleted some old images don't know why I preserved them until now.
+
+
 CL:2.3.17: Adding Internationalization:
   - Revamped the styles and UI of the dialog component and buttons.
 

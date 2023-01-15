@@ -1,3 +1,4 @@
+import { HobbyComponent } from './hobby/hobby.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'resume', component: ResumeComponent },
+  { path: 'hobby', component: HobbyComponent},
   { path: '**', component: PnfComponent},
 ];
 
