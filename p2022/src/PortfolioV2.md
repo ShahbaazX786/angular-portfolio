@@ -43,3 +43,13 @@ Ideas:
 - refer the links:
   - https://mega.nz/file/CN02ERKb#bZv6gIYgU33lf8QSqIxumt9PA3-gs-dr9yp3O6cZj74
   - https://mega.nz/file/SVt0iBRY#RzF4cJiwLFC_dTk7uXVa5apuiYHvTaVMP0hltrh0IQg
+
+
+
+
+Portfolio V3:
+- Add animations and effects for contact component.
+  - refer this [link](https://codepen.io/jorgesanes10/pen/QdMEXr) for more.
+- Add effects for cards in potfolio screenshots.
+  - refer this [link](https://codepen.io/Gelsot/pen/xpGYyd) for more.
+  - use this [link](https://codepen.io/chhiring90/pen/zLJLBG) also
