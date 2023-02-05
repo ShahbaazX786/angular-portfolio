@@ -1,5 +1,5 @@
 CAY
-Guide for v2:
+Portfolio v2 Guide:
 1. Revamp the navbar✅
   - Add whole name on the leftest side of the navbar.✅
     - The name has a hover effect in which upon hovering each letter will change color and float a bit up. ✅ 
@@ -9,19 +9,19 @@ Guide for v2:
     - Portfolio✅
     - Projects✅
     - Contact✅
-  - In the right most section of the navbar add social links and dark mode switcher✅
+  - In the right most section of the navbar add social links and dark mode switcher✅(Done but only icons no functionality yet)
     - Twitter✅
     - Instagram✅
     - Linkedin✅
-    - Toggle button for mode switcher.
-      - the icon should change upon clicking to sun(for daymode) and moon(for nightmode)
+    - Toggle button for mode switcher.✅
+      - the icon should change upon clicking to sun(for daymode) and moon(for nightmode)❌
 
 2. Home section:
   - In the left section:✅
     - Add a single text line "Hey, I'm Shahbaaz Alam.✅
     - In the below line add what I mostly do in keywords (Ex:Developer,Thinker,binge-watcher,anime-nerd,content-creator etc you get the idea)✅
   - In the right section:
-    - Add a profile picture of decent quality.
+    - Add a profile picture of decent quality.❌
     - The image should have border or some svg at the background.✅
 3. Projects section:
   - In large screen view there will be 4-5 scrollable cards which can scroll both left and right.[refer this link:https://codepen.io/joshhunt/pen/LVQZRa]
@@ -47,9 +47,46 @@ Ideas:
 
 
 
-Portfolio V3:
+Portfolio V3 Guide:
 - Add animations and effects for contact component.
   - refer this [link](https://codepen.io/jorgesanes10/pen/QdMEXr) for more.
 - Add effects for cards in potfolio screenshots.
   - refer this [link](https://codepen.io/Gelsot/pen/xpGYyd) for more.
   - use this [link](https://codepen.io/chhiring90/pen/zLJLBG) also
+
+Angular portfolio needs to be done with by feb.
+- Add Experience Section.
+	- Add current,
+	- Add youtube exp,
+	- Add school exp.
+- Add interests Section.
+	- Interests in the sense what you like to do in your free time (Not hobby).
+	- Like learn react in next 6 months or something.
+- Revamp Language selector with flag icons or heritage symbols just like in zomato language selection.
+- Make Website less cluttered.
+	- The total size of the website currently is around 16mb and it just keeps on adding more and more and reaches a total of 50mb by 
+	  the time you checkout all the features of the websites.
+- Add dark mode
+- Add some stylish fonts.
+- Fix skills icons style(it is a bit weird when the icons shift down a little bit after hovering on it.)
+- Revamp project cards.
+	- I would say just display image and tech stach and if hovered on it then the card do some animation flip and shows title and 
+	  description.
+	- Also replace the project cards with working and good projects.
+- Revamp Portfolio section
+	- Make this a two sectioned page where you use mat tabs on the right side
+	- And add instagram account on the left side with a follow button.
+- Add links to social media links in footer
+	- It would be cool to see if the icons color changed to original color just like you implemented in header icons.
+	- Top Align all the content of the footer links.
+- Revamp end credits section.
+	- Make it more appealing.
+	- Add some animations or something.
+- Add animations to whole website.
+	- The website looks super plane to me to be honest and i gotta use some shaped svgs as a background to make it more appealing.
+	- Also while scrolling the elements should render with animation just like the animations in github home page.
+- I noticed a jerk/slowdown at skills section.
+	- This may be caused due to some css or image size or all the elements in a small space or something.
+	- I think the glassmorphism is causing this shit delay so just remove it to improve performance of the website.
+- Add lazy loading.
+	- implement lazy loading and SSR to make our app super lite.

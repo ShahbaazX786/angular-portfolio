@@ -1,3 +1,6 @@
+CL:2.4.3: Added a new hobby component:
+  - Updated Update Guide for Portfolio v3.
+
 CL:2.4.2: Added a new hobby component:
   - Added Github,Linkdin Links in Hero Section.
   - Created some more planning for V3 of portfolio.
