@@ -1,3 +1,6 @@
+CL:2.4.4: Styled contact section:
+ - Added hover effects to cards in contact section
+ 
 CL:2.4.3: Added a new hobby component:
   - Updated Update Guide for Portfolio v3.
 

@@ -25,6 +25,7 @@
   display: flex;
   margin: 1% 1%;
   padding: 5% 0;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -40,8 +41,23 @@
   box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
   transition: all .4s ease;
   cursor: pointer;
-  background: #dac9f9;
-  color: black;
+  /* background: #dac9f9; */
+  color: white;
+}
+
+.card:hover .overlay{
+  transform: scale(15) translateZ(0);
+}
+
+.overlay {
+  width: 50px;
+  position: absolute;
+  height: 50px;
+  border-radius: 50%;
+  top: 40%;
+  left: 40%;
+  z-index: -1;
+  transition: transform 0.5s ease-in-out;
 }
 
 .text-wrapper {
@@ -49,13 +65,15 @@
 }
 
 i {
+  z-index: 1;
   font-size: 5rem;
   color: #673ab7;
   padding-bottom: 5%;
 }
 
 i:hover {
-  color: black;
+  z-index: 1;
+  color: white;
   transition: all 0.4s ease;
 }
 
