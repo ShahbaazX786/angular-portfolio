@@ -1,3 +1,20 @@
+CL:2.4.6: Revamped Portfolio section(using SwiperJS):
+- Added swiperjs using cdn links(as swiperjs is not supported after v9 of swiper(feb2023)) in index.html.
+- Learnt how to use external js files in component file using the below syntax:
+```
+ myScriptElement: HTMLScriptElement; --> this is used to create type of html script tag in dom.
+
+  constructor() {
+    this.myScriptElement = document.createElement('script'); --> creating sript tag in component.
+    this.myScriptElement.src = '../../assets/files/swiper.js'; --> adding source link of the js file.
+    document.body.appendChild(this.myScriptElement); --> adding the created script element in dom.
+  }
+
+```
+- created swiperjs functionality using swiper.js file in assets folder.
+- Added temp desc to array in portfolio.
+- Added button styles aswell.
+
 CL:2.4.5: Styled contact section:
 - Added some overlay hover effects in skills tab. Also changed the style of the headings in contact and skills section.
 
