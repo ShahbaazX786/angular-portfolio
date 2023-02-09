@@ -1,3 +1,6 @@
+CL:2.4.5: Styled contact section:
+- Added some overlay hover effects in skills tab. Also changed the style of the headings in contact and skills section.
+
 CL:2.4.4: Styled contact section:
  - Added hover effects to cards in contact section
  

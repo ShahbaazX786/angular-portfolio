@@ -1,4 +1,5 @@
 #skills{
+  margin: 5% 0;
   overflow-x: hidden;
 }
 
@@ -10,8 +11,9 @@
 }
 
 .heading {
-  margin: 5px 0 5px 0;
-  border-bottom: 5px solid #673ab7;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 5px solid #01C6FF;
   padding-bottom: 8px;
   width: max-content;
 }
@@ -27,26 +29,40 @@
 }
 
 .card{
+  background-color: white;
   display: flex;
   align-items: center;
   width: 120px;
   height: 120px;
   border-radius: 16px;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
 }
 
 .card:hover{
-  transform: scale(1.1);
-  border: 2px solid #01C6FF;
-  transition: all 0.3s ease-out;
+  transform: translateY(-5px);
+  border: 1px solid #01C6FF;
+  transition: all 0.2s ease-in;
 }
 
+.overlay{
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  background: #bff1ff;
+  /* visibility: hidden; */
+  z-index: -1;
+  transition: transform 0.3s ease-out;
+}
 
-.glass{
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+.card:hover .overlay{
+  visibility: visible;
+  border-radius: 5%;
+  transform: scale(50) translateZ(0);
+  transition: transform 0.3s ease-in;
 }
 
 .ico{

@@ -1,4 +1,4 @@
-#experience {
+#contact {
   overflow-x: hidden;
   margin: 5% 0;
 }
@@ -12,9 +12,12 @@
 }
 
 .section-heading {
+  text-transform: uppercase;
+  font-weight: bold;
   text-align: center;
-  border-bottom: 5px solid #673ab7;
-  width: max-content;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #01C6FF;
+  width: auto;
 }
 
 .row {
@@ -31,7 +34,7 @@
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  /* box-shadow: 0 0 10px #f5f5f5; */
+  font-size: 1rem;
   box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
   transition: all .5s ease;
 }
@@ -41,7 +44,6 @@
   box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
   transition: all .4s ease;
   cursor: pointer;
-  /* background: #dac9f9; */
   color: white;
 }
 

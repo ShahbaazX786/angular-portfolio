@@ -5,6 +5,7 @@
   <div class="container">
     <div class="card glass" *ngFor="let s of skills" data-toggle="tooltip" data-placement="top" [title]="s.name" >
         <img class="ico" [src]=s.src alt="image" i18n-alt>
+        <div class="overlay"></div>
         <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
     </div>
   </div>
