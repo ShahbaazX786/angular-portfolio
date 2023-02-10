@@ -1,4 +1,7 @@
 CL:2.4.11: Improved language modal:
+- Restored the color of background of language selector.
+
+CL:2.4.11: Improved language modal:
 - Revamped dialog modal for language selector.
 - Added flags and improved styles.
 - Added webkit available width which will work on most browsers if not then normal width will work.
