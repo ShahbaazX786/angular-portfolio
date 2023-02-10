@@ -24,64 +24,72 @@ export class SkillsComponent implements OnInit {
       src: '../../assets/img/external/svg/javascript.svg',
     },
     {
-      name: 'MongoDB',
-      src: '../../assets/img/external/svg/mongodb.svg',
-    },
-    {
-      name: 'API',
-      src: '../../assets/img/external/svg/api.svg',
-    },
-    {
       name: 'Bootstrap',
       src: '../../assets/img/external/svg/bootstrap.svg',
-    },
-    {
-      name: 'Bulma css',
-      src: '../../assets/img/external/svg/bulma..svg',
-    },
-    {
-      name: 'Express JS',
-      src: '../../assets/img/external/svg/express-js.svg',
-    },
-    {
-      name: 'Figma',
-      src: '../../assets/img/external/svg/figma..svg',
-    },
-    {
-      name: 'Firebase',
-      src: '../../assets/img/external/svg/firebase.svg',
-    },
-    {
-      name: 'Git',
-      src: '../../assets/img/external/svg/git..svg',
-    },
-    {
-      name: 'Material UI',
-      src: '../../assets/img/external/svg/mui..svg',
-    },
-    {
-      name: 'Node JS',
-      src: '../../assets/img/external/svg/nodejs.svg',
-    },
-    {
-      name: 'Photoshop',
-      src: '../../assets/img/external/svg/photoshop.svg',
-    },
-    {
-      name: 'SQL',
-      src: '../../assets/img/external/svg/sql.svg',
     },
     {
       name: 'Angular',
       src: '../../assets/img/external/svg/angular.svg',
     },
     {
+      name: 'Angular Material',
+      src: '../../assets/img/external/svg/angmat.svg',
+    },
+    {
+      name: 'MongoDB',
+      src: '../../assets/img/external/svg/mongodb.svg',
+    },
+    {
+      name: 'SQL',
+      src: '../../assets/img/external/svg/sql.svg',
+    },
+    {
+      name: 'Firebase',
+      src: '../../assets/img/external/svg/firebase.svg',
+    },
+    {
       name: 'AWS',
       src: '../../assets/img/external/svg/aws.svg',
     },
     {
+      name: 'API',
+      src: '../../assets/img/external/svg/api.svg',
+    },
+    {
+      name: 'Node JS',
+      src: '../../assets/img/external/svg/nodejs.svg',
+    },
+    {
+      name: 'Express JS',
+      src: '../../assets/img/external/svg/express-js.svg',
+    },
+    {
+      name: 'SwiperJs',
+      src: '../../assets/img/external/svg/Swiper.svg',
+    },
+    {
+      name: 'Bulma css',
+      src: '../../assets/img/external/svg/bulma..svg',
+    },
+    {
+      name: 'Material UI',
+      src: '../../assets/img/external/svg/mui..svg',
+    },
+    {
       name: 'Tailwind CSS',
       src: '../../assets/img/external/svg/tailwind..svg',
+    },
+    {
+      name: 'Photoshop',
+      src: '../../assets/img/external/svg/photoshop.svg',
+    },
+    {
+      name: 'Figma',
+      src: '../../assets/img/external/svg/figma..svg',
+    },
+    {
+      name: 'Git',
+      src: '../../assets/img/external/svg/git..svg',
     },
     {
       name: 'SEO',

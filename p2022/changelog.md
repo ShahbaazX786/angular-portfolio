@@ -1,3 +1,8 @@
+CL:2.4.8: Improved skills section:
+- Imported mattooltipmodule in appmodule.ts
+- Added two more skill cards and hover overlay effect and mat tool tip aswell.
+- Replaced default bootstrap tooltip with mat tool tip. 
+
 CL:2.4.7: Revamped Portfolio section(using SwiperJS):
 - Fixed some bugs and made the swiper carousel responsive.
 

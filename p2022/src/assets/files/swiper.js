@@ -30,13 +30,13 @@ var swiper = new Swiper(".slide-content", {
 
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 1.2,
     },
-    520: {
-      slidesPerView: 2,
-    },
-    950: {
+    768: {
       slidesPerView: 3,
     },
+    1200:{
+      slidesPerView:3.5
+    }
   },
 });

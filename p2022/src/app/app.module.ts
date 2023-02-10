@@ -27,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 
@@ -59,7 +60,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     MatButtonModule,
     MatDialogModule,
-    MatCardModule
+    MatCardModule,
+    MatTooltipModule
   ],
   providers: [
     {provide:LOCALE_ID, useValue:'en'}
