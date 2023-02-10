@@ -1,3 +1,6 @@
+CL:2.4.7: Revamped Portfolio section(using SwiperJS):
+- Fixed some bugs and made the swiper carousel responsive.
+
 CL:2.4.6: Revamped Portfolio section(using SwiperJS):
 - Added swiperjs using cdn links(as swiperjs is not supported after v9 of swiper(feb2023)) in index.html.
 - Learnt how to use external js files in component file using the below syntax:
