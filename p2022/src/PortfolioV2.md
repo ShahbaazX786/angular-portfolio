@@ -90,3 +90,18 @@ Angular portfolio needs to be done with by feb.
 	- I think the glassmorphism is causing this shit delay so just remove it to improve performance of the website.
 - Add lazy loading.
 	- implement lazy loading and SSR to make our app super lite.
+
+
+Timegraph of portfolio:
+
+september:10,11,12,13,14,15,17,20,21,26, - 10
+october:2,3,11,19, - 4
+November:V2:20,25,26,27,29 - 5
+December:1,3,4,9,10,11,24,25,26,27,29,30 - 12
+January:14,15, - 2
+February:4,5,8,9,10 - 5
+
+Total Days: 181Days
+Actual Days: 38Days
+Total Months: 6
+Actual Months: 1.4

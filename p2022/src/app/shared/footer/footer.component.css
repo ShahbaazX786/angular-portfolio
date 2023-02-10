@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   font-size: 16px;
   font-weight: 400;
 }
@@ -25,6 +25,11 @@
   margin: 2% 0;
   padding: 0 10%;
 }
+
+.page-link:hover .color{
+  color: #01C6FF;
+}
+
 
 i{
   color: #7A88A8;
@@ -44,7 +49,7 @@ a{
 
 .wrapper-1{
   border-top: 1px solid black;
-  padding: 1rem 0;
+  padding: 10px 0 5px;
   margin-top: 5px;
   display: flex;
   flex-direction: row;
@@ -54,9 +59,15 @@ a{
 }
 
 .foot-icons{
-  width: 30px;
+  width: 25px;
   justify-content: center;
   align-items: baseline;
+}
+
+.icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .footer_copy{
@@ -67,14 +78,16 @@ a{
 }
 
 .link{
+  overflow: hidden;
   text-decoration: none;
-  color: #B2BACE;
+  color: black;
+  font-weight: bold;
   transition: 0.6s ease-in;
 }
 
 .link:hover{
   color: white;
-  background-color: #7A88A8;
+  background-color: #01C6FF;
   transition: 0.6s ease-out;
 }
 
@@ -119,7 +132,6 @@ a{
   color: white;
   border: 1px solid #01C6FF;
 }
-
 
 
 @media only screen and (max-width:992px) {

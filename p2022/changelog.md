@@ -1,3 +1,14 @@
+CL:2.4.9: Improved footer section:
+- Revamped footer section.
+- changed the epilouge copyright text and styles.
+- Added portfolio Version and tech stack used.
+- Tech stack is having mat tooltips on icons so that we can read the tech stack languages used. 
+- Added hover effects on icons of social links.
+- Fixed alignment of all 3 footer link sections(pages,social,langugage).
+- Added social Media links.
+- Added mattooltip for some of the buttons and links for better understanding.
+- Added time calculation in portfoliov2.md
+
 CL:2.4.8: Improved skills section:
 - Imported mattooltipmodule in appmodule.ts
 - Added two more skill cards and hover overlay effect and mat tool tip aswell.
