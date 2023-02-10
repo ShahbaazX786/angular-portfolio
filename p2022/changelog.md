@@ -1,3 +1,6 @@
+CL:2.4.10: Improved footer section:
+- Fixed some alignment issues in footer section (all 3 sub sections are now in auto width).
+
 CL:2.4.9: Improved footer section:
 - Revamped footer section.
 - changed the epilouge copyright text and styles.
