@@ -1,3 +1,10 @@
+CL:2.4.11: Improved language modal:
+- Revamped dialog modal for language selector.
+- Added flags and improved styles.
+- Added webkit available width which will work on most browsers if not then normal width will work.
+- Fixed hover overlay effect in smaller screens in skills section.
+- Fixed the overall responsiveness and size of carousel of portfolio section.
+
 CL:2.4.10: Improved footer section:
 - Fixed some alignment issues in footer section (all 3 sub sections are now in auto width).
 

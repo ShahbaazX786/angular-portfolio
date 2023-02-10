@@ -32,7 +32,7 @@ export class SkillsComponent implements OnInit {
       src: '../../assets/img/external/svg/angular.svg',
     },
     {
-      name: 'Angular Material',
+      name: 'Material',
       src: '../../assets/img/external/svg/angmat.svg',
     },
     {

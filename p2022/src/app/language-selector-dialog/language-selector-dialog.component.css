@@ -1,5 +1,5 @@
 .dialog-container {
-  background: #000428;
+  background: url('../../assets/V2/Flags/background.png');
   background: -webkit-linear-gradient(to right, #004e92, #000428);
   background: linear-gradient(to right, #004e92, #000428);
 }
@@ -10,21 +10,32 @@
   background: linear-gradient(to top, #0072ff, #00c6ff);
 } */
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .page-link {
+  width: auto;
+  width: -webkit-fill-available;
   color: black;
-  padding:5px 0;
-  border: 1px solid #01C6FF;
-  margin: 10px 5px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0);
+  padding:5%;
+  font-weight: bold;
+  text-align: left;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  transition: all 0.2s ease-in;
+  border: 1px solid transparent;
 }
 
 .page-link:hover{
-  transition: all 0.3s ease-out;
-  transform: scale(1.05);
+  border: 1px solid #01C6FF;
+}
+
+.flag{
+  border:1px solid rgb(199, 199, 199);
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+  border-radius: 5%;
 }
