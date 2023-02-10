@@ -1,3 +1,6 @@
+CL:2.4.13: Improved language modal:
+- Fixed not scrolling bug in mobile screens due to overflow hidden in skills section.
+
 CL:2.4.12: Improved language modal:
 - Restored the color of background of language selector.
 - Fixed skills overlay hover effect square bug.
