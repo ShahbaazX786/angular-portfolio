@@ -1,6 +1,7 @@
 #contact {
   overflow-x: hidden;
-  margin: 5% 0;
+  padding: 5% 0;
+  background: #bff1ff;
 }
 
 .section-wrapper {

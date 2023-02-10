@@ -1,24 +1,26 @@
-<div id="portfolio-section" class="container">
-  <div class="heading-wrapper">
-    <h1 class="heading">&nbsp;Portfolio 📸&nbsp;</h1>
-  </div>
-  <div class="container2 swiper slide-container">
-    <div class="slide-content">
-      <div class="card-wrapper swiper-wrapper">
-        <div class="card swiper-slide" *ngFor="let item of portfolio_array">
-          <img [src]="item.img" alt="project-1" class="img" data-bs-toggle="modal" [attr.data-bs-target]="'#'+item.name">
-          <div class="info">
-            <h1>{{item.name}}</h1>
-            <p>{{item.desc}}</p>
-            <button class="btnX" mat-flat-button color="accent">Live site</button>
-            <button class="btnX" mat-raised-button color="warn">Github</button>
+<div id="portfolio-section">
+  <div class="container">
+    <div class="heading-wrapper">
+      <h1 class="heading">&nbsp;Portfolio 📸&nbsp;</h1>
+    </div>
+    <div class="container2 swiper slide-container">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide" *ngFor="let item of portfolio_array">
+            <img [src]="item.img" alt="project-1" class="img" data-bs-toggle="modal" [attr.data-bs-target]="'#'+item.name">
+            <div class="info">
+              <h1>{{item.name}}</h1>
+              <p>{{item.desc}}</p>
+              <button class="btnX" mat-flat-button color="accent">Live site</button>
+              <button class="btnX" mat-raised-button color="warn">Github</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="swiper-button-next swiper-navBtn"></div>
-    <div class="swiper-button-prev swiper-navBtn"></div>
-    <div class="swiper-pagination"></div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </div>

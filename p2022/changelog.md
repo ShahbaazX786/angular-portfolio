@@ -1,4 +1,7 @@
-CL:2.4.13: Improved language modal:
+CL:2.4.14: Bug Fix:
+- Added background color to two sections contact, skills and also fixed the section and container layout hierarchy in components.
+
+CL:2.4.13: Bug Fix:
 - Fixed not scrolling bug in mobile screens due to overflow hidden in skills section.
 
 CL:2.4.12: Improved language modal:

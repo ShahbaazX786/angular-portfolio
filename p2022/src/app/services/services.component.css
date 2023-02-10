@@ -37,7 +37,7 @@
 .card:hover{
   color: white;
   /* background-color: #673ab7; */
-  background-color: #33d3ff;
+  background-color: #05addc;
   transition: 0.2s ease-in-out;
 }
 
