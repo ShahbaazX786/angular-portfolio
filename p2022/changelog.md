@@ -1,5 +1,6 @@
-CL:2.4.11: Improved language modal:
+CL:2.4.12: Improved language modal:
 - Restored the color of background of language selector.
+- Fixed skills overlay hover effect square bug.
 
 CL:2.4.11: Improved language modal:
 - Revamped dialog modal for language selector.

@@ -3,7 +3,7 @@
     <h1 class="heading" i18n>&nbsp;Skills 🧑‍💻&nbsp;</h1>
   </div>
   <div class="container">
-    <div class="card glass" *ngFor="let s of skills"  [matTooltip]="s.name" matTooltipPosition="above">
+    <div class="card" *ngFor="let s of skills"  [matTooltip]="s.name" matTooltipPosition="above">
         <img class="ico" [src]=s.src alt="image" i18n-alt>
         <div class="overlay"></div>
         <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
