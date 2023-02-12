@@ -2,6 +2,10 @@ var swiper = new Swiper(".slide-content", {
   slidesPerView: '3',
   spaceBetween: 20,
   loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
   // rewind:true,
   centeredSlides: 'true',
   fade: true,
@@ -17,7 +21,7 @@ var swiper = new Swiper(".slide-content", {
   keyboard: {
     enabled: true,
   },
-  mousewheel: true,
+  mousewheel: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -36,7 +40,7 @@ var swiper = new Swiper(".slide-content", {
       slidesPerView: 3,
     },
     1200:{
-      slidesPerView:3.5
+      slidesPerView: 3.5
     }
   },
 });

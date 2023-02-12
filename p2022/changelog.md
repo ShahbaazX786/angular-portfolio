@@ -1,3 +1,11 @@
+CL:2.5.0: Revamping portfolio & project sections:
+- Sorted projects based on categories.
+  - Featured(Completed)
+  - WIP(Work In Progress)
+  - UI (Small Frontend exercises which are completed too).
+- Added new project screenshots.
+- Added autoplay in swiperjs carousels.
+
 CL:2.4.15: Added Guide for Portfolio V3:
 - Added New portfolio Guide in detail.
 - While I was browsing my old projects I came to knew that I had already made a portfolio v1 (upto 80%).
