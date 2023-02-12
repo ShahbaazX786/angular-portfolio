@@ -1,3 +1,13 @@
+CL:2.4.15: Added Guide for Portfolio V3:
+- Added New portfolio Guide in detail.
+- While I was browsing my old projects I came to knew that I had already made a portfolio v1 (upto 80%).
+- So renamed the current naming of portfolios.
+- With this now We shall have
+  - portfolio v1 (fast nyugen inspired).
+  - portfolio v2 (Hamna Inspired).
+  - portfolio v2.5 (Currently Fixing the bugs and improving it to make it look good).
+  - portfolio v3 (britanny Inspired).
+
 CL:2.4.14: Bug Fix:
 - Added background color to two sections contact, skills and also fixed the section and container layout hierarchy in components.
 
