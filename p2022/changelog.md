@@ -1,3 +1,6 @@
+CL:2.5.1: bug fix: Background color:
+- The color for sections was so wide it overflew and was not looking that good.
+
 CL:2.5.1: bug fix and adding assets:
 - Bug fix and added some project screenshots.
 
