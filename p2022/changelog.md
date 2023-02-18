@@ -1,4 +1,9 @@
-CL:2.5.1: bug fix: Background color:
+CL:2.5.3: Revamped Experience section:
+- Revamped experience section.
+- Added new svgs, info, styles etc.
+- Added and used mat tab module.
+
+CL:2.5.2: bug fix: Background color:
 - The color for sections was so wide it overflew and was not looking that good.
 
 CL:2.5.1: bug fix and adding assets:
