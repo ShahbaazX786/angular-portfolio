@@ -1,0 +1,422 @@
+{
+  "projects": [
+    {
+      "featured": [
+        {
+          "name": "Daily Journal",
+          "tooltip": "Dairy website using EJS",
+          "img": "src/assets/V2/Projects/Featured/Daily-Journal.png",
+          "desc": "Record your dairy entries daily using this app.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "EJS",
+              "icon": "src/assets/external/svg/ejs.svg"
+            },
+            {
+              "tech": "NodeJS",
+              "icon": "src/assets/external/svg/nodejs.svg"
+            },
+            {
+              "tech": "ExpressJS",
+              "icon": "src/assets/external/svg/express-js.svg"
+            }
+          ]
+        },
+        {
+          "name": "Daily Planet",
+          "tooltip": "Daily Planet using news API",
+          "img": "src/assets/V2/Projects/Featured/DailyPlanet.png",
+          "desc": "News webapp made using angular and openAPI's news API",
+          "stack": [
+            {
+              "tech": "Angular",
+              "icon": "src/assets/external/svg/angular.svg"
+            },
+            {
+              "tech": "Angular Material",
+              "icon": "src/assets/external/svg/angmat.svg"
+            },
+            {
+              "tech": "API",
+              "icon": "src/assets/external/svg/api.svg"
+            }
+          ]
+        },
+        {
+          "name": "PortfolioV1",
+          "tooltip": "PortfolioV1 Made with Angular",
+          "img": "src/assets/V2/Projects/Featured/PortfolioV1.png",
+          "desc": "My first Personal Portfolio made using Angular",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Typescript",
+              "icon": "src/assets/external/svg/typescript.svg"
+            },
+            {
+              "tech": "Angular",
+              "icon": "src/assets/external/svg/angular.svg"
+            }
+          ]
+        },
+        {
+          "name": "PortfolioV2",
+          "tooltip": "PortfolioV2 Made with Angular",
+          "img": "src/assets/V2/Projects/Featured/PortfolioV1.png",
+          "desc": "Second iteration of my personal Portfolio.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Typescript",
+              "icon": "src/assets/external/svg/typescript.svg"
+            },
+            {
+              "tech": "Angular",
+              "icon": "src/assets/external/svg/angular.svg"
+            },
+            {
+              "tech": "Angular Material",
+              "icon": "src/assets/external/svg/angmat.svg"
+            },
+            {
+              "tech": "SwiperJS",
+              "icon": "src/assets/external/svg/Swiper.svg"
+            },
+            {
+              "tech": "Firebase",
+              "icon": "src/assets/external/svg/firebase.svg"
+            }
+          ]
+        },
+        {
+          "name": "Meme-Board",
+          "tooltip": "Meme sounds at your fingertips",
+          "img": "src/assets/V2/Projects/Featured/MemeBoard.png",
+          "desc": "This is a simple yet fun project which plays meme sounds on button press.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Javascript",
+              "icon": "src/assets/external/svg/javascript.svg"
+            }
+          ]
+        },
+        {
+          "name": "Drummer X Drummer",
+          "tooltip": "Drummer X Drummer",
+          "img": "src/assets/V2/Projects/Featured/DrummerXDrummer.png",
+          "desc": "Now practice your drum skills virtually over this website.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Javascript",
+              "icon": "src/assets/external/svg/javascript.svg"
+            }
+          ]
+        },
+        {
+          "name": "Dice Roll",
+          "tooltip": "Let it Roll",
+          "img": "src/assets/V2/Projects/Featured/Dice-Tossing-Game.png.png",
+          "desc": "Your usual Dice Rolling Game.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Javascript",
+              "icon": "src/assets/external/svg/javascript.svg"
+            }
+          ]
+        }
+      ],
+      "UI": [
+        {
+          "name": "Flex CardDesign",
+          "tooltip": "UI project",
+          "img": "src/assets/V2/Projects/UI/CardDesign1.png",
+          "desc": "This is a frontend mentor challenge which helps us understand the flexbox concept.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            }
+          ]
+        },
+        {
+          "name": "NFT CardDesign",
+          "tooltip": "UI project",
+          "img": "src/assets/V2/Projects/UI/NFT-card.png",
+          "desc": "This frontend mentor challenge helped me build concept of overlaying images.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            }
+          ]
+        },
+        {
+          "name": "QR Code Card",
+          "tooltip": "UI project",
+          "img": "src/assets/V2/Projects/UI/QRcode-Card.png",
+          "desc": "This frontend mentor challenge helped me build concept of overlaying images.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            }
+          ]
+        },
+        {
+          "name": "Shopping Card",
+          "tooltip": "UI project",
+          "img": "src/assets/V2/Projects/UI/Shopping-Card.png",
+          "desc": "This frontend mentor challenge helped me build concept of building card with images.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            }
+          ]
+        },
+        {
+          "name": "TinDoggo",
+          "tooltip": "Tinder for Dogs ",
+          "img": "src/assets/V2/Projects/UI/TinDoggo.png",
+          "desc": "This is a clone of Tinder but for Dogs.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            }
+          ]
+        },
+        {
+          "name": "Rick & Morty",
+          "tooltip": "They are watching",
+          "img": "src/assets/V2/Projects/UI/RickNMorty-JS.png",
+          "desc": "This is a fun project only if you opens it",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Javascript",
+              "icon": "src/assets/img/external/svg/javascript.svg"
+            }
+          ]
+        },
+        {
+          "name": "NewsLetter Using MailChimp API",
+          "tooltip": "Mailchimp API",
+          "img": "src/assets/V2/Projects/UI/NewsLetterForm.png",
+          "desc": "This is a NewsLetter implementation using MailChimp API.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "EJS",
+              "icon": "src/assets/img/external/svg/ejs.svg"
+            },
+            {
+              "tech": "NodeJS",
+              "icon": "src/assets/img/external/svg/nodejs.svg"
+            },
+            {
+              "tech": "ExpressJS",
+              "icon": "src/assets/img/external/svg/express-js.svg"
+            },
+            {
+              "tech": "API",
+              "icon": "src/assets/img/external/svg/api.svg"
+            }
+          ]
+        },
+        {
+          "name": "Simon's Game",
+          "tooltip": "Guessing Game",
+          "img": "src/assets/V2/Projects/UI/SimonGame.png",
+          "desc": "This is a old school game called Simon's guessing Game.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Jquery",
+              "icon": "src/assets/img/external/svg/jquery.svg"
+            }
+          ]
+        }
+      ],
+      "WIP":[
+        {
+          "name": "MangaBoii",
+          "tooltip": "Manga Website",
+          "img": "src/assets/V2/Projects/WIP/MangaBoii.png",
+          "desc": "A cool comic book reading website which is currently in the works",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Typescript",
+              "icon": "src/assets/img/external/svg/typescript.svg"
+            },
+            {
+              "tech": "Angular",
+              "icon": "src/assets/img/external/svg/angular.svg"
+            }
+          ]
+        },
+        {
+          "name": "SHE=HULK by Titannia",
+          "tooltip": "Ecommerce Website",
+          "img": "src/assets/V2/Projects/WIP/SheHulk.png",
+          "desc": "If you have seen she-hulk you know what this is...",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Typescript",
+              "icon": "src/assets/img/external/svg/typescript.svg"
+            },
+            {
+              "tech": "Angular",
+              "icon": "src/assets/img/external/svg/angular.svg"
+            }
+          ]
+        }
+      ],
+      "ONWP":[
+        {
+          "name": "Stepper using JS",
+          "tooltip": "Stepper for forms",
+          "img": "src/assets/V2/Projects/WIP/StepperJS.png",
+          "desc": "Stepper for forms using Javascript.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Javascript",
+              "icon": "src/assets/img/external/svg/javascript.svg"
+            }
+          ]
+        },
+        {
+          "name": "Carousel Using JS",
+          "tooltip": "Carousel Animation",
+          "img": "src/assets/V2/Projects/WIP/SlidingJS.png",
+          "desc": "Sliding Animated Carousel using Javascript.",
+          "stack": [
+            {
+              "tech": "HTML",
+              "icon": "src/assets/external/svg/html.svg"
+            },
+            {
+              "tech": "CSS",
+              "icon": "src/assets/img/external/svg/css..svg"
+            },
+            {
+              "tech": "Javascript",
+              "icon": "src/assets/img/external/svg/javascript.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

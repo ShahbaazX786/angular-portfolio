@@ -84,10 +84,12 @@ a{
   color: black;
   font-weight: bold;
   transition: 0.6s ease-in;
+  padding: 0 5px;
 }
 
 .link:hover{
-  color: white;
+  color: black;
+  padding: 0 5px;
   background-color: #01C6FF;
   transition: 0.6s ease-out;
 }

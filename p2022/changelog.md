@@ -1,3 +1,6 @@
+CL:2.5.1: bug fix and adding assets:
+- Bug fix and added some project screenshots.
+
 CL:2.5.0: Revamping portfolio & project sections:
 - Sorted projects based on categories.
   - Featured(Completed)
