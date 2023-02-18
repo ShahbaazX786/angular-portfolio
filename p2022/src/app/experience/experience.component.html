@@ -1,59 +1,28 @@
 <div id="experience-section">
   <div class="container">
     <div class="heading">
-      <h1 class="section-heading">&nbsp;Experience 💡&nbsp;</h1>
+      <h1 class="section-heading">&nbsp;Experience💡&nbsp;</h1>
     </div>
-    <div class="row">
-      <div class="col">
-        <div class="card exp-card">
+    <mat-tab-group animationDuration="0ms" [color]="'primary'" [backgroundColor]="'warn'">
+      <mat-tab class="tab" [label]="item.name" *ngFor="let item of ExpData">
+        <mat-card-content>
           <div class="wrapper">
-            <div class="left-side col-lg">
-              <img class="client-logo" src="../../assets/img/external/Experience/starbucks.6e1e09ca281503b4e1c9.png" alt="Compant Logo">
-              <h5 class="client-name">Starbucks</h5>
-              <p class="tenure">Nov 2020 - Mar 2021</p>
+            <div class="left-side col-lg-4 col-md-4">
+              <img class="client-logo" [src]="item.logo" alt="Logo">
+              <h3 class="client-name">{{item.fullname}}</h3>
+              <h4 class="tenure">{{item.startDate}} - {{item.completeDate}}</h4>
             </div>
-            <div class="right-side col-lg-8">
-              <h3 class="role">WordPress Developer</h3>
-              <p class="desc">I worked on the Official Starbucks Website for Trinidad and Tobago. The project included complete redesign of their
-              website, and adopting the standard Starbucks style for the country's website</p>
-              <p class="resp-title">Responsibilites</p>
-              <ul class="resp-list">
-                <li class="resp-item">Conerting the designs into working site</li>
-                <li class="resp-item">Cleaning existing pages and converting to newer designs</li>
-                <li class="resp-item">Constantly delivering and receiving the feedback</li>
-                <li class="resp-item">Work on the feedback points</li>
-                <li class="resp-item">Resolve any hosting problems</li>
+            <div class="right-side col-lg-7 col-md-7">
+              <h2 class="role">{{item.designation}}</h2>
+              <p class="desc">{{item.intro}}</p>
+              <p class="resp-title">What I've Worked:</p>
+              <ul class="resp-list" *ngFor="let x of item.responsibilities">
+                <li class="resp-item" type="circle">{{x}}</li>
               </ul>
             </div>
           </div>
-
-        </div>
-      </div>
-      <div class="col">
-        <div class="card exp-card">
-          <div class="wrapper">
-            <div class="left-side col-lg-4">
-              <img class="client-logo" src="../../assets/img/external/Experience/starbucks.6e1e09ca281503b4e1c9.png" alt="Compant Logo">
-              <h5 class="client-name">Starbucks</h5>
-              <p class="tenure">Nov 2020 - Mar 2021</p>
-            </div>
-            <div class="right-side col-lg-8">
-              <h3 class="role">WordPress Developer</h3>
-              <p class="desc">I worked on the Official Starbucks Website for Trinidad and Tobago. The project included complete redesign of their
-              website, and adopting the standard Starbucks style for the country's website</p>
-              <p class="resp-title">Responsibilites</p>
-              <ul class="resp-list">
-                <li class="resp-item">Conerting the designs into working site</li>
-                <li class="resp-item">Cleaning existing pages and converting to newer designs</li>
-                <li class="resp-item">Constantly delivering and receiving the feedback</li>
-                <li class="resp-item">Work on the feedback points</li>
-                <li class="resp-item">Resolve any hosting problems</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
+        </mat-card-content>
+      </mat-tab>
+    </mat-tab-group>
   </div>
 </div>

@@ -1,21 +1,30 @@
-.heading{
-  padding: 3%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#experience-section{
+  margin: 5% 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
 }
 
-.section-heading{
-  padding-bottom: 1%;
-  text-align: center;
-  border-bottom: 5px solid #673ab7;
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 5px solid #01C6FF;
+  padding-bottom: 8px;
   width: max-content;
 }
 
-
 .wrapper{
+  margin: 5%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -36,14 +45,17 @@
 .left-side{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   align-items: center;
+
 }
 
 .client-logo{
-  width: 120px;
+  width: 200px;
+  height: 150px;
   padding: 10% 0;
+  object-fit: contain;
 }
 
 .client-name{
@@ -52,28 +64,59 @@
 }
 
 .tenure{
+  background-color: #01C6FF;
+  color: white;
+  padding: 0 5px;
   font-family: "Montserrat",sans-serif;
-  font-size: small;
+  font-size: 400;
   font-weight: light;
 }
 
 
 /* right side */
 
+.right-side{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .role{
   font-weight: bold;
 }
 
 .desc{
-  font-size: small;
+  font-size: medium;
 }
 
 
 .resp-title{
+  border-bottom: 3px solid #01C6FF;
   font-size: medium;
   font-weight: bold;
 }
 
 .resp-item{
-  font-size: small;
+  font-size: 400;
+  list-style-type: "\2705";
+  padding-left: 5px;
+}
+
+.mat-mdc-tab-group.mat-background-warn,
+.mat-mdc-tab-nav-bar.mat-background-warn {
+  --mat-mdc-tab-header-with-background-background-color: #01C6FF;
+}
+
+@media screen and (max-width:768px) {
+  .wrapper{
+    flex-direction: column;
+  }
+  .desc,.role{
+    text-align: left;
+  }
+  .resp-item{
+    list-style-type: "\2705";
+  }
+
 }
