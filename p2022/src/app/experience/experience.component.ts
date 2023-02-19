@@ -32,7 +32,7 @@ export class ExperienceComponent implements OnInit {
       name:'GPCET',
       fullname:'G.Pullaiah College Of Engineering And Technology',
       type:'Graduation',
-      logo:'../../assets/V2/Experience/gpcet.png',
+      logo:'../../assets/V2/Experience/gpcet.jpg',
       startDate:'June 2017',
       completeDate:'May 2021',
       designation:'Graduate Student',

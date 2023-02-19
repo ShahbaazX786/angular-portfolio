@@ -1,3 +1,6 @@
+CL:2.5.7: Bug Fixes:
+- Fixed a bug where img of graudation was not visible.
+
 CL:2.5.6: Bug Fixes and improvements:
 - Changed the look of typography using Montserrat font-family.
 - Fixed the mattooltip id to unique so that only the clicked icons should show tooltip.
