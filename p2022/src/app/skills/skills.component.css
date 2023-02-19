@@ -11,6 +11,7 @@
 
 .heading {
   font-weight: bold;
+  font-family: 'Montserrat',sans-serif;
   text-transform: uppercase;
   border-bottom: 5px solid #01C6FF;
   padding-bottom: 8px;

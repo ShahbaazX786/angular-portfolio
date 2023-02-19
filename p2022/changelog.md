@@ -1,3 +1,10 @@
+CL:2.5.6: Bug Fixes and improvements:
+- Changed the look of typography using Montserrat font-family.
+- Fixed the mattooltip id to unique so that only the clicked icons should show tooltip.
+- Changed the style of heading to match the overall theme in about section.
+- Changed border color of projects section to match overall theme.
+- Changed footer typography to Montserrat aswell.
+
 CL:2.5.5: Bug Fix:
 - Fixed bug of mat tool tip not working in mobile screens.
 - Added a click event which calls tooltip on clicking in mobile screens.

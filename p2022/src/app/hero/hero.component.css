@@ -6,9 +6,10 @@
 }
 
 .hero-heading{
+  margin-top: 2%;
+  font-family: 'Montserrat';
   font-size: 1.5rem;
   font-weight: normal;
-  padding-bottom: 1%;
 }
 
 .typewriter{
@@ -27,10 +28,16 @@
 }
 
 .about-link{
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #01C6FF;
-  font-size: smaller;
   cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.about-link:hover{
+  background: #01C6FF;
+  color: black;
+  transition: all 0.3s ease-out;
 }
 
 .wave-hand{
@@ -53,15 +60,16 @@
 
 .intro-bio{
   justify-content: center;
-  line-height: 3rem;
+  line-height: 2.5rem;
   font-size: 1.4rem;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   opacity: 0.8;
   margin-bottom: 5%;
 }
 
 .buttons {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 5%;
 
 }

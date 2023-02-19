@@ -12,6 +12,7 @@
 }
 
 .section-heading {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 5px solid #01C6FF;

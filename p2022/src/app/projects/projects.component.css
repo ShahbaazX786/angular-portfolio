@@ -16,7 +16,9 @@
 .section-heading{
   padding: 1% 0;
   width: max-content;
-  border-bottom: 5px solid #673ab7;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 5px solid #01C6FF;
   font-weight: bold;
   text-align: center;
 }
