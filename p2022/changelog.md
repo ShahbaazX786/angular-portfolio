@@ -1,3 +1,7 @@
+CL:2.5.4: Revamped Experience section:
+- Fixed responsive bug on services cards for different screens.
+- Removed some old screenshots of projects.
+
 CL:2.5.3: Revamped Experience section:
 - Revamped experience section.
 - Added new svgs, info, styles etc.

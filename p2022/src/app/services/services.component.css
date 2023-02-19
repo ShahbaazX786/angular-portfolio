@@ -21,7 +21,8 @@
 }
 
 .card{
-  height: 15vh;
+  height: 10vh;
+  min-height: auto;
   margin-bottom: 2%;
   padding: 5px 2px 0px 5px ;
   display: flex;
@@ -57,7 +58,8 @@
   .card{
     /* overflow: scroll; */
     width:95vw;
-    height: 12vh;
+    height: auto;
+    max-height: 10vh;
   }
   .card:hover{
     background-color: #33d3ff;
