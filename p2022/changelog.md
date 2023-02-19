@@ -1,4 +1,8 @@
-CL:2.5.4: Revamped Experience section:
+CL:2.5.5: Bug Fix:
+- Fixed bug of mat tool tip not working in mobile screens.
+- Added a click event which calls tooltip on clicking in mobile screens.
+
+CL:2.5.4: Bug Fix Services section:
 - Fixed responsive bug on services cards for different screens.
 - Removed some old screenshots of projects.
 
