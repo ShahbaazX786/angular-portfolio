@@ -1,3 +1,11 @@
+CL:2.5.9: Bug-Fixes:
+- Revamped whole of projects section.
+- Added Live and github overlay buttons.
+- Added 2 new icons.
+- Added animations
+- Added fixes.
+- Added in between space in skills.
+
 CL:2.5.8: Bug-Fixes:
 - Added Card Data
 - Added screenshots
