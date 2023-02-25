@@ -1,3 +1,9 @@
+CL:2.5.8: Bug-Fixes:
+- Added Card Data
+- Added screenshots
+- Modified Exp section Tab animation delay
+- Modified About section font size
+
 CL:2.5.7: Bug Fixes:
 - Fixed a bug where img of graudation was not visible.
 

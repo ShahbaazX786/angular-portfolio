@@ -3,19 +3,65 @@
     <div class="heading">
       <h1 class="section-heading">&nbsp;Projects 📚&nbsp;</h1>
     </div>
-    <div class="row">
-        <div class="card col col-lg-4 col-md-3 col-sm-11" *ngFor="let project of projects">
-          <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
-          <div class="card-body top">
-            <h5 class="card-title">{{project.Name}}</h5>
-            <p class="card-text">{{project.Desc}}</p>
-          </div>
-          <div class="card-body bottom">
-            <ng-container class="stack" *ngFor="let item of project.stack">
-              <img class="stack-img" [src]=item.img alt="stack-used">
-            </ng-container>
-          </div>
-        </div>
-    </div>
+      <mat-tab-group animationDuration="500ms" [color]="'primary'" [backgroundColor]="'warn'">
+        <mat-tab label="Featured Projects">
+          <p class="title">These are some of my Featured Projects</p>
+          <mat-card-content class="tab">
+            <div class="wrapper">
+              <div class="card" *ngFor="let project of Featured">
+                <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
+                <div class="card-body top">
+                  <h5 class="card-title">{{project.Name}}</h5>
+                  <p class="card-text">{{project.Desc}}</p>
+                </div>
+                <div class="card-body bottom">
+                  <ng-container class="stack" *ngFor="let item of project.stack">
+                    <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name">
+                  </ng-container>
+                </div>
+              </div>
+
+            </div>
+          </mat-card-content>
+        </mat-tab>
+        <mat-tab label="UI Exercises">
+          <p class="title">These are some of my Mini-Projects focused on UI</p>
+          <mat-card-content class="tab">
+            <div class="wrapper">
+              <div class="card" *ngFor="let project of UI">
+                <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
+                <div class="card-body top">
+                  <h5 class="card-title">{{project.Name}}</h5>
+                  <p class="card-text">{{project.Desc}}</p>
+                </div>
+                <div class="card-body bottom">
+                  <ng-container class="stack" *ngFor="let item of project.stack">
+                    <img class="stack-img" [src]=item.img alt="stack-used">
+                  </ng-container>
+                </div>
+              </div>
+
+            </div>
+          </mat-card-content>
+        </mat-tab>
+        <mat-tab label="WIP">
+          <p class="title">These Projects are currently in progress (WIP)</p>
+          <mat-card-content class="tab">
+            <div class="card" *ngFor="let project of WIP">
+              <img class="card-img-top-WIP" [src]=project.screenshot alt="Card image cap">
+              <div class="card-body top">
+                <h5 class="card-title">{{project.Name}}</h5>
+                <p class="card-text">{{project.Desc}}</p>
+              </div>
+              <div class="card-body bottom">
+                <ng-container class="stack" *ngFor="let item of project.stack">
+                  <img class="stack-img" [src]=item.img alt="stack-used">
+                </ng-container>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-tab>
+      </mat-tab-group>
+
   </div>
 </div>
