@@ -129,6 +129,7 @@
   flex-direction: row;
   gap: 1rem;
   padding: 5% 1%;
+  flex-wrap: wrap;
 }
 
 .mat-mdc-tab-group.mat-background-warn,
@@ -172,10 +173,18 @@
   width: 30px;
   transition: all 0.2s ease-in;
 }
+
+.links-icon{
+  height: 30px;
+  width: 30px;
+  transition: all 0.2s ease-in;
+}
+
 .links-icon:hover{
   transform: translateY(-5px) scale(1.2);
   transition: all 0.2s ease-out;
 }
+
 .bigger{
   padding-bottom: 5px;
   height: 40px;

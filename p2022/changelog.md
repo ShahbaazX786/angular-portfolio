@@ -1,3 +1,7 @@
+CL:2.6.0: Bug-Fixes:
+- Fixed card bug in projects, WIP tab.
+- Reduced tab animation transition speed to 0 ms to remove any vertical blue screen bar bug.
+
 CL:2.5.9: Bug-Fixes:
 - Revamped whole of projects section.
 - Added Live and github overlay buttons.
