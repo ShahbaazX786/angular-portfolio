@@ -1,3 +1,8 @@
+CL:2.6.1: Bug-Fixes:
+- Revamped the skills section using tabs in smaller screens and card view in bigger screens.
+- display:contents property for hiding and showing might give problem in some devices..
+- Added some new programming skills and svg icons.
+
 CL:2.6.0: Bug-Fixes:
 - Fixed card bug in projects, WIP tab.
 - Reduced tab animation transition speed to 0 ms to remove any vertical blue screen bar bug.
