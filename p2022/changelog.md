@@ -1,3 +1,7 @@
+CL:2.6.4: Bug-Fixes:
+- Added links to header social icons.
+- Increased angular project bundle budget to 1.2mb as it was gettinga warning of 45kb over
+
 CL:2.6.3: Bug-Fixes:
 - Compressed gif images for hobby section to reduce load times.
 - scrapped the idea of dark mode switcher icon in header.
