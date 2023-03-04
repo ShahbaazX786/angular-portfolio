@@ -24,7 +24,7 @@
               </div>
               <div class="card-body bottom">
                 <ng-container class="stack" *ngFor="let item of project.stack">
-                  <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name">
+                  <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">
                 </ng-container>
               </div>
             </div>
@@ -51,7 +51,7 @@
               </div>
               <div class="card-body bottom">
                 <ng-container class="stack" *ngFor="let item of project.stack">
-                  <img class="stack-img" [src]=item.img alt="stack-used">
+                  <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">
                 </ng-container>
               </div>
             </div>
@@ -69,7 +69,7 @@
             </div>
             <div class="card-body bottom">
               <ng-container class="stack" *ngFor="let item of project.stack">
-                <img class="stack-img" [src]=item.img alt="stack-used">
+                <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">
               </ng-container>
             </div>
           </div>

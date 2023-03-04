@@ -22,13 +22,13 @@
     <!-- section-2 -->
     <div class="icons order-lg-1 ">
       <a href="www.google.com" target="_blank">
-        <img class="nav-icon" i18n-alt src="../../../assets/V2/Icons/Navbar/Instagram-color.svg" alt="Instagram-icon">
+        <img class="nav-icon" i18n-alt src="../../../assets/V2/Icons/Navbar/Instagram-color.svg" alt="Instagram-icon" matTooltip="Instagram" #tooltip="matTooltip" matTooltipPosition="above" (click)="tooltip.toggle()">
       </a>
       <a href="https://www.google.com" target="_blank">
-        <img class="nav-icon" i18n-alt src="../../../assets/V2/Icons/Navbar/Twitter-color.svg" alt="Twitter-icon">
+        <img class="nav-icon" i18n-alt src="../../../assets/V2/Icons/Navbar/Twitter-color.svg" alt="Twitter-icon"  matTooltip="Twitter" #tooltip="matTooltip" matTooltipPosition="above" (click)="tooltip.toggle()">
       </a>
       <a href="www.google.com" target="_blank">
-        <img class="nav-icon" i18n-alt src="../../../assets/V2/Icons/Navbar/LinkdIn-color.svg" alt="Linkdin-icon">
+        <img class="nav-icon" i18n-alt src="../../../assets/V2/Icons/Navbar/LinkdIn-color.svg" alt="Linkdin-icon" matTooltip="Linkedin" #tooltip="matTooltip" matTooltipPosition="above" (click)="tooltip.toggle()">
       </a>
       <!-- <div class="switcher">
           <img class="nav-icon special hidden1" i18n-alt src="../../../assets/V2/Icons/Navbar/Moon-color.svg"alt="dark-mode">

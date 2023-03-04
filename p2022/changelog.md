@@ -1,3 +1,8 @@
+CL:2.6.3: Bug-Fixes:
+- Compressed gif images for hobby section to reduce load times.
+- scrapped the idea of dark mode switcher icon in header.
+- Added tooltips for both mobile(clickable) and large screens(hover).
+
 CL:2.6.2: Bug-Fixes:
 - Fixed a font size bug in footer "made using" text.
 - Fixed some bugs in hero section (buttons and image).
