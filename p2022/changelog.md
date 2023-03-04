@@ -1,3 +1,6 @@
+CL:2.6.6: Bug-Fixes:
+- Fixed some unused js file error in console.
+
 CL:2.6.4: Bug-Fixes:
 - Added links to header social icons.
 - Increased angular project bundle budget to 1.2mb as it was gettinga warning of 45kb over
