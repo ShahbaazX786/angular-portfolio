@@ -1,7 +1,6 @@
 .service{
-  padding: 2% 0;
-  margin-bottom: 2%;
-  box-shadow: 0 0 10px #e0e0e0;
+  margin-top: 5%;
+  margin-bottom: 10%;
   overflow-x: hidden;
 }
 
@@ -10,11 +9,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .service-heading {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   margin: 5px 0 5px 0;
-  border-bottom: 5px solid #673ab7;
+  font-weight: bold;
+  border-bottom: 5px solid #01C6FF;
   padding-bottom: 8px;
   width: max-content;
   margin-bottom: 12px;

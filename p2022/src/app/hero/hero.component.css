@@ -59,9 +59,10 @@
 }
 
 .intro-bio{
+  text-align: justify;
   justify-content: center;
   line-height: 2.5rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   opacity: 0.8;
@@ -182,8 +183,23 @@
     font-size: 1rem;
     line-height: 2;
   }
+
+  .hero-img{
+    height: 100%;
+    width: 90%;
+  }
+
+  .btn{
+    height: 100%;
+    width: 100%;
+    max-width: 102%;
+    margin: 8px auto;
+  }
+
   .buttons{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 5%;
   }
 }

@@ -1,7 +1,7 @@
 #experience-section{
+  padding: 5% inherit;
   margin: 5% 0;
-  font-family: Arial, Helvetica, sans-serif;
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .heading {
@@ -17,6 +17,7 @@
   text-transform: uppercase;
   border-bottom: 5px solid #01C6FF;
   padding-bottom: 8px;
+  margin-bottom: 5%;
   width: max-content;
 }
 
@@ -61,14 +62,14 @@
 
 .client-name{
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .tenure{
   background-color: #01C6FF;
   color: white;
   padding: 0 5px;
-  font-family: "Montserrat",sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-size: 400;
   font-weight: light;
 }

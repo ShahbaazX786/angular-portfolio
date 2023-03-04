@@ -1,3 +1,9 @@
+CL:2.6.2: Bug-Fixes:
+- Fixed a font size bug in footer "made using" text.
+- Fixed some bugs in hero section (buttons and image).
+- Aligned the heading title in skills section by removing padding.
+- Fixed spacing of some components in home page component.
+
 CL:2.6.1: Bug-Fixes:
 - Revamped the skills section using tabs in smaller screens and card view in bigger screens.
 - display:contents property for hiding and showing might give problem in some devices..
