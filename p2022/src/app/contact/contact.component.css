@@ -1,6 +1,7 @@
 #contact {
   overflow-x: hidden;
   padding: 5% 0;
+  background: #01C6FF;
 }
 
 .section-wrapper {
@@ -16,7 +17,7 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 5px;
-  border-bottom: 5px solid #01C6FF;
+  border-bottom: 5px solid black;
   width: auto;
 }
 
@@ -81,6 +82,58 @@ i:hover {
 
 .social {
   font-weight: bold;
+}
+
+.divider-footer {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.divider-footer-sm,
+.divider-footer-md {
+  display: none;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .divider-footer,
+  .divider-footer-sm {
+    display: none;
+  }
+
+  .divider-footer-md {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+
+  .divider-footer,
+  .divider-footer-md {
+    display: none;
+  }
+
+  .divider-footer-sm {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 

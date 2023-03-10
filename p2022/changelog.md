@@ -1,3 +1,7 @@
+CL:2.6.7: Revamp:
+- Stylized footer section.
+- Added section shape dividers using svgs.
+
 CL:2.6.6: Bug-Fixes:
 - Fixed some unused js file error in console.
 
