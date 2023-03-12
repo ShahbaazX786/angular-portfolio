@@ -1,3 +1,9 @@
+CL:2.6.8: Revamp:
+- Added a top svg in footer component and a bottom svg in contact component to make the wave page effect.
+- Revamped the styles to avoid multiple svg usage.
+- Deleted unused wave svgs.
+- Added new component svg in homepage component view. 
+
 CL:2.6.7: Revamp:
 - Stylized footer section.
 - Added section shape dividers using svgs.

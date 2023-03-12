@@ -48,7 +48,7 @@
   color: white;
 }
 
-.card:hover .overlay{
+.card:hover .overlay {
   transform: scale(15) translateZ(0);
 }
 
@@ -84,7 +84,8 @@ i:hover {
   font-weight: bold;
 }
 
-.divider-footer {
+.divider-contact {
+  transform: rotate(180deg);
   position: relative;
   width: 100%;
   height: 100px;
@@ -93,46 +94,17 @@ i:hover {
   margin: 0;
 }
 
-.divider-footer-sm,
-.divider-footer-md {
-  display: none;
-}
-
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-
-  .divider-footer,
-  .divider-footer-sm {
-    display: none;
-  }
-
-  .divider-footer-md {
-    display: flex;
-    position: relative;
-    width: 100%;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
+  .divider-contact {
     height: 80px;
   }
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-
-  .divider-footer,
-  .divider-footer-md {
-    display: none;
-  }
-
-  .divider-footer-sm {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 50px;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
+  .divider-contact {
+    height: 40px;
   }
 }
 
@@ -144,9 +116,9 @@ i:hover {
     justify-content: space-evenly;
   }
 }
+
 @media screen and (max-width:576px) {
   .row {
     padding: 5% 6%;
   }
 }
-
