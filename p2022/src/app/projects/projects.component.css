@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
-.project-section{
-  padding: 5% 0;
+#project-section{
+  background: #01C6FFCC;
+  /* background: rgba(1, 198, 255,0.8); */
+  /* padding: 5% 0; */
 }
 
 .heading{
@@ -11,6 +13,12 @@
   align-items: center;
   text-align: center;
   margin: 5%;
+}
+
+.container{
+  margin: 0 auto;
+  padding-top: 1%;
+  padding-bottom: 5%;
 }
 
 .section-heading{
@@ -132,10 +140,6 @@
   flex-wrap: wrap;
 }
 
-.mat-mdc-tab-group.mat-background-warn,
-.mat-mdc-tab-nav-bar.mat-background-warn {
-  --mat-mdc-tab-header-with-background-background-color: #01C6FF;
-}
 
 .links{
   display: flex;
@@ -191,6 +195,32 @@
   width: 40px;
 }
 
+.divider-project {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  transform: rotate(180deg);
+}
+
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .divider-project {
+    height: 80px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .divider-project {
+    height: 40px;
+  }
+
+}
+
 
   @media screen and (min-width:576px) and (max-width:768px) {
   .card{
@@ -200,7 +230,8 @@
 }
 @media screen and (max-width:576px) {
   .container{
-    width: 90%;
+    width: 100%;
+    --bs-gutter-x: 0rem;
   }
   .card{
     width: 90%;

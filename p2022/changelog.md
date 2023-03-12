@@ -1,3 +1,8 @@
+CL:2.6.9: Revamp:
+- Added some more svg dividers to exp,projects,skills,portfolio sections.
+- Changed the color opacity to 0.8.
+- Changed the mat tab color schemes.
+
 CL:2.6.8: Revamp:
 - Added a top svg in footer component and a bottom svg in contact component to make the wave page effect.
 - Revamped the styles to avoid multiple svg usage.

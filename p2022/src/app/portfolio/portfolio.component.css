@@ -149,6 +149,32 @@
   background-color: #01C6FF;
 }
 
+.divider-portfolio {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  transform: rotate(180deg) rotateY(180deg);
+}
+
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .divider-portfolio {
+    height: 80px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .divider-portfolio {
+    height: 40px;
+  }
+
+}
+
 @media  only screen and (max-width:992px) {
   .swiper-navBtn{
     display: none;

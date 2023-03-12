@@ -115,6 +115,34 @@
   --mat-mdc-tab-header-with-background-background-color: #01C6FF;
 }
 
+
+.divider-exp {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  transform: rotateY(180deg);
+}
+
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .divider-exp {
+    height: 80px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .divider-exp {
+    height: 40px;
+  }
+
+}
+
+
 @media screen and (max-width:768px) {
   .wrapper{
     flex-direction: column;
