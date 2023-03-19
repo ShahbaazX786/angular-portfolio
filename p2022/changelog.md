@@ -1,3 +1,12 @@
+CL:2.7.0: Revamp:
+- Added a scrolltotop button.
+- added eventemitter and output methods to scroll to sections.
+- Added "suppressImplicitAnyIndexErrors": true in tsconfig.
+- created a service to handle the scrolling to sections. 
+- Added service in both header and footer(links are not working correctly) to allow section scrolling.
+- Followed this [link](https://stackoverflow.com/questions/58932416/click-child-anchor-scroll-to-parent-html-element-single-page-in-angular-8) and tried all methods but the last one worked.
+- Live stackblitz [link](https://stackblitz.com/edit/angular-m3fora?embed=1&file=src/app/app.component.ts).
+
 CL:2.6.9: Revamp:
 - Added some more svg dividers to exp,projects,skills,portfolio sections.
 - Changed the color opacity to 0.8.

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-transparent ">
+<nav class="navbar navbar-expand-lg bg-transparent glass" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
   <div class="container-fluid">
     <!-- section-1 -->
     <a class="navbar-brand"  routerLink="/home">
@@ -46,19 +46,19 @@
     <div class="collapse navbar-collapse temp-lg order-lg-0 order-md-1" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" [routerLinkActiveOptions]="{exact:true}"  routerLinkActive="active"  routerLink="/home" i18n>Home</a>
+          <a class="nav-link" aria-current="page" (click)="navigateTo('hero')" #hero [routerLinkActiveOptions]="{exact:true}"  routerLinkActive="active"  routerlink="." i18n>Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="about" i18n><span class="hidden" ><i class="uil uil-user" ></i></span>About</a>
+          <a class="nav-link" routerLinkActive="active" (click)="navigateTo('about')" #about routerlink="." i18n><span class="hidden" ><i class="uil uil-user" ></i></span>About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="skills" i18n><span class="hidden"><i class="uil uil-java-script" ></i></span>Skills</a>
+          <a class="nav-link" routerLinkActive="active" (click)="navigateTo('skills')" #skills routerlink="." i18n><span class="hidden"><i class="uil uil-java-script" ></i></span>Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="portfolio" i18n><span class="hidden"><i class="uil uil-briefcase-alt" ></i></span>Portfolio</a>
+          <a class="nav-link" routerLinkActive="active" (click)="navigateTo('portfolio')"  #portfolio   routerlink="." i18n><span class="hidden"><i class="uil uil-briefcase-alt" ></i></span>Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="contact" i18n><span class="hidden"><i class="uil uil-envelope-add" ></i></span>Contact</a>
+          <a class="nav-link" routerLinkActive="active" (click)="navigateTo('contact')" #contact routerlink="." i18n><span class="hidden"><i class="uil uil-envelope-add" ></i></span>Contact</a>
         </li>
       </ul>
     </div>
@@ -88,3 +88,4 @@
     <p class="bottom-nav-txt" i18n>Contact</p>
   </a>
 </div>
+    <a class="topp" (click)="reset()"><mat-icon>keyboard_arrow_up</mat-icon></a>
