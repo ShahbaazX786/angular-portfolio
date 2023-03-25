@@ -1,3 +1,7 @@
+CL:2.7.1: Navbar Hostlistener implementation:
+- Modified navbar styles with a hostlistener.
+- navbar will be shown if scrolled up and hidden if scrolled down.
+
 CL:2.7.0: Revamp:
 - Added a scrolltotop button.
 - added eventemitter and output methods to scroll to sections.

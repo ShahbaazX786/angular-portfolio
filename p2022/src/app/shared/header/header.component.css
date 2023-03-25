@@ -280,7 +280,7 @@ div:nth-child(2){
 
 }
 
-.fixed{
+.fixed {
   z-index: 100;
   position: fixed;
   width: 100%;
@@ -288,16 +288,26 @@ div:nth-child(2){
   top: 0px;
 }
 
-.nofixed{
+.nofixed {
   z-index: 100;
   position: static;
   transition: 0.01s ease-in;
   top: -50px;
 }
 
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
 .glass{
-    background: rgba(255, 255, 255, 1);
-    backdrop-filter: blur(25px) saturate(150%);
-    -webkit-backdrop-filter: blur(25px) saturate(150%);
-    z-index: 100;
+  background: rgb(255, 255, 255);
+  backdrop-filter: blur(25px) saturate(150%);
+  -webkit-backdrop-filter: blur(25px) saturate(150%);
+  z-index: 100;
 }

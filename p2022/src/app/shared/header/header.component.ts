@@ -12,7 +12,9 @@ export class HeaderComponent implements OnInit {
   instagram = 'https://www.instagram.com/animeboikhan2/';
   twitter = 'https://twitter.com/Animeboi92';
   linkedin = 'https://linkedin.com/in/shaik-shahbaaz-alam';
-  navbarfixed : boolean = false;
+  public navbarfixed!:boolean;
+  public lastScrollTop = 0;
+  public scrollTop = 0;
 
   ngOnInit() {}
 
@@ -25,20 +27,12 @@ export class HeaderComponent implements OnInit {
   }
 
   @HostListener('window:scroll', ['$event']) onscroll() {
-    var lastScrollTop=-1;
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    // if (window.scrollY > 100) {
-      //   this.navbarfixed = true;
-      // }
-      // else{
-        //   this.navbarfixed = false;
-        // }
-
-        if (scrollTop > lastScrollTop) {
-          this.navbarfixed = true;
-        } else {
-          this.navbarfixed = false;
-        }
-        lastScrollTop = scrollTop;
+    this.scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (this.scrollTop > this.lastScrollTop) {
+      this.navbarfixed = true;
+    } else {
+      this.navbarfixed = false;
+    }
+    this.lastScrollTop=this.scrollTop;
   }
 }
