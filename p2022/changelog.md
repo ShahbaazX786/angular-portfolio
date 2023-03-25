@@ -1,3 +1,7 @@
+CL:2.7.2: Navbar style bugfix:
+- Fixed a bug which was causing a jitter while loading the navbar with fixed position.
+- So made it to sticky position.
+
 CL:2.7.1: Navbar Hostlistener implementation:
 - Modified navbar styles with a hostlistener.
 - navbar will be shown if scrolled up and hidden if scrolled down.
