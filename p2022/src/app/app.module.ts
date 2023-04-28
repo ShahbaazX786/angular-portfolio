@@ -29,6 +29,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { MatTabsModule } from '@angular/material/tabs';
+import { HolopinComponent } from './integrations/holopin/holopin.component';
 
 
 
@@ -52,6 +53,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     ResumeComponent,
     LanguageSelectorDialogComponent,
     HobbyComponent,
+    HolopinComponent,
   ],
   imports: [
     BrowserModule,

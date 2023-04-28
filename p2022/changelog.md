@@ -1,3 +1,6 @@
+CL:2.7.3: holopin integration:
+- Integrated holopin badges.
+
 CL:2.7.2: Navbar style bugfix:
 - Fixed a bug which was causing a jitter while loading the navbar with fixed position.
 - So made it to sticky position.

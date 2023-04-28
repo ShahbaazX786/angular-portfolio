@@ -1,5 +1,14 @@
 import { HelperService } from 'src/app/helper.service';
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { HeroComponent } from './hero/hero.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
+import { PnfComponent } from './pnf/pnf.component';
 
 @Component({
   selector: 'app-root',
@@ -9,16 +18,25 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'p2022';
 
-  @ViewChild('hero', { static: false }) hero!: ElementRef;
-  @ViewChild('about', { static: false }) about!: ElementRef;
-  @ViewChild('services', { static: false }) services!: ElementRef;
-  @ViewChild('skills', { static: false }) skills!: ElementRef;
-  @ViewChild('experience', { static: false }) experience!: ElementRef;
-  @ViewChild('projects', { static: false }) projects!: ElementRef;
-  @ViewChild('portfolio', { static: false }) portfolio!: ElementRef;
-  @ViewChild('hobby', { static: false }) hobby!: ElementRef;
-  @ViewChild('contact', { static: false }) contact!: ElementRef;
-  @ViewChild('pnf', { static: false }) pnf!: ElementRef;
+  @ViewChild(HeroComponent, { static: false })
+  HeroComponent!: HeroComponent;
+  @ViewChild(AboutComponent, { static: false })
+  AboutComponent!: AboutComponent;
+  @ViewChild(ServicesComponent, { static: false })
+  ServicesComponent!: ServicesComponent;
+  @ViewChild(SkillsComponent, { static: false })
+  SkillsComponent!: SkillsComponent;
+  @ViewChild(ExperienceComponent, { static: false })
+  ExperienceComponent!: ExperienceComponent;
+  @ViewChild(ProjectsComponent, { static: false })
+  ProjectsComponent!: ProjectsComponent;
+  @ViewChild(PortfolioComponent, { static: false })
+  PortfolioComponent!: PortfolioComponent;
+  @ViewChild(ContactComponent, { static: false })
+  ContactComponent!: ContactComponent;
+  @ViewChild(PnfComponent, { static: false })
+  PnfComponent!: PnfComponent;
+
 
   constructor(private _helper: HelperService) {
     this._helper.navigate.subscribe((status: string) => {
