@@ -1,7 +1,7 @@
 #contact {
   overflow-x: hidden;
   padding: 5% 0;
-  background: #01C6FFCC;
+  /* background: #01C6FFCC; */
 }
 
 .section-wrapper {
@@ -17,7 +17,7 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 5px;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #01C6FFCC;
   width: auto;
 }
 

@@ -161,6 +161,27 @@ div:nth-child(2){
 }
 
 
+.resume{
+  color: #01C6FF !important;
+  border: 1px solid #01C6FF;
+}
+
+.resume:hover{
+  color: black !important;
+}
+
+.resume:active{
+  border: 1px solid black;
+  color: white !important;
+  background: #0096c0 !important;
+}
+
+.resume-link{
+  padding: 0 !important;
+  font-family: 'Roboto',sans-serif;
+  text-decoration: none;
+}
+
 /* mobile and tab media queries */
 @media only screen and (max-width:992px){
   .container-fluid{

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
-#project-section{
+/* #project-section{
   background: #01C6FFCC;
-  /* background: rgba(1, 198, 255,0.8); */
-  /* padding: 5% 0; */
-}
+  background: rgba(1, 198, 255,0.8);
+  padding: 5% 0;
+} */
 
 .heading{
   display: flex;

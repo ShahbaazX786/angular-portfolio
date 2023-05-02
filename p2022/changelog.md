@@ -1,3 +1,7 @@
+CL:2.7.6: Resume button and code cleanup:
+- Removed svgs for now. commented the code which included svg and styling.
+- Added a new resume download link in header component.
+
 CL:2.7.5: module separations:
 - Added a new module for routing and component separation.
 - Added a dummy empty component for base routing of integration module.
