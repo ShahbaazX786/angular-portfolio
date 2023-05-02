@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
+  filter:drop-shadow(0 12px 0.55rem rgb(108, 108, 108));
 }
 
 .holopin{
@@ -25,7 +27,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 3%;
 }
 
 .section-heading {
@@ -34,13 +35,12 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 5px;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #01C6FF;
   width: auto;
 }
 
 .holopin-info{
   width: 90%;
-  margin: 10px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 500;

@@ -21,18 +21,9 @@ import { ResumeComponent } from './resume/resume.component';
 import { HobbyComponent } from './hobby/hobby.component';
 import { LanguageSelectorDialogComponent } from './language-selector-dialog/language-selector-dialog.component';
 
-// material imports from here
-import { MatMenuModule } from '@angular/material/menu';
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
-import { MatDialogModule } from '@angular/material/dialog';
-import { MatCardModule } from '@angular/material/card';
-import {MatTooltipModule} from '@angular/material/tooltip';
-import { MatTabsModule } from '@angular/material/tabs';
-import { HolopinComponent } from './integrations/holopin/holopin.component';
-
-
-
+// module imports
+import { MaterialsModule } from './materials.module';
+import { IntegrationModule } from './integrations/integration.module';
 
 
 @NgModule({
@@ -52,20 +43,14 @@ import { HolopinComponent } from './integrations/holopin/holopin.component';
     ContactComponent,
     ResumeComponent,
     LanguageSelectorDialogComponent,
-    HobbyComponent,
-    HolopinComponent,
+    HobbyComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule,
-    MatIconModule,
-    MatButtonModule,
-    MatDialogModule,
-    MatCardModule,
-    MatTooltipModule,
-    MatTabsModule
+    MaterialsModule,
+    IntegrationModule
   ],
   providers: [
     {provide:LOCALE_ID, useValue:'en'}

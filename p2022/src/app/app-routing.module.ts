@@ -30,7 +30,6 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'hobby', component: HobbyComponent},
-  { path: '**', component: PnfComponent},
 ];
 
 @NgModule({

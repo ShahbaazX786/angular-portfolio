@@ -1,3 +1,14 @@
+CL:2.7.5: module separations:
+- Added a new module for routing and component separation.
+- Added a dummy empty component for base routing of integration module.
+- Segregated material modules imports into a new materials module.
+- Reversed the header styles to support SPA view(commented unwanted code.)
+- Reverted tsconfig changes.
+- still deciding whether to divide footer and header pages into modules as well or not.
+
+CL:2.7.4: module separations:
+- Integrated medium blog.
+
 CL:2.7.3: holopin integration:
 - Integrated holopin badges.
 
