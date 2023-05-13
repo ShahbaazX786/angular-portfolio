@@ -2,7 +2,13 @@
 
 .container{
   overflow-x: hidden;
-  padding: 5% 1%;
+  padding: 2% 0px;
+  margin: auto;
+}
+
+::selection{
+  color: #01C6FF;
+  background: black;
 }
 
 .hero-heading{

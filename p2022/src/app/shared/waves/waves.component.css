@@ -1,0 +1,21 @@
+.divider-contact{
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.top{
+  transform:rotate(0deg);
+}
+
+.bottom{
+  transform: rotate(180deg);
+}

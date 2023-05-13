@@ -4,7 +4,7 @@
 /dist
 /tmp
 /docs
-.firebase
+.firebase/
 /out-tsc
 /bazel-out
 

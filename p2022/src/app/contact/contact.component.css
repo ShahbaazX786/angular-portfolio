@@ -84,31 +84,6 @@ i:hover {
   font-weight: bold;
 }
 
-.divider-contact {
-  transform: rotate(180deg);
-  position: relative;
-  width: 100%;
-  height: 100px;
-  overflow-x: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-/** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .divider-contact {
-    height: 80px;
-  }
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .divider-contact {
-    height: 40px;
-  }
-}
-
-
 @media screen and (max-width:992px) {
   .row {
     display: flex;

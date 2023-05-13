@@ -1,4 +1,4 @@
-import { MaterialsModule } from '../materials.module';
+import { MaterialsModule } from '../shared/materials.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HolopinComponent } from './holopin/holopin.component';

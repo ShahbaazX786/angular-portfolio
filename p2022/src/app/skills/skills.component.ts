@@ -97,6 +97,10 @@ export class SkillsComponent implements OnInit {
         src: '../../assets/img/external/svg/seo.svg',
       },
       {
+        name: 'Web Accessibility',
+        src: '../../assets/img/external/svg/webAccessibility.svg',
+      },
+      {
         name: 'Jest',
         src: '../../assets/img/external/svg/jest.svg',
       },
@@ -164,7 +168,6 @@ export class SkillsComponent implements OnInit {
         name: 'EJS',
         src: '../../assets/img/external/svg/ejs.svg',
       },
-
     ],
     backend: [
       {
@@ -222,6 +225,10 @@ export class SkillsComponent implements OnInit {
       {
         name: 'SEO',
         src: '../../assets/img/external/svg/seo.svg',
+      },
+      {
+        name: 'Web Accessibility',
+        src: '../../assets/img/external/svg/webAccessibility.svg',
       },
       {
         name: 'Jest',

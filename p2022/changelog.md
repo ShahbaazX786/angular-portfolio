@@ -1,3 +1,19 @@
+CL:2.7.7: Other components glowup & bug fixes.
+- Made some slight title changes to hero component.
+- Added a selection css to hero component.
+- Created a new integration component to store other pages of the portfolio.
+- Added styling to holopin and medium components.
+- Fixed grid style to masonry in socialable.
+- Added a loading spinner in holopin component.
+- Created a new waves component which is used to load dynamic dividers based on input.
+- Created a standalone material module for importing all material components project wide easily.
+- Moved pnf route from main routing module to integration routing module.
+- Added new component divider svgs.
+- Deleted old svgs.
+- Increased language selector dialog width.
+- Added a new skill.
+
+
 CL:2.7.6: Resume button and code cleanup:
 - Removed svgs for now. commented the code which included svg and styling.
 - Added a new resume download link in header component.

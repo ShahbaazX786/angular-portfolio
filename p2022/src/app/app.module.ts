@@ -20,9 +20,10 @@ import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HobbyComponent } from './hobby/hobby.component';
 import { LanguageSelectorDialogComponent } from './language-selector-dialog/language-selector-dialog.component';
+import { WavesComponent } from './shared/waves/waves.component';
 
 // module imports
-import { MaterialsModule } from './materials.module';
+import { MaterialsModule } from './shared/materials.module';
 import { IntegrationModule } from './integrations/integration.module';
 
 
@@ -43,7 +44,8 @@ import { IntegrationModule } from './integrations/integration.module';
     ContactComponent,
     ResumeComponent,
     LanguageSelectorDialogComponent,
-    HobbyComponent
+    HobbyComponent,
+    WavesComponent
   ],
   imports: [
     BrowserModule,

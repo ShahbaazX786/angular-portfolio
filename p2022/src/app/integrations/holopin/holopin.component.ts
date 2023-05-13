@@ -7,5 +7,10 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./holopin.component.css'],
 })
 export class HolopinComponent {
+  imageLoader:boolean=true;
   enabled = new FormControl(true);
+
+  onLoad(){
+    this.imageLoader = false;
+  }
 }
