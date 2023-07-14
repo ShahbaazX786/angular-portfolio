@@ -13,9 +13,10 @@
 
 .hero-heading{
   margin-top: 2%;
-  font-family: 'Montserrat';
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-family: 'Arial';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
 }
 
 .typewriter{
@@ -34,10 +35,12 @@
 }
 
 .about-link{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arial', sans-serif;
   text-decoration: none;
   color: #01C6FF;
   cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
   transition: all 0.3s ease-in;
 }
 .about-link:hover{
@@ -65,13 +68,13 @@
 }
 
 .intro-bio{
-  text-align: justify;
+  color: gray;
   justify-content: center;
-  line-height: 2.5rem;
-  font-size: 1.3rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
-  opacity: 0.8;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  text-align: left;
   margin-bottom: 5%;
 }
 

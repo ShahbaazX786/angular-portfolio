@@ -37,6 +37,22 @@ export class SkillsComponent implements OnInit {
         src: '../../assets/img/external/svg/angmat.svg',
       },
       {
+        name: 'ReactJS',
+        src: '../../assets/img/external/svg/react.svg',
+      },
+      {
+        name: 'NextJS',
+        src: '../../assets/img/external/svg/next.svg',
+      },
+      {
+        name: 'Redux toolkit',
+        src: '../../assets/img/external/svg/redux.svg',
+      },
+      {
+        name: 'SCSS',
+        src: '../../assets/img/external/svg/scss..svg',
+      },
+      {
         name: 'MongoDB',
         src: '../../assets/img/external/svg/mongodb.svg',
       },
@@ -97,7 +113,7 @@ export class SkillsComponent implements OnInit {
         src: '../../assets/img/external/svg/seo.svg',
       },
       {
-        name: 'Web Accessibility',
+        name: 'Web A11y',
         src: '../../assets/img/external/svg/webAccessibility.svg',
       },
       {

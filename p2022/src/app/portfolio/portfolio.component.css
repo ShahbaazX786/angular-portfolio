@@ -28,12 +28,15 @@
 .slide-container {
   /* max-width: 1200px; */
   width: 100%;
-  height: 400px;
-  padding: 40px 0;
+  height: auto;
+  min-height: 400px;
+  padding: 10px 0;
+  margin: 10px 0;
 }
 
 .slide-content {
   margin: 0 45px;
+  padding: 10px 0;
   overflow: hidden;
 }
 .swiper-navBtn {
@@ -64,8 +67,8 @@
 }
 
 .card {
-  width: 300px;
-  height: 280px;
+  width: auto;
+  height: auto;
   border-radius: 5px;
   padding: 1.5rem;
   background: white;
@@ -77,7 +80,7 @@
 }
 
 .card:hover {
-  transform: translateY(10px);
+  transform: translateY(0px);
 }
 
 .card:hover:before {
@@ -159,6 +162,9 @@
   transform: rotate(180deg) rotateY(180deg);
 }
 
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+  transform: translateY(20px) scale(2) !important;
+}
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -181,12 +187,12 @@
   }
   .slide-content{
     margin: 0;
-    padding: 5% 0;
+    padding: 1% 0;
   }
 }
 
 @media  only screen and (max-width:768px) {
   .slide-content{
-    padding: 5% 0;
+    padding: 1% 0;
   }
 }

@@ -31,7 +31,7 @@ export class ContactComponent implements OnInit {
       class: 'fa-brands fa-github',
       social: 'Github',
       username: 'Follow me on Github',
-      color: '#6cc644',
+      color: 'goldenrod',
       iconColor: 'black',
       link: 'https://github.com/ShahbaazX786',
     },

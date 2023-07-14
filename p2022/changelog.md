@@ -1,3 +1,7 @@
+CL:2.7.8: Other components glowup & bug fixes.
+- components fixed are 
+  - hero, footer, about, skills, projects, services, portfolio.
+
 CL:2.7.7: Other components glowup & bug fixes.
 - Made some slight title changes to hero component.
 - Added a selection css to hero component.

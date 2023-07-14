@@ -40,13 +40,13 @@ img{
 
 .about-paragraph{
   /* padding-right: 2%; */
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Arial',sans-serif;
   text-align: justify;
   justify-content: center;
   font-size: 1.3rem;
-  opacity: 0.8;
+  color: gray;
   margin: 5% 0;
-  line-height: 1.6rem;
+  line-height: 1.5;
 }
 
 
