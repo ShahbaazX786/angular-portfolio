@@ -1,3 +1,10 @@
+CL:2.8.0: Translations & Image Update.
+- Added Hindi Translations.
+- Updated profile image after 2 yrs lol.
+
+CL:2.7.9: Cleaning the code.
+- Removed docs folder.
+
 CL:2.7.8: Other components glowup & bug fixes.
 - components fixed are 
   - hero, footer, about, skills, projects, services, portfolio.

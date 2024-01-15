@@ -24,11 +24,11 @@ export class PortfolioComponent implements OnInit {
       img: '../../assets/img/external/Project-screenshots/Tindoggo.png',
       desc: 'This is a description',
     },
-    {
-      name: 'She-Hulk',
-      img: '../../assets/img/external/Project-screenshots/construction.png',
-      desc: 'This is a description',
-    },
+    // {
+    //   name: 'She-Hulk',
+    //   img: '../../assets/img/external/Project-screenshots/construction.png',
+    //   desc: 'This is a description',
+    // },
     {
       name: 'Blog-EJS',
       img: '../../assets/img/external/Project-screenshots/Blog.png',
