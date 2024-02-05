@@ -14,22 +14,34 @@ export class ContactComponent implements OnInit {
     {
       class: 'fa-brands fa-twitter',
       social: 'Twitter',
-      username: 'ShahbaazX',
+      username: 'Give me a follow',
+      color: '#222222',
+      iconColor: '#1DA1F2',
+      link: 'https://twitter.com/Animeboi92',
     },
     {
       class: 'fa-solid fa-envelope',
-      social: 'Contact Me',
+      social: 'E-Mail',
       username: 'Drop me a Mail',
+      color: '#660066',
+      iconColor: '#6e5494',
+      link: 'mailto:trav62031@gmail.com',
     },
     {
       class: 'fa-brands fa-github',
       social: 'Github',
-      username: 'ShahbaazX786',
+      username: 'Follow me on Github',
+      color: 'goldenrod',
+      iconColor: 'black',
+      link: 'https://github.com/ShahbaazX786',
     },
     {
       class: 'fa-brands fa-linkedin',
       social: 'LinkedIn',
-      username: 'Shaik Shahbaaz Alam',
+      username: "Let's Connect on LinkedIn",
+      color: '#0072b1',
+      iconColor: '#85b2ff',
+      link: 'https://linkedin.com/in/shaik-shahbaaz-alam',
     },
   ];
 }

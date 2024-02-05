@@ -1,21 +1,81 @@
+<!-- <img class="divider-project" src="../../assets/V2/Dividers/Projectwaves.svg" alt="waves"> -->
 <div id="project-section">
   <div class="container">
     <div class="heading">
-      <h1 class="section-heading">&nbsp;Projects 📚&nbsp;</h1>
+      <h1 class="section-heading" i18n>&nbsp;Projects 📚&nbsp;</h1>
     </div>
-    <div class="row">
-        <div class="card col col-lg-4 col-md-3 col-sm-11" *ngFor="let project of projects">
-          <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
-          <div class="card-body top">
-            <h5 class="card-title">{{project.Name}}</h5>
-            <p class="card-text">{{project.Desc}}</p>
+    <mat-tab-group animationDuration="0ms" [color]="'primary'" [backgroundColor]="'warn'">
+      <mat-tab label="Featured Projects">
+        <p class="title" i18n>These are some of my Featured Projects</p>
+        <mat-card-content class="tab">
+          <div class="wrapper">
+            <div class="card" *ngFor="let project of Featured">
+              <div class="links">
+                <a [href]="project.Live" *ngIf="project.Live!=null"><img class="links-icon bigger"
+                    src="../../assets/V2/Icons/Projects/live.svg" alt="live website icon"
+                    matTooltip="Checkout Live Demo" matTooltipPosition="above"></a>
+                <a [href]="project.Git" *ngIf="project.Git!=null"><img class="links-icon"
+                    src="../../assets/V2/Icons/Projects/github.svg" alt="github icon" matTooltip="Go to Github"
+                    matTooltipPosition="above"></a>
+              </div>
+              <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
+              <div class="card-body top">
+                <h5 class="card-title">{{project.Name}}</h5>
+                <p class="card-text">{{project.Desc}}</p>
+              </div>
+              <div class="card-body bottom">
+                <ng-container class="stack" *ngFor="let item of project.stack">
+                  <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">
+                </ng-container>
+              </div>
+            </div>
           </div>
-          <div class="card-body bottom">
-            <ng-container class="stack" *ngFor="let item of project.stack">
-              <img class="stack-img" [src]=item.img alt="stack-used">
-            </ng-container>
+        </mat-card-content>
+      </mat-tab>
+      <mat-tab label="UI Exercises" i18n>
+        <p class="title" >These are some of my Mini-Projects focused on UI</p>
+        <mat-card-content class="tab">
+          <div class="wrapper">
+            <div class="card" *ngFor="let project of UI">
+              <div class="links">
+                <a [href]="project.Live" *ngIf="project.Live!=null"><img class="links-icon bigger"
+                    src="../../assets/V2/Icons/Projects/live.svg" alt="live website icon"
+                    matTooltip="Checkout Live Demo" matTooltipPosition="above"></a>
+                <a [href]="project.Git" *ngIf="project.Git!=null"><img class="links-icon"
+                    src="../../assets/V2/Icons/Projects/github.svg" alt="github icon" matTooltip="Go to Github"
+                    matTooltipPosition="above"></a>
+              </div>
+              <img class="card-img-top" [src]=project.screenshot alt="Card image cap">
+              <div class="card-body top">
+                <h5 class="card-title">{{project.Name}}</h5>
+                <p class="card-text">{{project.Desc}}</p>
+              </div>
+              <div class="card-body bottom">
+                <ng-container class="stack" *ngFor="let item of project.stack">
+                  <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">
+                </ng-container>
+              </div>
+            </div>
           </div>
-        </div>
-    </div>
+        </mat-card-content>
+      </mat-tab>
+      <mat-tab label="WIP">
+        <p class="title" i18n>These Projects are currently in progress (WIP)</p>
+        <mat-card-content class="tab">
+          <div class="card" *ngFor="let project of WIP">
+            <img class="card-img-top WIP" [src]=project.screenshot alt="Card image cap">
+            <div class="card-body top">
+              <h5 class="card-title WIP">{{project.Name}}</h5>
+              <p class="card-text WIP">{{project.Desc}}</p>
+            </div>
+            <div class="card-body bottom">
+              <ng-container class="stack" *ngFor="let item of project.stack">
+                <img class="stack-img" [src]=item.img alt="stack-used" [matTooltip]="item.name" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">
+              </ng-container>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-tab>
+    </mat-tab-group>
   </div>
 </div>

@@ -1,11 +1,94 @@
+<!-- <img class="divider-skill" src="../../assets/V2/Dividers/Projectwaves.svg" alt="waves"> -->
 <div id="skills">
   <div class="heading-wrapper">
     <h1 class="heading" i18n>&nbsp;Skills 🧑‍💻&nbsp;</h1>
   </div>
   <div class="container">
-    <div class="card glass" *ngFor="let s of skills" data-toggle="tooltip" data-placement="top" [title]="s.name" >
+    <div class="normalview">
+      <div class="card" *ngFor="let s of skills.all" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+        (click)="tooltip.toggle()" ng-mouseover="s.name">
         <img class="ico" [src]=s.src alt="image" i18n-alt>
+        <div class="overlay"></div>
         <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+      </div>
+    </div>
+    <div class="tabview">
+      <mat-tab-group animationDuration="0ms" [color]="'primary'" [backgroundColor]="'warn'">
+        <div class="tab-wrapper">
+          <mat-tab label="All" class="tab">
+            <mat-card-content>
+              <div class="wrapper">
+                <div class="card" *ngFor="let s of skills.all" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+                  (click)="tooltip.toggle()" ng-mouseover="s.name">
+                  <img class="ico" [src]=s.src alt="image" i18n-alt>
+                  <div class="overlay"></div>
+                  <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Programming" class="tab">
+            <mat-card-content>
+              <div class="wrapper">
+                <div class="card" *ngFor="let s of skills.programming" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+                  (click)="tooltip.toggle()" ng-mouseover="s.name">
+                  <img class="ico" [src]=s.src alt="image" i18n-alt>
+                  <div class="overlay"></div>
+                  <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Frontend">
+            <mat-card-content>
+              <div class="wrapper">
+                <div class="card" *ngFor="let s of skills.frontend" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+                  (click)="tooltip.toggle()" ng-mouseover="s.name">
+                  <img class="ico" [src]=s.src alt="image" i18n-alt>
+                  <div class="overlay"></div>
+                  <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Backend">
+            <mat-card-content>
+              <div class="wrapper">
+                <div class="card" *ngFor="let s of skills.backend" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+                  (click)="tooltip.toggle()" ng-mouseover="s.name">
+                  <img class="ico" [src]=s.src alt="image" i18n-alt>
+                  <div class="overlay"></div>
+                  <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Database">
+            <mat-card-content>
+              <div class="wrapper">
+                <div class="card" *ngFor="let s of skills.database" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+                  (click)="tooltip.toggle()" ng-mouseover="s.name">
+                  <img class="ico" [src]=s.src alt="image" i18n-alt>
+                  <div class="overlay"></div>
+                  <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Other">
+            <mat-card-content>
+              <div class="wrapper">
+                <div class="card" *ngFor="let s of skills.other" [matTooltip]="s.name" matTooltipPosition="above" #tooltip="matTooltip"
+                  (click)="tooltip.toggle()" ng-mouseover="s.name">
+                  <img class="ico" [src]=s.src alt="image" i18n-alt>
+                  <div class="overlay"></div>
+                  <p class="ico-txt" mat-tool-tip="[s.name]">{{s.name}}</p>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-tab>
+        </div>
+      </mat-tab-group>
     </div>
   </div>
 </div>

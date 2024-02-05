@@ -1,28 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { LanguageSelectorDialogComponent } from './../../language-selector-dialog/language-selector-dialog.component';
+import { Component} from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css'],
 })
-export class FooterComponent implements OnInit {
-  constructor() {}
+export class FooterComponent {
+  constructor(public _dialog: MatDialog) {}
+  instagram = 'https://www.instagram.com/animeboikhan2/';
+  twitter = 'https://twitter.com/Animeboi92';
+  github = 'https://github.com/ShahbaazX786';
+  linkedin = 'https://linkedin.com/in/shaik-shahbaaz-alam';
+  mail = 'mailto:trav62031@gmail.com';
 
-  language:string='English';
+  openDialog() {
+    const dialogRef = this._dialog.open(LanguageSelectorDialogComponent);
 
-  locale:string='English';
-
-  languageList: any = [
-    { code: 'en', name: 'English' },
-    { code: 'ur', name: 'Urdu' },
-    { code: 'hi', name: 'Hindi' },
-    { code: 'ja', name: 'Japanese' },
-    { code: 'te', name: 'Telugu' },
-  ];
-
-  ngOnInit(){
-    this.locale=window.location.pathname.split('/')[2];
-    this.language=this.languageList.find((f: { code: string | undefined; })=>f.code===this.locale).name;
+    dialogRef.afterClosed().subscribe((result) => {
+      console.log(`Dialog result: ${result}`);
+    });
   }
-
 }

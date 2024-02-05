@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,weight@9..144,700&family=Roboto:wght@400;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
 
 
 /* container which holds all 3 sections together. */
@@ -137,6 +138,49 @@ div:nth-child(2){
   display: none;
 }
 
+.topp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  text-decoration: none;
+  color: #01C6FF;
+  background-color: white;
+  border-radius: 100%;
+  height: 50px;
+  width: 51px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topp:hover {
+  color: white;
+  background-color: #01C6FF;
+}
+
+
+.resume{
+  color: #01C6FF !important;
+  border: 1px solid #01C6FF;
+}
+
+.resume:hover{
+  color: black !important;
+}
+
+.resume:active{
+  border: 1px solid black;
+  color: white !important;
+  background: #0096c0 !important;
+}
+
+.resume-link{
+  padding: 0 !important;
+  font-family: 'Roboto',sans-serif;
+  text-decoration: none;
+}
 
 /* mobile and tab media queries */
 @media only screen and (max-width:992px){
@@ -153,7 +197,7 @@ div:nth-child(2){
     padding-top: 5%;
   }
 
-  li .active {
+  li:active {
   padding-left: 10px;
   margin-left: -10px;
   font-weight: bold;
@@ -257,3 +301,35 @@ div:nth-child(2){
   /* need to work on this. */
 
 }
+
+/* .fixed {
+  z-index: 100;
+  position: sticky;
+  width: 100%;
+  transition: 0.5s ease-out;
+  top: 0px;
+}
+
+.nofixed {
+  z-index: 100;
+  position: static;
+  transition: 0.01s ease-in;
+  top: -50px;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.glass{
+  background: rgb(255, 255, 255);
+  backdrop-filter: blur(25px) saturate(150%);
+  -webkit-backdrop-filter: blur(25px) saturate(150%);
+  z-index: 100;
+} */

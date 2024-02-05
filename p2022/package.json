@@ -12,7 +12,7 @@
     "hi": "ng serve --configuration=hi",
     "ur": "ng serve --configuration=ur",
     "te": "ng serve --configuration=te",
-    "L":"ng build --localize"
+    "L": "ng build --localize"
   },
   "private": true,
   "dependencies": {

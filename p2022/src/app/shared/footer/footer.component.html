@@ -1,45 +1,37 @@
-<div class="container">
+<div class="container-fluid">
   <div class="wrapper-2 row">
+    <!-- <img class="divider-footer" src="../../../assets/V2/Dividers/waves.svg"> -->
     <div class="pages col col-lg-4">
       <p class="txt" i18n>pages</p>
       <a class="page-link" routerLink="projects" i18n>Projects</a>
       <a class="page-link" routerLink="experience" i18n>Experience</a>
       <a class="page-link" routerLink="services" i18n>Services</a>
-      <a class="page-link" routerLink="pnf" i18n>Hobbies</a>
-      <a class="page-link" routerLink="pnf" i18n>Interests</a>
+      <a class="page-link" routerLink="hobby" i18n>Hobbies</a>
+      <a class="page-link" routerLink="others" i18n>others</a>
     </div>
     <div class="social col col-lg-4">
       <p class="txt" i18n>social</p>
-      <a class="page-link" i18n><i class="fa-brands fa-instagram"></i>Instagram</a>
-      <a class="page-link" i18n><i class="fa-brands fa-twitter"></i>Twitter</a>
-      <a class="page-link" i18n><i class="fa-brands fa-github"></i>Github</a>
-      <a class="page-link" i18n><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
-      <a class="page-link" i18n><i class="fa-solid fa-envelope"></i>Email</a>
+      <a class="page-link" i18n [href]="instagram" target="_blank"  rel="noopener" matTooltip="Gallery Account" matTooltipPosition="above" #tooltipG="matTooltip" (click)="tooltipG.toggle()"><i class="fa-brands fa-instagram color"></i>Instagram</a>
+      <a class="page-link" i18n [href]="twitter" target="_blank"  rel="noopener"><i class="fa-brands fa-twitter color"></i>Twitter</a>
+      <a class="page-link" i18n [href]="github" target="_blank"  rel="noopener"><i class="fa-brands fa-github color"></i>Github</a>
+      <a class="page-link" i18n [href]="linkedin" target="_blank"  rel="noopener"><i class="fa-brands fa-linkedin color"></i>LinkedIn</a>
+      <a class="page-link" i18n [href]="mail" target="_blank"  rel="noopener"><i class="fa-solid fa-envelope color"></i>Email</a>
     </div>
     <div class="language lang-3 col col-lg col-md-10 col-sm-10">
-      <div class="drop-down">
-        <p class="txt" i18n>Language</p>
-        <button mat-stroked-button color="primary" [matMenuTriggerFor]="menu">
-          <mat-icon>language</mat-icon>
-          {{language}}
-        </button>
-        <mat-menu #menu="matMenu">
-          <a class="page-link" mat-menu-item href="/en" i18n>English</a>
-          <a class="page-link" mat-menu-item href="/hi" i18n>Hindi</a>
-          <a class="page-link" mat-menu-item href="/ja" i18n>Japanese</a>
-          <a class="page-link" mat-menu-item href="/ur" i18n>Urdu</a>
-          <a class="page-link" mat-menu-item href="/te" i18n>Telugu</a>
-        </mat-menu>
-        <p class="lang-txt" i18n>Now you can check my portfolio in different Regional languages</p>
-      </div>
+      <p class="txt" i18n>Language</p>
+      <p class="lang-txt" i18n>Now you can check my portfolio in different Regional languages</p>
+      <button class="lang-btn" role="button" (click)="openDialog()" matTooltip="View in local language" i18n>Language</button>
     </div>
   </div>
 
   <div class="wrapper-1">
-    <p class="txt custom-pos-1" i18n>made with</p>
-    <img class="foot-icons" src="../../../assets/V2/Icons/Footer/Footer-logo-Ang.svg" alt="Angular">
-    <img class="foot-icons" src="../../../assets/V2/Icons/Footer/Footer-logo-Boot.svg" alt="Bootstrap">
+      <P class="txt custom-pos-1">Made Using:</P>
+      <img class="foot-icons" src="../../../assets/img/external//svg/angular.svg" alt="Angular" matTooltip="Angular" matTooltipPosition="above" #tooltip1="matTooltip" (click)="tooltip1.toggle()">
+      <img class="foot-icons" src="../../../assets/img/external/svg/typescript.svg" alt="Typescript" matTooltip="Typescript" matTooltipPosition="above" #tooltip2="matTooltip" (click)="tooltip2.toggle()">
+      <img class="foot-icons" src="../../../assets/img/external/svg/angmat.svg" alt="Angular Material" matTooltip="Angular Material" matTooltipPosition="above" #tooltip3="matTooltip" (click)="tooltip3.toggle()">
+      <img class="foot-icons" src="../../../assets/img/external/svg/Swiper.svg" alt="SwiperJS" matTooltip="SwiperJs" matTooltipPosition="above" #tooltip4="matTooltip" (click)="tooltip4.toggle()">
+      <img class="foot-icons" src="../../../assets/img/external/svg/firebase.svg" alt="Firebase" matTooltip="Firebase" matTooltipPosition="above" #tooltip5="matTooltip" (click)="tooltip5.toggle()">
   </div>
 
-  <p class="footer_copy" i18n>Made by <a class="link" href="">Shaik Shahbaaz Alam. </a>All rights reserved<sup>&#169;</sup></p>
+  <p class="footer_copy" i18n>Made with <span matTooltip="love" matTooltipPosition="above" #tooltip="matTooltip" (click)="tooltip.toggle()">💖</span> by <a class="link" href="">Shaik Shahbaaz Alam. </a> All rights reserved<sup>&#169;</sup></p>
 </div>

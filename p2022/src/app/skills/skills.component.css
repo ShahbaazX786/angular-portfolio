@@ -1,8 +1,10 @@
-#skills{
-  overflow-x: hidden;
+#skills {
+  padding: 0;
+  /* background: #01C6FFCC; */
 }
 
 .heading-wrapper {
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,94 +12,193 @@
 }
 
 .heading {
-  margin: 5px 0 5px 0;
-  border-bottom: 5px solid #673ab7;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 5px solid #01C6FF;
   padding-bottom: 8px;
   width: max-content;
 }
 
-.container{
+.container {
   display: flex;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1.2rem;
+  gap: 1.5rem;
   justify-content: center;
 }
 
-.card{
+.card {
+  background-color: white;
   display: flex;
   align-items: center;
   width: 120px;
   height: 120px;
   border-radius: 16px;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
 }
 
-.card:hover{
-  transform: scale(1.1);
-  border: 2px solid #01C6FF;
-  transition: all 0.3s ease-out;
+.card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #01C6FF;
+  transition: all 0.2s ease-in;
 }
 
-
-.glass{
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+.overlay {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 10;
+  border-radius: 50%;
+  background: #bff1ff;
+  /* background: #c7c7c7; */
+  /* visibility: hidden; */
+  z-index: -1;
+  transition: transform 0.3s ease-out;
 }
 
-.ico{
+.card:hover .overlay {
+  visibility: visible;
+  border-radius: 50%;
+  transform: scale(35) translateZ(0);
+  transition: transform 0.3s ease-in;
+}
+
+.ico {
   width: 80px;
   height: 80px;
   margin: 5px;
 }
 
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  margin: 5% 0;
+}
+
+/* .tab-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.normalview{
+  display: contents;
+}
+
+.mat-mdc-tab-group.mat-background-warn,
+.mat-mdc-tab-nav-bar.mat-background-warn {
+  --mat-mdc-tab-header-with-background-background-color: black;
+}
+
+.divider-skill {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  transform: rotate(180deg) rotateY(180deg);
+}
 
 
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .divider-skill {
+    height: 80px;
+  }
+}
 
-@media only screen and (max-width:993px){
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .divider-skill {
+    height: 40px;
+  }
+
+}
+
+@media only screen and (min-width:768px) {
+  .tabview {
+    display: none;
+  }
+  .normalview{
+    display: contents;
+  }
+}
+@media only screen and (max-width:768px) {
+  .tabview{
+    display: contents;
+  }
+  .normalview{
+    display: none;
+  }
+
   .card {
-      display: flex;
-      align-items: center;
-      width: 90px;
-      height: 90px;
-    }
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+  }
 
-  .ico{
+  .ico {
     width: 50px;
     height: 50px;
     margin: 5px;
   }
-  .ico-txt{
+
+  .ico-txt {
     font-size: 14px;
+  }
+
+  .card:hover .overlay {
+    visibility: visible;
+    border-radius: 50%;
+    transform: scale(25) translateZ(0);
+    transition: transform 0.3s ease-in;
   }
 }
 
-@media only screen and (max-width:600px){
-  .container{
-    gap: 0.6rem;
+.mat-mdc-card-content{
+  padding: 0;
+}
+
+@media only screen and (max-width:600px) {
+  .container {
+    gap: 1.5rem;
+    justify-content: center;
+    --bs-gutter-x: 0.5rem;
   }
-  .card{
+
+  .card {
     width: 80px;
     height: 80px;
 
   }
-  .ico{
+
+  .ico {
     width: 50px;
     height: 50px;
     margin: 5px;
   }
-  .ico-txt{
+
+  .ico-txt {
     font-size: 12px;
     font-weight: 600;
   }
+
 }
 
-@media only screen and (max-width:300px){
-  .container{
+@media only screen and (max-width:300px) {
+  .container {
+    justify-content: space-between;
     padding: 0;
     margin: 0;
   }

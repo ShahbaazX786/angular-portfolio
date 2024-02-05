@@ -1,7 +1,11 @@
+::selection {
+  color: black;
+  background: #01C6FF;
+}
+
 .service{
-  padding: 2% 0;
-  margin-bottom: 2%;
-  box-shadow: 0 0 10px #e0e0e0;
+  margin-top: 5%;
+  margin-bottom: 10%;
   overflow-x: hidden;
 }
 
@@ -10,20 +14,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .service-heading {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   margin: 5px 0 5px 0;
-  border-bottom: 5px solid #673ab7;
+  font-weight: bold;
+  border-bottom: 5px solid #01C6FF;
   padding-bottom: 8px;
   width: max-content;
   margin-bottom: 12px;
 }
 
 .card{
-  height: 15vh;
+  height: 10vh;
+  min-height: auto;
   margin-bottom: 2%;
-  padding: 5px 2px 0px 5px ;
+  padding: 5px 2px 5px 5px ;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -32,12 +41,14 @@
   color: black;
   box-shadow: 0 0 10px #e0e0e0;
   transition: all 0.5s ease;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .card:hover{
-  color: white;
+  color: #01C6FF;
   /* background-color: #673ab7; */
-  background-color: #33d3ff;
+  background-color: black;
   transition: 0.2s ease-in-out;
 }
 
@@ -57,7 +68,8 @@
   .card{
     /* overflow: scroll; */
     width:95vw;
-    height: 12vh;
+    height: auto;
+    max-height: 10vh;
   }
   .card:hover{
     background-color: #33d3ff;

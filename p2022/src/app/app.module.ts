@@ -1,8 +1,10 @@
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// my pages
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -16,13 +18,13 @@ import { ProjectsComponent } from './projects/projects.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HobbyComponent } from './hobby/hobby.component';
+import { LanguageSelectorDialogComponent } from './language-selector-dialog/language-selector-dialog.component';
+import { WavesComponent } from './shared/waves/waves.component';
 
-// material imports from here
-import { MatMenuModule } from '@angular/material/menu';
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
-
+// module imports
+import { MaterialsModule } from './shared/materials.module';
+import { IntegrationModule } from './integrations/integration.module';
 
 
 @NgModule({
@@ -41,14 +43,16 @@ import { MatIconModule } from '@angular/material/icon';
     PortfolioComponent,
     ContactComponent,
     ResumeComponent,
+    LanguageSelectorDialogComponent,
+    HobbyComponent,
+    WavesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule,
-    MatIconModule,
-    MatButtonModule
+    MaterialsModule,
+    IntegrationModule
   ],
   providers: [
     {provide:LOCALE_ID, useValue:'en'}

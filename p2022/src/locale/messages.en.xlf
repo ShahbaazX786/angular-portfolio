@@ -352,6 +352,120 @@
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
+
+      <!-- hobby component -->
+      <trans-unit id="5969162976658576608" datatype="html">
+        <source> Hobbies 🎸 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6357241479891320376" datatype="html">
+        <source>Some good music or songs will always do the magic of clearing the fatigue.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95025487778782995" datatype="html">
+        <source>The Photographer in me is always eager to capture the best moments of life.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="412658281668062615" datatype="html">
+        <source>Typing!.. I have recently reached the 90(wpm) words per minute speed mark.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3887915040791957976" datatype="html">
+        <source>Building!, Engineering!, Crafting!. Building good projects for work and myself gives me a sense of achievement.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5494275555755361614" datatype="html">
+        <source>I loved drawing as a kid. And Now I am still do it digitally 😁</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1331124820960947793" datatype="html">
+        <source>I thank the Almighty for all the tasty food he gave us in this life! #foodie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9112568428753984641" datatype="html">
+        <source>Movies, Webseries, Anime, Novels comes in handy when I just want to laydown and chill!.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8947500792407259872" datatype="html">
+        <source>Being an Indian I already know more than 3 languages. I try to work on perfecting my arabic language whenever I get time.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hobby/hobby.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1352740963174755644" datatype="html">
+        <source>Select a Different Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7941090461604249190" datatype="html">
+        <source>Hindi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6924606686202701860" datatype="html">
+        <source>Japanese</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4857565487746698778" datatype="html">
+        <source>Urdu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="830976883152477523" datatype="html">
+        <source>Telugu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7819314041543176992" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/language-selector-dialog/language-selector-dialog.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

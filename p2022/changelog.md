@@ -1,3 +1,257 @@
+CL:2.8.0: Translations & Image Update.
+- Added Hindi Translations.
+- Updated profile image after 2 yrs lol.
+
+CL:2.7.9: Cleaning the code.
+- Removed docs folder.
+
+CL:2.7.8: Other components glowup & bug fixes.
+- components fixed are 
+  - hero, footer, about, skills, projects, services, portfolio.
+
+CL:2.7.7: Other components glowup & bug fixes.
+- Made some slight title changes to hero component.
+- Added a selection css to hero component.
+- Created a new integration component to store other pages of the portfolio.
+- Added styling to holopin and medium components.
+- Fixed grid style to masonry in socialable.
+- Added a loading spinner in holopin component.
+- Created a new waves component which is used to load dynamic dividers based on input.
+- Created a standalone material module for importing all material components project wide easily.
+- Moved pnf route from main routing module to integration routing module.
+- Added new component divider svgs.
+- Deleted old svgs.
+- Increased language selector dialog width.
+- Added a new skill.
+
+
+CL:2.7.6: Resume button and code cleanup:
+- Removed svgs for now. commented the code which included svg and styling.
+- Added a new resume download link in header component.
+
+CL:2.7.5: module separations:
+- Added a new module for routing and component separation.
+- Added a dummy empty component for base routing of integration module.
+- Segregated material modules imports into a new materials module.
+- Reversed the header styles to support SPA view(commented unwanted code.)
+- Reverted tsconfig changes.
+- still deciding whether to divide footer and header pages into modules as well or not.
+
+CL:2.7.4: module separations:
+- Integrated medium blog.
+
+CL:2.7.3: holopin integration:
+- Integrated holopin badges.
+
+CL:2.7.2: Navbar style bugfix:
+- Fixed a bug which was causing a jitter while loading the navbar with fixed position.
+- So made it to sticky position.
+
+CL:2.7.1: Navbar Hostlistener implementation:
+- Modified navbar styles with a hostlistener.
+- navbar will be shown if scrolled up and hidden if scrolled down.
+
+CL:2.7.0: Revamp:
+- Added a scrolltotop button.
+- added eventemitter and output methods to scroll to sections.
+- Added "suppressImplicitAnyIndexErrors": true in tsconfig.
+- created a service to handle the scrolling to sections. 
+- Added service in both header and footer(links are not working correctly) to allow section scrolling.
+- Followed this [link](https://stackoverflow.com/questions/58932416/click-child-anchor-scroll-to-parent-html-element-single-page-in-angular-8) and tried all methods but the last one worked.
+- Live stackblitz [link](https://stackblitz.com/edit/angular-m3fora?embed=1&file=src/app/app.component.ts).
+
+CL:2.6.9: Revamp:
+- Added some more svg dividers to exp,projects,skills,portfolio sections.
+- Changed the color opacity to 0.8.
+- Changed the mat tab color schemes.
+
+CL:2.6.8: Revamp:
+- Added a top svg in footer component and a bottom svg in contact component to make the wave page effect.
+- Revamped the styles to avoid multiple svg usage.
+- Deleted unused wave svgs.
+- Added new component svg in homepage component view. 
+
+CL:2.6.7: Revamp:
+- Stylized footer section.
+- Added section shape dividers using svgs.
+
+CL:2.6.6: Bug-Fixes:
+- Fixed some unused js file error in console.
+
+CL:2.6.4: Bug-Fixes:
+- Added links to header social icons.
+- Increased angular project bundle budget to 1.2mb as it was gettinga warning of 45kb over
+
+CL:2.6.3: Bug-Fixes:
+- Compressed gif images for hobby section to reduce load times.
+- scrapped the idea of dark mode switcher icon in header.
+- Added tooltips for both mobile(clickable) and large screens(hover).
+
+CL:2.6.2: Bug-Fixes:
+- Fixed a font size bug in footer "made using" text.
+- Fixed some bugs in hero section (buttons and image).
+- Aligned the heading title in skills section by removing padding.
+- Fixed spacing of some components in home page component.
+
+CL:2.6.1: Bug-Fixes:
+- Revamped the skills section using tabs in smaller screens and card view in bigger screens.
+- display:contents property for hiding and showing might give problem in some devices..
+- Added some new programming skills and svg icons.
+
+CL:2.6.0: Bug-Fixes:
+- Fixed card bug in projects, WIP tab.
+- Reduced tab animation transition speed to 0 ms to remove any vertical blue screen bar bug.
+
+CL:2.5.9: Bug-Fixes:
+- Revamped whole of projects section.
+- Added Live and github overlay buttons.
+- Added 2 new icons.
+- Added animations
+- Added fixes.
+- Added in between space in skills.
+
+CL:2.5.8: Bug-Fixes:
+- Added Card Data
+- Added screenshots
+- Modified Exp section Tab animation delay
+- Modified About section font size
+
+CL:2.5.7: Bug Fixes:
+- Fixed a bug where img of graudation was not visible.
+
+CL:2.5.6: Bug Fixes and improvements:
+- Changed the look of typography using Montserrat font-family.
+- Fixed the mattooltip id to unique so that only the clicked icons should show tooltip.
+- Changed the style of heading to match the overall theme in about section.
+- Changed border color of projects section to match overall theme.
+- Changed footer typography to Montserrat aswell.
+
+CL:2.5.5: Bug Fix:
+- Fixed bug of mat tool tip not working in mobile screens.
+- Added a click event which calls tooltip on clicking in mobile screens.
+
+CL:2.5.4: Bug Fix Services section:
+- Fixed responsive bug on services cards for different screens.
+- Removed some old screenshots of projects.
+
+CL:2.5.3: Revamped Experience section:
+- Revamped experience section.
+- Added new svgs, info, styles etc.
+- Added and used mat tab module.
+
+CL:2.5.2: bug fix: Background color:
+- The color for sections was so wide it overflew and was not looking that good.
+
+CL:2.5.1: bug fix and adding assets:
+- Bug fix and added some project screenshots.
+
+CL:2.5.0: Revamping portfolio & project sections:
+- Sorted projects based on categories.
+  - Featured(Completed)
+  - WIP(Work In Progress)
+  - UI (Small Frontend exercises which are completed too).
+- Added new project screenshots.
+- Added autoplay in swiperjs carousels.
+
+CL:2.4.15: Added Guide for Portfolio V3:
+- Added New portfolio Guide in detail.
+- While I was browsing my old projects I came to knew that I had already made a portfolio v1 (upto 80%).
+- So renamed the current naming of portfolios.
+- With this now We shall have
+  - portfolio v1 (fast nyugen inspired).
+  - portfolio v2 (Hamna Inspired).
+  - portfolio v2.5 (Currently Fixing the bugs and improving it to make it look good).
+  - portfolio v3 (britanny Inspired).
+
+CL:2.4.14: Bug Fix:
+- Added background color to two sections contact, skills and also fixed the section and container layout hierarchy in components.
+
+CL:2.4.13: Bug Fix:
+- Fixed not scrolling bug in mobile screens due to overflow hidden in skills section.
+
+CL:2.4.12: Improved language modal:
+- Restored the color of background of language selector.
+- Fixed skills overlay hover effect square bug.
+
+CL:2.4.11: Improved language modal:
+- Revamped dialog modal for language selector.
+- Added flags and improved styles.
+- Added webkit available width which will work on most browsers if not then normal width will work.
+- Fixed hover overlay effect in smaller screens in skills section.
+- Fixed the overall responsiveness and size of carousel of portfolio section.
+
+CL:2.4.10: Improved footer section:
+- Fixed some alignment issues in footer section (all 3 sub sections are now in auto width).
+
+CL:2.4.9: Improved footer section:
+- Revamped footer section.
+- changed the epilouge copyright text and styles.
+- Added portfolio Version and tech stack used.
+- Tech stack is having mat tooltips on icons so that we can read the tech stack languages used. 
+- Added hover effects on icons of social links.
+- Fixed alignment of all 3 footer link sections(pages,social,langugage).
+- Added social Media links.
+- Added mattooltip for some of the buttons and links for better understanding.
+- Added time calculation in portfoliov2.md
+
+CL:2.4.8: Improved skills section:
+- Imported mattooltipmodule in appmodule.ts
+- Added two more skill cards and hover overlay effect and mat tool tip aswell.
+- Replaced default bootstrap tooltip with mat tool tip. 
+
+CL:2.4.7: Revamped Portfolio section(using SwiperJS):
+- Fixed some bugs and made the swiper carousel responsive.
+
+CL:2.4.6: Revamped Portfolio section(using SwiperJS):
+- Added swiperjs using cdn links(as swiperjs is not supported after v9 of swiper(feb2023)) in index.html.
+- Learnt how to use external js files in component file using the below syntax:
+```
+ myScriptElement: HTMLScriptElement; --> this is used to create type of html script tag in dom.
+
+  constructor() {
+    this.myScriptElement = document.createElement('script'); --> creating sript tag in component.
+    this.myScriptElement.src = '../../assets/files/swiper.js'; --> adding source link of the js file.
+    document.body.appendChild(this.myScriptElement); --> adding the created script element in dom.
+  }
+
+```
+- created swiperjs functionality using swiper.js file in assets folder.
+- Added temp desc to array in portfolio.
+- Added button styles aswell.
+
+CL:2.4.5: Styled contact section:
+- Added some overlay hover effects in skills tab. Also changed the style of the headings in contact and skills section.
+
+CL:2.4.4: Styled contact section:
+ - Added hover effects to cards in contact section
+ 
+CL:2.4.3: Added a new hobby component:
+  - Updated Update Guide for Portfolio v3.
+
+CL:2.4.2: Added a new hobby component:
+  - Added Github,Linkdin Links in Hero Section.
+  - Created some more planning for V3 of portfolio.
+  - 
+CL:2.4.1: Added a new hobby component:
+  - Added i18n, Extracted i18n tags, translated each and every source to target tag and finally built the hindi build.
+  - Added hindi language translation to hobby component.
+
+CL:2.4.0: Added a new hobby component:
+  - Added hobby component.
+  - Added routing for hobby component.
+  - Used gif images for making website (جميلة) beautiful.
+  - Used mat-card angular material component.
+  - Deleted some old images don't know why I preserved them until now.
+
+
+CL:2.3.17: Adding Internationalization:
+  - Revamped the styles and UI of the dialog component and buttons.
+
+CL:2.3.16: Adding Internationalization:
+  - Replaced Mat menu with Mat Dialog for language selector button.
+  - changed some styles for .language class (ai:stretch).
+  - Deployed latest version to firebase and hosted on shahbaaz.tk.
+
 CL:2.3.15: Adding Internationalization:
   - Made a simple mistake of not modifying the route for telugu and this lead to urdu language only on deployment lol.
 
@@ -37,10 +291,10 @@ CL:2.3.7: Adding Internationalization:
   - Added config in firebase.json to support multilingual hosting.
   - Made some changes to angular.json to avoid generating multiple translation files for en.(ex:en-us and en were getting generated before.)
   - Process:
-    - ng i -g firebase-tools
+    - npm i -g firebase-tools
     - firebase init
       - Are you ready to proceed? = yes
-      - Which firebase features do you want to set up for thid directory? = firebase hosting and configure files for firebase hosting ...
+      - Which firebase features do you want to set up for the directory? = firebase hosting and configure files for firebase hosting ...
       - What do you want to use as your public directory? dist(any name here but it should match with build folder name ex: dist or docs)
       - configure as a single-page app? yes
       - set up automatic builds and deploys with GitHub? No.
