@@ -2,11 +2,11 @@
 <div id="project-section">
   <div class="container">
     <div class="heading">
-      <h1 class="section-heading">&nbsp;Projects 📚&nbsp;</h1>
+      <h1 class="section-heading" i18n>&nbsp;Projects 📚&nbsp;</h1>
     </div>
     <mat-tab-group animationDuration="0ms" [color]="'primary'" [backgroundColor]="'warn'">
       <mat-tab label="Featured Projects">
-        <p class="title">These are some of my Featured Projects</p>
+        <p class="title" i18n>These are some of my Featured Projects</p>
         <mat-card-content class="tab">
           <div class="wrapper">
             <div class="card" *ngFor="let project of Featured">
@@ -32,8 +32,8 @@
           </div>
         </mat-card-content>
       </mat-tab>
-      <mat-tab label="UI Exercises">
-        <p class="title">These are some of my Mini-Projects focused on UI</p>
+      <mat-tab label="UI Exercises" i18n>
+        <p class="title" >These are some of my Mini-Projects focused on UI</p>
         <mat-card-content class="tab">
           <div class="wrapper">
             <div class="card" *ngFor="let project of UI">
@@ -60,7 +60,7 @@
         </mat-card-content>
       </mat-tab>
       <mat-tab label="WIP">
-        <p class="title">These Projects are currently in progress (WIP)</p>
+        <p class="title" i18n>These Projects are currently in progress (WIP)</p>
         <mat-card-content class="tab">
           <div class="card" *ngFor="let project of WIP">
             <img class="card-img-top WIP" [src]=project.screenshot alt="Card image cap">

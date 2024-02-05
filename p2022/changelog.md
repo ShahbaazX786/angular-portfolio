@@ -291,10 +291,10 @@ CL:2.3.7: Adding Internationalization:
   - Added config in firebase.json to support multilingual hosting.
   - Made some changes to angular.json to avoid generating multiple translation files for en.(ex:en-us and en were getting generated before.)
   - Process:
-    - ng i -g firebase-tools
+    - npm i -g firebase-tools
     - firebase init
       - Are you ready to proceed? = yes
-      - Which firebase features do you want to set up for thid directory? = firebase hosting and configure files for firebase hosting ...
+      - Which firebase features do you want to set up for the directory? = firebase hosting and configure files for firebase hosting ...
       - What do you want to use as your public directory? dist(any name here but it should match with build folder name ex: dist or docs)
       - configure as a single-page app? yes
       - set up automatic builds and deploys with GitHub? No.
